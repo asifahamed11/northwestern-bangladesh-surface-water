@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-16T12:55:34.704264+00:00",
+  "created_utc": "2026-10-16T14:12:32.232334+00:00",
   "all_machine_checks_pass": true,
   "checks": [
     {
@@ -605,6 +605,36 @@
     },
     {
       "check": "Only the availability paragraph changed in the GitHub revision",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Availability identifies all four versioned reviewer archive roles",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Four actual supplementary archives are below the published additional-file size limit",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Reviewer archive integrity: Supplementary_Code_v0.2.0_review.zip",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Reviewer archive integrity: Supplementary_Data_Tables_v0.2.0_review.zip",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Reviewer archive integrity: Supplementary_Data_Grid_v0.2.0_review.zip",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Reviewer archive integrity: Supplementary_Data_Context_v0.2.0_review.zip",
       "pass": true,
       "detail": null
     },

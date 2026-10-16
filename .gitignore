@@ -11,3 +11,6 @@ client_secret*.json
 service-account*.json
 .DS_Store
 Thumbs.db
+reproduced/
+dist/
+*.egg-info/

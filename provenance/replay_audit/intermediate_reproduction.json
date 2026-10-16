@@ -1,0 +1,140 @@
+{
+  "created_utc": "2026-10-16T13:50:53.440543+00:00",
+  "status": "PASS",
+  "scope": "Replay of reported statistical calculations from packaged genuine regional summaries and Earth Engine CSV exports.",
+  "independent_scientific_validation": false,
+  "raw_pixel_preprocessing_repeated": false,
+  "source_acquisition_started": false,
+  "original_results_overwritten": false,
+  "tolerances": {
+    "relative": 1e-07,
+    "absolute": 1e-09
+  },
+  "checks": [
+    {
+      "calculation": "Annual endpoints",
+      "rows": 8,
+      "columns": 7,
+      "reference": "data/tables/primary_endpoint_changes.csv",
+      "reference_sha256": "e61f33bca0381be0be76a6d95211bbbb127db9ca585eb96b7db118b5303833b4",
+      "match": true
+    },
+    {
+      "calculation": "Annual trends",
+      "rows": 24,
+      "columns": 12,
+      "reference": "data/tables/annual_trend_results.csv",
+      "reference_sha256": "c78120f719b943c248de616b135ad41763a7862896541217b9471d526e7772bd",
+      "match": true
+    },
+    {
+      "calculation": "annual_climate_model_coefficients.csv",
+      "rows": 88,
+      "columns": 8,
+      "reference": "data/tables/annual_climate_model_coefficients.csv",
+      "reference_sha256": "52e8d7463df94cfba231561337a6f125791e91375d9add0907e7050c71c97f76",
+      "match": true
+    },
+    {
+      "calculation": "annual_climate_model_status.csv",
+      "rows": 16,
+      "columns": 10,
+      "reference": "data/tables/Extended_Diagnostics/annual_jrc/annual_climate_model_status.csv",
+      "reference_sha256": "01d6ef09db47b73449a42c38c3c2002e283b5831e441f7d874457c63296496af",
+      "match": true
+    },
+    {
+      "calculation": "annual_class_climate_adjusted.csv",
+      "rows": 376,
+      "columns": 9,
+      "reference": "data/tables/Extended_Diagnostics/annual_jrc/annual_class_climate_adjusted.csv",
+      "reference_sha256": "3615619c604212ffab4c4a7e25619a239fd9cf35f89cd06ef9ac947dc80e8454",
+      "match": true
+    },
+    {
+      "calculation": "annual_calendar_cross_validation.csv",
+      "rows": 32,
+      "columns": 9,
+      "reference": "data/tables/Extended_Diagnostics/annual_jrc/annual_calendar_cross_validation.csv",
+      "reference_sha256": "115aa45f54dd06840d5e712e4a2334f63721b289b79ffe24f86fd1cdf2ed6b64",
+      "match": true
+    },
+    {
+      "calculation": "Annual effort/processing controls",
+      "rows": 24,
+      "columns": 17,
+      "reference": "data/tables/annual_observation_effort_climate_sensitivity.csv",
+      "reference_sha256": "8122a83c354d062ed644d4521dddc12ef53b2f0f3c57da37248102af9f74a026",
+      "match": true
+    },
+    {
+      "calculation": "Threshold monthly support",
+      "rows": 5760,
+      "columns": 24,
+      "reference": "data/tables/Extended_Diagnostics/radar/dw_monthly_threshold_evidence.csv",
+      "reference_sha256": "0612766fe202161977a76d84854ec7bc6a5bd90b234b71ca0c4f934d2e0ec8fd",
+      "match": true
+    },
+    {
+      "calculation": "Pooled threshold agreement/support",
+      "rows": 48,
+      "columns": 11,
+      "reference": "data/tables/dw_threshold_support_and_agreement.csv",
+      "reference_sha256": "10a51d7eddd0306f8acea4ef9fb0f6d492671261b8c261402b6ceca57541afa8",
+      "match": true
+    },
+    {
+      "calculation": "SPI history",
+      "rows": 2400,
+      "columns": 4,
+      "reference": "data/tables/Extended_Diagnostics/radar/spi_indices.csv",
+      "reference_sha256": "45ec4cd5c49ac76c39b6bdec740d19d359ac50aa987004243e992a9eef0f1998",
+      "match": true
+    },
+    {
+      "calculation": "SPI calibration",
+      "rows": 96,
+      "columns": 8,
+      "reference": "data/tables/Extended_Diagnostics/radar/spi_calibration_parameters.csv",
+      "reference_sha256": "3d88d7156b6a2641e7102d1d5492c324e2647f89331ae90442eebcd86ce0ede6",
+      "match": true
+    },
+    {
+      "calculation": "Radar endpoint regressions",
+      "rows": 24,
+      "columns": 11,
+      "reference": "data/tables/exploratory_climate_envelope_models.csv",
+      "reference_sha256": "ad7239a34bc2457ee2241b4283fb19db135088b738cc7df7b98da1e7d041f9a8",
+      "match": true
+    },
+    {
+      "calculation": "All nine recovery specifications",
+      "rows": 972,
+      "columns": 15,
+      "reference": "data/tables/exploratory_recovery_support_sensitivity.csv",
+      "reference_sha256": "9af338777745136868a916d2db1e742ed708f0998e8f4fb6e6fe143ed1893eda",
+      "match": true
+    },
+    {
+      "calculation": "Weighted proxy comparisons and bootstrap intervals",
+      "rows": 88,
+      "columns": 26,
+      "reference": "data/tables/proxy_agreement_and_unknown_ranges.csv",
+      "reference_sha256": "c7a4616214542c91fc3402b68a5e6db3624642ca65b726e300e077543101465a",
+      "match": true
+    },
+    {
+      "calculation": "All 720 dated outcomes",
+      "rows": 5,
+      "columns": 4,
+      "reference": "data/tables/reference_outcome_accounting.csv",
+      "reference_sha256": "8c06c3e319dedd6b030442a87469a4c0e745ca7d308a612ea513c34ab86e2f09",
+      "match": true
+    }
+  ],
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "limitations": [
+    "Regional raster aggregation and raw dated-crop calibration are upstream stages and are not re-executed by this command.",
+    "Agreement remains conditional proxy agreement; recovery durations remain unidentifiable."
+  ]
+}

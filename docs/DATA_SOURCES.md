@@ -8,4 +8,4 @@ The primary local raster grid preserves downloaded JRC alignment; climate inters
 
 Boundary metadata are geoBoundaries gbOpen BGD ADM2, BGD-ADM2-16705992, represented year 2020, underlying Bangladesh Bureau of Statistics/OCHA ROAP, build 12 December 2023, source update 19 January 2023 and geoBoundaries commit 9469f09. The upstream license is CC BY 3.0 IGO. The original Nawabganj geometry is reported as Chapainawabganj.
 
-The verified three-district boundary is included in `data/boundaries/study_area.geojson`. The national context boundary used in Figure 1 is referenced by its original hash in `provenance/figure_1_cartography.json`; it is omitted from this compact repository.
+The verified three-district boundary is included in `data/boundaries/study_area.geojson`. The original national context boundary used in Figure 1 is included losslessly as `data/boundaries/national_adm2.geojson.gz`; its uncompressed SHA-256 is retained in `provenance/REPLAY_INPUTS.json` and checked by the figure replay command.

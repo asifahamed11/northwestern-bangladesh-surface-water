@@ -1,0 +1,219 @@
+[
+  {
+    "file": "data/inputs/monthly_climate.csv",
+    "original_path": "NW_Bangladesh_preprocessed/monthly_climate.csv",
+    "bytes": 412609,
+    "sha256": "ce6405bba5a4716cc7804997f61c19ef2b2384767da1f9bbc5c79c42e45e55fb"
+  },
+  {
+    "file": "data/inputs/baseline_climate_1981_1999.csv",
+    "original_path": "research_outputs/analysis_20261013_completed_data/baseline_climate_1981_1999.csv",
+    "bytes": 196780,
+    "sha256": "0734684ed5a2ec0c7385f758ef1ce87acc235339a5b722d6cd2f98576e5baa20"
+  },
+  {
+    "file": "code/automatic_water/DW_SENSITIVITY_SNAPSHOT.json",
+    "original_path": "automatic_water/DW_SENSITIVITY_SNAPSHOT.json",
+    "bytes": 116838,
+    "sha256": "56053f3408510b1b80fb1d0489f46f180fdc0ac5c19a4bafb9699827a4acd603"
+  },
+  {
+    "file": "data/inputs/dw_threshold_pilot_2024_11.csv",
+    "original_path": "dw_threshold_pilot_2024_11.csv",
+    "bytes": 5496,
+    "sha256": "c940a6af836b1cd5313fd7a1879914cc7148861b35e5936694acc2287dc893a0"
+  },
+  {
+    "file": "data/inputs/annual_transition_primary_pre2022.tif",
+    "original_path": "research_outputs/analysis_20261013_completed_data/annual_transition_primary_pre2022.tif",
+    "bytes": 824172,
+    "sha256": "3d632051f91cb31a85354c46e6a6157e4d4ee1e4169563465b52006c121f6045"
+  },
+  {
+    "file": "data/inputs/jrc_monthly_2000.tif",
+    "original_path": "NW_Bangladesh_2000_2024/jrc_monthly_2000.tif",
+    "bytes": 18818481,
+    "sha256": "65d2d0a571d5c0df420c83cabff26ed735dd5ea0a34576ab509ea61d0582a090"
+  },
+  {
+    "file": "data/inputs/reference_sample_plan.json",
+    "original_path": "independent_accuracy_20261015/private/validation_sample_plan.json",
+    "bytes": 397237,
+    "sha256": "2c4faa3d7b20be48e88e567ecbb1a6b28f49928be63162fe25a82c1d4d5f8722"
+  },
+  {
+    "file": "data/inputs/spectral_screening_evidence.json",
+    "original_path": "assisted_water_screening_20261015/screening_dataset.json",
+    "bytes": 4387152,
+    "sha256": "f1646c20af7502a72d905ff0081998cea467feba9f5f8901edd43c2d3ed79a74"
+  },
+  {
+    "file": "data/boundaries/source_metadata.json",
+    "original_path": "dataset-download/boundaries/source_metadata.json",
+    "bytes": 1949,
+    "sha256": "43d34c1c53af6116a0831be626b01141f06eb6fc9e1a98e43cc69787a7629e52"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2015.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2015.csv",
+    "bytes": 27196,
+    "sha256": "96c68beb78c44a546bd94a91dbb4f7024864e4d58964e821f3a94b19db2519b6"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2016.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2016.csv",
+    "bytes": 31346,
+    "sha256": "5b7aa5788e2658e1f548233c23675cb2b6616e3331d837416916035747990256"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2017.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2017.csv",
+    "bytes": 39497,
+    "sha256": "eee61402aa3d9409a3882d646750e8dc72f0b78dbbdaf80a2cbf27fb45e9693a"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2018.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2018.csv",
+    "bytes": 40279,
+    "sha256": "f09d3001affb2b0f101f15e7ed7bdd006bf0ad67eac2565b6bb52a0cd33ad330"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2019.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2019.csv",
+    "bytes": 38235,
+    "sha256": "6263c175d5bc42394a787d2b2fd49f6ea6a8dd137e727c26d44ac1909aeda77b"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2020.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2020.csv",
+    "bytes": 41573,
+    "sha256": "7f7b9a3f0b7012dbcab2ad25fee2dabf554851140b87613ecafc57fdc736302d"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2021.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2021.csv",
+    "bytes": 41571,
+    "sha256": "1e3645b570879c6dc28fe5f328814ef3ea146e7ecb596f179737e5c6438d367e"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2022.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2022.csv",
+    "bytes": 39224,
+    "sha256": "4b57d1be320ea56dc495cbbe539d7d19c3c6079c984cdcace9a3bab437af636f"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2023.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2023.csv",
+    "bytes": 38210,
+    "sha256": "888ab239593086be60b6e5e07fee4584abb00da2a3fc89258e3b6ca644d47757"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2024.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2024.csv",
+    "bytes": 40418,
+    "sha256": "8c0ac65b7e7772636ae78e9926d48805f5783c42ff1069c30bacc324b83ff10f"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_orbit_audit.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_orbit_audit.csv",
+    "bytes": 723,
+    "sha256": "bc9be1782ba0c29853005f702474069de11104a071d454f75763c748eb5be99c"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_scene_inventory.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_scene_inventory.csv",
+    "bytes": 114511,
+    "sha256": "75b455d1c5b8722aaf1baae98bba3fa785129b888a8ca72aa2b2134b88ef56e5"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_settings.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_settings.csv",
+    "bytes": 800,
+    "sha256": "a03042e3dcbdfe6afae135f74d2a5d8baa1e113895f8a6a9f47b72d22d325fc3"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_source_inventory.csv",
+    "original_path": "NW_Bangladesh_automatic_water_2015_2024/auto_source_inventory.csv",
+    "bytes": 16758,
+    "sha256": "edf5d9bd09ebe5a75f4c0671fa3e51bec0cc03e403a67b1e14469b53f19e42ac"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2015.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2015.csv",
+    "bytes": 43950,
+    "sha256": "7f4770c20eb20128d873f8fa76e8dada08e7b9072a154c8545f6ab76b3caa1b5"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2016.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2016.csv",
+    "bytes": 57320,
+    "sha256": "c7a86d1baf8369a4f0b2acc961946abdc1bcf7a40b9209f0b79e70c5aaea73df"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2017.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2017.csv",
+    "bytes": 67469,
+    "sha256": "5469124f431953ce80d9c6ff474151e55fc6d3d86a26f253dd663feecf5887af"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2018.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2018.csv",
+    "bytes": 84024,
+    "sha256": "051153ed07e7a0f731d4d3ca02fd818da5d5700b9f0fcb5a8c75b97c08cde7aa"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2019.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2019.csv",
+    "bytes": 86457,
+    "sha256": "2c98b0ca27d9985c13bec9a7a05680c14baecb6697043a1353ee6da37ed0bbeb"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2020.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2020.csv",
+    "bytes": 88897,
+    "sha256": "154a6b2884f4252a88b1b5c162500f87983a76789b7ca4496aebd1b4fef84f24"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2021.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2021.csv",
+    "bytes": 86777,
+    "sha256": "c395959251a1119e81ac1a8c406a8adfc9911bd6487b22392eea5d4414cb6dad"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2022.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2022.csv",
+    "bytes": 83690,
+    "sha256": "a7d0f5fffab9d5dbe213471642dfa5415653dffd7fcab051fda62f2d141288c6"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2023.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2023.csv",
+    "bytes": 85964,
+    "sha256": "9dc1e06cb33d67fd76b727847991f742572365f2dd1fe53c6496d457135c8b79"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2024.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2024.csv",
+    "bytes": 86363,
+    "sha256": "c3fb466669a981cf034ea22906d973d3030b3f89ee84f611798352690e17392b"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_scene_inventory.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_scene_inventory.csv",
+    "bytes": 130140,
+    "sha256": "1ac37181efecc6631b2f294f5bc5e84eaccb3f91208ef243a914f112511d9c0b"
+  },
+  {
+    "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_settings.csv",
+    "original_path": "NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_settings.csv",
+    "bytes": 947,
+    "sha256": "320e20a106263c39284b8bc516912f8b86cfa2dc646125d9c8802d666ce565af"
+  },
+  {
+    "file": "data/boundaries/national_adm2.geojson.gz",
+    "original_path": "dataset-download/boundaries/Bangladesh_ADM2_original.geojson",
+    "sha256": "a8784a4cc15ec79298f774bddb84b95b68c60d223095a3f8681c7ecd6c5b8dcf",
+    "uncompressed_sha256": "54379ccc77f6f59dab3569ecc5f9b3850dbed2d65a5f43a034bdf92179f5621b",
+    "lossless_compression": "gzip"
+  }
+]

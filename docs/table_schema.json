@@ -1,0 +1,2605 @@
+{
+  "tables": [
+    {
+      "file": "data/tables/actual_dated_observations.csv",
+      "rows": 3022,
+      "sha256": "b01d61c4cc61aef27a5c46b1e4777633500ad46cc0f9d0203e9eae6dfa055602",
+      "columns": [
+        {
+          "name": "sample_id",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "scene_id",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "acquisition_date",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "clear_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "spectral_rule_proxy",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 1834,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "actual_human_answer",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 2328,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "human_binary_answer",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 2356,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "mndwi_median_display_diagnostic_only",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 958,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "uninterpretable_radiometry_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "independent_reference_water",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 3022,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/annual_climate_model_coefficients.csv",
+      "rows": 88,
+      "sha256": "52e8d7463df94cfba231561337a6f125791e91375d9add0907e7050c71c97f76",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "scope",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "source_class",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "term",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "coefficient_logit_units",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "lower95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "upper95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "p_value",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/annual_common_support_water.csv",
+      "rows": 100,
+      "sha256": "06a6d96dd1de50cc5a3669bf9c2a79b5747ce8a37aff028c508b5829d4e49c4c",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "year",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "common_support_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "retained_reference_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "eligible",
+          "dtype_read_by_pandas": "bool",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "nonwater_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "seasonal_water_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "permanent_water_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "landsat_collection",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/annual_observation_effort_climate_sensitivity.csv",
+      "rows": 24,
+      "sha256": "8122a83c354d062ed644d4521dddc12ef53b2f0f3c57da37248102af9f74a026",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "source_class",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "setting",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "scope",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "n",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "time_coefficient_logit_per_year",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "lower95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "upper95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "p_value",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "fixed_climate_effort_expected_area_2000_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "fixed_climate_effort_expected_area_2021_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "asset_step_coefficient_logit",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 16,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "asset_step_lower95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 16,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "asset_step_upper95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 16,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "interpretation",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 16,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "p_adjusted_BY_within_setting_primary_districts",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 6,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/annual_observation_quality.csv",
+      "rows": 100,
+      "sha256": "55c2a8af0649da06537326d27e7502c5634a958c5caa05a55ab4fb1fedbd8c7d",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "year",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "cohort_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "mean_observed_calendar_months",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "mean_observed_jun_sep_months",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "all_12_months_observed_area_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "mean_observed_months_on_seasonal_class",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "mean_observed_months_on_permanent_class",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "permanent_class_area_with_less_than_12_observed_months_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        }
+      ]
+    },
+    {
+      "file": "data/tables/annual_predictive_validation_summary.csv",
+      "rows": 8,
+      "sha256": "f035912e1402e0c538ac0fa5b5870722514f8ebcd950ef536523c943776be7ab",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "source_class",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "accepted_folds",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "mean_fold_rmse",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "mean_fold_baseline_rmse",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "folds_model_better",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/annual_trend_results.csv",
+      "rows": 24,
+      "sha256": "c78120f719b943c248de616b135ad41763a7862896541217b9471d526e7772bd",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "scope",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "metric",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "n",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "slope_km2_per_year",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "slope_lower95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "slope_upper95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "p_value",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "sen_slope_descriptive_km2_per_year",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "common_support_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "p_adjusted_BY_primary_districts",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 15,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/common_support_quality.csv",
+      "rows": 36,
+      "sha256": "088ba9e182a6c0ed02f40e41d578811c163fd8bee288f55653751f8f36c98026",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "threshold_pct",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "%"
+        },
+        {
+          "name": "candidate_months",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "reference_footprint_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "common_support_pixels",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "common_support_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "retained_reference_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "support_status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "reason",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 20,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/dw_threshold_support_and_agreement.csv",
+      "rows": 48,
+      "sha256": "10a51d7eddd0306f8acea4ef9fb0f6d492671261b8c261402b6ceca57541afa8",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "threshold",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "months_with_classified_support",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "mean_classified_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "sar_paired_months",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "sar_pooled_area_month_agreement",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 12,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "sar_mean_paired_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "jrc_paired_months",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "jrc_pooled_area_month_agreement",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 12,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "jrc_mean_paired_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        }
+      ]
+    },
+    {
+      "file": "data/tables/exploratory_climate_envelope_models.csv",
+      "rows": 24,
+      "sha256": "ad7239a34bc2457ee2241b4283fb19db135088b738cc7df7b98da1e7d041f9a8",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "envelope_endpoint",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "n",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "interpretation",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "time_coefficient_logit_per_year",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "lower95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "upper95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "p_value",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "p_adjusted_BY_district_family",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 6,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/exploratory_recovery_support_sensitivity.csv",
+      "rows": 972,
+      "sha256": "9af338777745136868a916d2db1e742ed708f0998e8f4fb6e6fe143ed1893eda",
+      "columns": [
+        {
+          "name": "coverage_gate",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "minimum_reference_count",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "onset_period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "climate_end_period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "minimum_spi",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "recovery_min_months",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 972,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "recovery_max_months",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 972,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "recovery_months",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 972,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "pre_event_lower_anomaly",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 846,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "pre_event_upper_anomaly",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 846,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "deficit_lower",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 846,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "deficit_upper",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 846,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/annual_calendar_cross_validation.csv",
+      "rows": 32,
+      "sha256": "115aa45f54dd06840d5e712e4a2334f63721b289b79ffe24f86fd1cdf2ed6b64",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "source_class",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "test_start_year",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "n_train",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "n_test",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "rmse",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 8,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "training_mean_baseline_rmse",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 8,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "reason",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 32,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/annual_class_climate_adjusted.csv",
+      "rows": 376,
+      "sha256": "3615619c604212ffab4c4a7e25619a239fd9cf35f89cd06ef9ac947dc80e8454",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "scope",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "source_class",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "year",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "observed_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "fitted_fraction_model_derived",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "fixed_climate_expected_fraction_model_derived",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "climate_adjusted_fraction_model_derived",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "climate_adjusted_area_km2_model_derived",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/annual_climate_model_status.csv",
+      "rows": 16,
+      "sha256": "01d6ef09db47b73449a42c38c3c2002e283b5831e441f7d874457c63296496af",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "scope",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "source_class",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "n",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "time_coefficient_logit_per_year",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "lower95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "upper95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "p_value",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "p_adjusted_BY_primary_districts",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 10,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/annual_transition_areas.csv",
+      "rows": 40,
+      "sha256": "a5698226e56777e5210432046355e7a4bdf5f7b28a2bffc508e8c42e157e1ff9",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "transition_code",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/calendar_block_cross_validation.csv",
+      "rows": 80,
+      "sha256": "242ef6870fe340ed89be14ce5ddb1bc1b8ddface3194421ed41ce44a7b51438c",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "threshold_pct",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "%"
+        },
+        {
+          "name": "test_start_year",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "n_train",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "n_test",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "last_train_period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "first_test_period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "rmse",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 37,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "mae",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 37,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "seasonal_baseline_rmse",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 37,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "reason",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 80,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/climate_adjusted_water.csv",
+      "rows": 3466,
+      "sha256": "0986d5a8e9b79887b9ec5815806fe0dff2fd64a09300f3e961e947a911ff8d9c",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "threshold_pct",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "%"
+        },
+        {
+          "name": "scope",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "observed_water_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "fitted_water_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "fixed_climate_expected_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "climate_adjusted_fraction_model_derived",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "common_support_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "climate_adjusted_area_km2_model_derived",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/drought_recovery_events.csv",
+      "rows": 297,
+      "sha256": "b911b9858de4f66dd1bf9fc622aea7bc5bf7765b8e7a1a9405231bf87d67e923",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "onset_period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "climate_end_period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "minimum_spi",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "recovery_months",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 297,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "pre_event_water_anomaly",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 297,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "impact_fraction_points",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 297,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "followup_months",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 297,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "confirmed_after_months",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 297,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/drought_recovery_identifiability.csv",
+      "rows": 24,
+      "sha256": "ea516c0724d3e64154ad211bd239d37fd00c701e0e4a1a5705dbef0415b3b1a0",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "event_group_records",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/monthly_common_support_water.csv",
+      "rows": 10800,
+      "sha256": "3bf8e7894490dafee3f8059ae0f8b912b49d8a46edb961d5831e15b575a191b9",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "threshold_pct",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "%"
+        },
+        {
+          "name": "year",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "month",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "common_support_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "common_support_pixels",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "observed_support_pixels",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "support_coverage_pct",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "%"
+        },
+        {
+          "name": "candidate_month",
+          "dtype_read_by_pandas": "bool",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "eligible",
+          "dtype_read_by_pandas": "bool",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 8901,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "water_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 8901,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "landsat_collection",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/monthly_model_coefficients.csv",
+      "rows": 300,
+      "sha256": "243de0568f8faea7d7a602581b88729278da16f4a7e4617ea106f788feac7359",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "threshold_pct",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "%"
+        },
+        {
+          "name": "scope",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "term",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "coefficient_logit_units",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "lower95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "upper95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "p_value",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "n",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/monthly_model_status.csv",
+      "rows": 72,
+      "sha256": "bddda148f2f141266ce6ba2c4458812b3e330965d93c071e9d14d8a24ba0dfe2",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "threshold_pct",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "%"
+        },
+        {
+          "name": "scope",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "n",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/recovery_calendar_reference_sample_sensitivity.csv",
+      "rows": 3,
+      "sha256": "6e9491fdafcc5b845fdc90f46b03b31638469e9758edf6b20ba5afe6e493bee6",
+      "columns": [
+        {
+          "name": "minimum_water_reference_samples",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "event_group_records",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "confirmed_recoveries",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/recovery_coverage_sensitivity_status.csv",
+      "rows": 6,
+      "sha256": "b4617da832977b7103e090acf6145fd1dce14e1849ba5f6c56eae53dadcda8a2",
+      "columns": [
+        {
+          "name": "threshold_pct",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "%"
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "records",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "confirmed_recoveries",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/recovery_failure_components.csv",
+      "rows": 297,
+      "sha256": "19a9df9937917715aa2038b4df3a59bd1fdff09a34e00fb9e573cfcedcfba67d",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "onset_period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "raw_pre_event_water_observations",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "pre_event_calendar_months_with_reference_n_ge_5",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/spi_calibration_parameters.csv",
+      "rows": 96,
+      "sha256": "e13503db27be892a5d059adb943855d45007c791692bf79de514ac7509aa2f16",
+      "columns": [
+        {
+          "name": "scale_months",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "calendar_month",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "baseline_n",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "gamma_shape",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "gamma_scale",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "zero_probability",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/spi_indices.csv",
+      "rows": 2400,
+      "sha256": "da9b11b7781e749ba8407036c5c3cdbe431dc62a8baf6bed0b621b1cbde905b4",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "scale_months",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "year",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "month",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "spi",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/radar/downloaded_sensitivity_settings.csv",
+      "rows": 1,
+      "sha256": "d6c7bc9b50cb34d63f4801eddec768f1a9b28093127abcd6e516955b0e7f00cf",
+      "columns": [
+        {
+          "name": "method",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "base_method",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "start_year",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "end_year",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "sar_track",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "minimum_unique_days",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "thresholds",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "threshold_selected",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "vv_primary_db",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "angle_min",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "angle_max",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "agreement_cell_support",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "agreement_water_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "analysis_crs",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "analysis_transform",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "source_jrc_crs",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "source_jrc_nominal_scale_m",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "boundary_asset",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "footprint",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "initial_classes",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "annual_source_years",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "annual_source_periods_ok",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "source_snapshot_sha256",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "expected_sar_scenes",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "expected_dw_scenes",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "accuracy_status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "observations_imputed",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/radar/dw_monthly_threshold_evidence.csv",
+      "rows": 5760,
+      "sha256": "0612766fe202161977a76d84854ec7bc6a5bd90b234b71ca0c4f934d2e0ec8fd",
+      "columns": [
+        {
+          "name": "year",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "month",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "domain_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "dw_observed_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "threshold",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "classified_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "classified_water_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "observed_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "classified_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "water_lower_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "water_upper_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "unknown_observation_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "unknown_classification_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "sar_pair_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "sar_same_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "sar_paired_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "sar_conditional_agreement",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 3596,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "jrc_pair_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "jrc_same_area_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "jrc_paired_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "jrc_conditional_agreement",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 3232,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/radar/spi_calibration_parameters.csv",
+      "rows": 96,
+      "sha256": "3d88d7156b6a2641e7102d1d5492c324e2647f89331ae90442eebcd86ce0ede6",
+      "columns": [
+        {
+          "name": "scale_months",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "calendar_month",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "baseline_n",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "gamma_shape",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "gamma_scale",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "zero_probability",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/radar/spi_indices.csv",
+      "rows": 2400,
+      "sha256": "45ec4cd5c49ac76c39b6bdec740d19d359ac50aa987004243e992a9eef0f1998",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "scale_months",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "spi",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/monthly_predictive_validation_summary.csv",
+      "rows": 12,
+      "sha256": "6a23d005e37910ed9031731d6a603ce68fb572001fa3a52faa32620add5404b6",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "accepted_folds",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "mean_fold_rmse",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "mean_fold_baseline_rmse",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "folds_model_better",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/pixel_month_comparisons.csv",
+      "rows": 720,
+      "sha256": "71e25d03680f5224f31233c705da21ee7ff6c393d487ccc0c3ef05487f3c3d3b",
+      "columns": [
+        {
+          "name": "sample_id",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "stratum",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "jrc_monthly_binary_class",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "design_weight_km2_month",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²-month"
+        },
+        {
+          "name": "automated_proxy",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 383,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "assisted_proxy",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 189,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "screening_origin",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "assisted_origin",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "temporal_variation_in_human_answers",
+          "dtype_read_by_pandas": "bool",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "uncertain_human_date_present",
+          "dtype_read_by_pandas": "bool",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "required_dates",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "human_dates_answered",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "independent_reference_water",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 720,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "independent_reference_eligible",
+          "dtype_read_by_pandas": "bool",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/primary_endpoint_changes.csv",
+      "rows": 8,
+      "sha256": "e61f33bca0381be0be76a6d95211bbbb127db9ca585eb96b7db118b5303833b4",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "source_class",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "area_2000_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "area_2021_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "endpoint_change_km2",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "km²"
+        },
+        {
+          "name": "endpoint_change_pct",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "%"
+        },
+        {
+          "name": "scope",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/proxy_agreement_and_unknown_ranges.csv",
+      "rows": 88,
+      "sha256": "c7a4616214542c91fc3402b68a5e6db3624642ca65b726e300e077543101465a",
+      "columns": [
+        {
+          "name": "route",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "frame",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "planned_samples",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "assigned_samples",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "unassigned_samples",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "matching_assigned_samples",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "total_design_weight_km2_month",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "assigned_design_weight_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "unassigned_design_weight_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        },
+        {
+          "name": "conditional_label_agreement",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "binary_completion_lower",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "binary_completion_upper",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "physical_accuracy_lower",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 88,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "physical_accuracy_upper",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 88,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "independent_reference_accuracy",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 88,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "conditional_agreement_bootstrap_lower95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 68,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "conditional_agreement_bootstrap_upper95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 68,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "completion_range_outer_bootstrap_lower95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "completion_range_outer_bootstrap_upper95",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "conditional_percentile_bootstrap_degenerate",
+          "dtype_read_by_pandas": "bool",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "conditional_interval_note",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "bootstrap_replicates",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "bootstrap_seed",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "bootstrap_unit",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "interval_scope",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "is_independent_accuracy",
+          "dtype_read_by_pandas": "bool",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/radar_automated_recovery_intervals.csv",
+      "rows": 108,
+      "sha256": "c89f5dc98dc8458326aea0f4b65ccb2a4639311038b6ff46e669c695f9e8e4e6",
+      "columns": [
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "onset_period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "climate_end_period",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "minimum_spi",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "status",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "recovery_min_months",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 108,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "recovery_max_months",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 108,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "recovery_months",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 108,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "pre_event_lower_anomaly",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 108,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "pre_event_upper_anomaly",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 108,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "deficit_lower",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 108,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "deficit_upper",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 108,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/radar_seasonal_reference_support.csv",
+      "rows": 144,
+      "sha256": "9960ce3f5e16ef51bcf65fb7dd6769e2283c6e2ad71e7a432b7356971632d448",
+      "columns": [
+        {
+          "name": "month",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "lower",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "upper",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "n",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "region",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "water_group",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        }
+      ]
+    },
+    {
+      "file": "data/tables/reference_outcome_accounting.csv",
+      "rows": 5,
+      "sha256": "8c06c3e319dedd6b030442a87469a4c0e745ca7d308a612ea513c34ab86e2f09",
+      "columns": [
+        {
+          "name": "assisted_origin",
+          "dtype_read_by_pandas": "object",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "samples",
+          "dtype_read_by_pandas": "int64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "design_weight",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": null
+        },
+        {
+          "name": "weighted_fraction",
+          "dtype_read_by_pandas": "float64",
+          "missing_count": 0,
+          "unit_if_explicit_in_name": "unitless fraction"
+        }
+      ]
+    }
+  ],
+  "unit_rule": "Only units explicit in column names are inferred; inspect methods for transformed model-coefficient scales."
+}

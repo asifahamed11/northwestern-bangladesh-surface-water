@@ -1,36 +1,38 @@
-# Reproducing the analysis
+# Reproducing the reported calculations
 
-The reported results come from `code_only_final_20261016/analysis_v3_user_label144` in the original project. Its final run record, source hashes and results are in `provenance/`. The CSVs in `data/tables/` are unchanged copies of the paper's accompanying tables.
+The frozen reported run is `code_only_final_20261016/analysis_v3_user_label144`. Its scientific results are unchanged. The new entry points adapt file locations in an isolated output folder and call the original scientific functions.
 
-## Read the supplied results
+## Environment
 
-The Word and PDF files open without a Python environment. CSV files can be read in Python, R or a spreadsheet application. Figures are supplied as PNG previews and RGB 320 dpi TIFFs. Table manifests record the original file hashes and sources.
+The tested runtime is Python 3.12.0 on Windows with the pinned libraries in `code/requirements.txt`. Install `code/requirements-dev.txt` for tests. Node.js 24.15.0 was used for the optional dated-label JavaScript test. A virtual environment keeps these dependencies separate from other projects. Word and an Earth Engine login are unnecessary for the commands below.
 
-## Code layout
+```powershell
+python -m venv .venv
+.venv\Scripts\python -m pip install -r code/requirements-dev.txt
+.venv\Scripts\python code/reproduce_reported_results.py --output reproduced/results
+.venv\Scripts\python code/reproduce_figures.py --output reproduced/figures
+.venv\Scripts\python -m pytest -q
+node code/tests/test_dated_water_core.cjs
+```
 
-| Path | Purpose |
-| :-- | :-- |
-| `code/research_pipeline/` | Spatial support, annual and monthly models, SPI, event recovery and validation routines |
-| `code/automatic_water/analyze_dw_sensitivity.py` | Dynamic World threshold and paired-support analysis |
-| `code/postprocessing/annual_quality_sensitivity.py` | Annual observation-effort and processing-boundary sensitivity |
-| `code/postprocessing/finalize_code_only_research.py` | Final result reconciliation and design-weighted dated-proxy comparisons |
-| `code/postprocessing/screen_water_colors.py` | Raw-band spectral triage and explicit undecided outcomes |
-| `code/postprocessing/dated_water_core.js` | Dated-label import, validation and summary logic |
-| `code/earth_engine/` | Core, baseline and radar–optical export scripts |
-| `code/figure_sources/` | Original publication-figure scripts; retain the original manuscript-workspace paths |
+Use a fresh output directory each time. On Linux/macOS, use `.venv/bin/python` instead of `.venv\Scripts\python`. Numerical replay has been executed on the recorded Windows runtime; cross-platform pixel equality is not guaranteed because fonts and rendering libraries can differ.
 
-Source code is copied without changing its numerical methods. The original requirements are retained in `code/requirements.txt` and `code/requirements-dev.txt`. Dated-crop tools also use Pillow, requests and Node.js. Figure/document scripts were run in the authors' recorded local plotting and Word environments; they are not a standalone cross-platform document builder.
+## What is recalculated
 
-## Rerun requirements
+The results command checks genuine code/data hashes, then compares 15 recalculated CSV tables with frozen references: annual endpoints and trends; climate coefficients, model status, fitted series and calendar validation; observation/processing controls; monthly and pooled Dynamic World threshold evidence; SPI history and calibration; radar endpoint regressions; nine recovery settings; weighted proxy comparisons with fixed-seed bootstrap intervals; and all 720 outcome counts. Every column, category and null location is compared, with relative numeric tolerance `1e-7` and absolute tolerance `1e-9`. Hashes are checked again after the run. The report is `REPRODUCTION_REPORT.json`.
 
-A complete rerun needs the genuine source folders listed in Supplementary Methods: `NW_Bangladesh_2000_2024`, `NW_Bangladesh_preprocessed`, `NW_Bangladesh_climate_baseline_1981_1999`, `NW_Bangladesh_automatic_water_2015_2024`, `NW_Bangladesh_DW_sensitivity_2015_2024`, and the dated crop/metadata folders. The archived run manifests record the remaining review and intermediate-input paths. These folders are not replaced with sample data.
+The figure command redraws Figures 1, 3 and 5 from actual boundaries, the original transition raster and frozen model-output CSV. It compares rendered RGB pixels with the supplied PNGs and writes `FIGURE_REPLAY_REPORT.json`. It does not redraw the other nine figures. The original plotting sources and all 12 delivered images remain available.
 
-For an exact reconstruction, extract `provenance/Reproducibility.zip` into a separate copy of the original source-data workspace. It preserves the original file names and the corrected dated-label CSV and backup. Its active-run README gives the finalization command. Choose a new output directory; existing completed runs must be retained.
+The table guards deliberately alter in-memory copies of genuine results to ensure a changed estimate, an omitted category or a missing accuracy value replaced with zero is rejected. These software tests do not establish scientific accuracy.
 
-The export scripts require an authenticated Earth Engine account. Downloaded files must pass the source-date, grid, mask and checksum audits before use. No new downloads or scientific model runs were performed when this repository was assembled.
+## Journal archive route
 
-## Checks
+Extract all four `v0.2.0-review` supplementary ZIPs into the same empty directory. Each contains a shared `water_research_review_v0.2.0/` folder; allow those folders to merge. Run the same commands from that folder. No private manuscript archive or GitHub account is required. The Code archive contains the three reference PNGs used for pixel comparison. See `JOURNAL_BUNDLE_MANIFEST.json` and the archive-level checksum file supplied beside the ZIPs.
 
-The retained tests cover model statistics, drought calculations and dated-label rules. Run Python tests from `code/` with `python -m pytest tests -q` after installing the recorded dependencies. The dated-label JavaScript test is `node tests/test_dated_water_core.cjs`. Software checks are distinct from independent scientific validation.
+## What remains upstream
 
-The manuscript reports the study's scope and limitations. Automated satellite agreement, software checks and complete file inventories do not supply independent ground truth.
+The commands start from real exported regional observations and frozen per-pixel comparison records. They do not rerun the 25-year raster aggregation or recalibrate all raw dated Sentinel-2 crops. The supplied `jrc_monthly_2000.tif` is a genuine raster required by the original grid audit, not a replacement for the full raster history. `spectral_screening_evidence.json` retains the original spectral evidence, while `pixel_month_comparisons.csv` is the input to statistical proxy comparison. This is computational replay from exported/aggregated observations, not independent classification validation.
+
+Full raw-stage reconstruction requires the genuine source folders identified in the original manifests: `NW_Bangladesh_2000_2024`, `NW_Bangladesh_preprocessed`, `NW_Bangladesh_climate_baseline_1981_1999`, both radar–optical export directories, and dated raw crops/product XML. Original export and processing modules retain their author-workspace paths. The replay commands provide a portable route for the bounded calculations above; they do not make every legacy script a standalone CLI. The bulky historical `Reproducibility.zip` is retained in the authors' local project and earlier private Git history, rather than duplicated in the current working tree or clean journal archives.
+
+Earth Engine scripts require an authenticated account and completed exports. Source-date, grid, mask and observation-density audits must pass before using fresh data. Missing observations remain missing. No satellite export or new source acquisition is initiated by the replay commands.

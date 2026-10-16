@@ -1,0 +1,93 @@
+[
+  {
+    "id": "frontiers-policy",
+    "title": "Frontiers policies and publication ethics",
+    "url": "https://www.frontiersin.org/guidelines/policies-and-publication-ethics",
+    "publisher": "Frontiers",
+    "retrieved_date": "2026-10-16",
+    "type": "official live guidance",
+    "access": "public web full page available",
+    "reviewed_scope": [
+      "Availability of data",
+      "Data availability statements",
+      "Availability of computer code"
+    ],
+    "verification_status": "Relevant sections read; not a systematic literature review",
+    "publication_date": null
+  },
+  {
+    "id": "earth-science-guide",
+    "title": "Frontiers in Earth Science author guidelines",
+    "url": "https://www.frontiersin.org/journals/earth-science/for-authors/author-guidelines",
+    "publisher": "Frontiers",
+    "retrieved_date": "2026-10-16",
+    "type": "official live guidance",
+    "access": "public web full page available",
+    "reviewed_scope": [
+      "Supplementary material",
+      "Data references"
+    ],
+    "verification_status": "Relevant sections read; not a systematic literature review",
+    "publication_date": null
+  },
+  {
+    "id": "submission-guide",
+    "title": "How to submit an article to Frontiers journals",
+    "url": "https://www.frontiersin.org/for-authors/submitting-research/how-to-submit-an-article-to-our-journals",
+    "publisher": "Frontiers",
+    "retrieved_date": "2026-10-16",
+    "type": "official live guidance",
+    "access": "public web full page available",
+    "reviewed_scope": [
+      "Manuscript file upload options",
+      "Data",
+      "Generative AI disclosure"
+    ],
+    "verification_status": "Relevant sections read; not a systematic literature review",
+    "publication_date": null
+  },
+  {
+    "id": "github-archive",
+    "title": "Referencing and citing content",
+    "url": "https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content",
+    "publisher": "GitHub",
+    "retrieved_date": "2026-10-16",
+    "type": "official live guidance",
+    "access": "public web full page available",
+    "reviewed_scope": [
+      "Zenodo archive and public repository access"
+    ],
+    "verification_status": "Relevant sections read; not a systematic literature review",
+    "publication_date": null
+  },
+  {
+    "id": "github-license",
+    "title": "Licensing a repository",
+    "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository",
+    "publisher": "GitHub",
+    "retrieved_date": "2026-10-16",
+    "type": "official live guidance",
+    "access": "public web full page available",
+    "reviewed_scope": [
+      "Choosing a license",
+      "No license default rights"
+    ],
+    "verification_status": "Relevant sections read; not a systematic literature review",
+    "publication_date": null
+  },
+  {
+    "id": "github-cff",
+    "title": "About CITATION files",
+    "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files",
+    "publisher": "GitHub",
+    "retrieved_date": "2026-10-16",
+    "type": "official live guidance",
+    "access": "public web full page available",
+    "reviewed_scope": [
+      "Citation File Format",
+      "Preferred citation"
+    ],
+    "verification_status": "Relevant sections read; not a systematic literature review",
+    "publication_date": null
+  }
+]

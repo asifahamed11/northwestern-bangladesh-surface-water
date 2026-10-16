@@ -1,0 +1,7 @@
+# Reuse and access
+
+The development repository is private at the authors' request. No open-source or open-data license for author-created materials has been selected. GitHub access and possession of a file do not themselves grant unrestricted reuse rights. Ask the corresponding author, Ahammad Hossain (`ahammadstatru@gmail.com`), about permissions. This contact does not replace supplying supporting data through the planned supplementary files.
+
+Third-party materials retain their provider terms. The study and national administrative boundaries are geoBoundaries gbOpen BGD ADM2, boundary ID BGD-ADM2-16705992, from BBS and OCHA ROAP, under CC BY 3.0 IGO as recorded in `data/boundaries/source_metadata.json`. The national geometry is losslessly compressed, not simplified. JRC/Google surface-water products, CHIRPS, ERA5-Land, Sentinel-1 and Dynamic World must be attributed to their upstream providers; `docs/DATA_SOURCES.md` identifies the exact assets. No blanket repository license overrides those terms.
+
+Before a public code release or journal publication, the accountable authors should agree the reuse terms appropriate to their own code and derived data and verify upstream distribution conditions. No public publication or copyright grant has been made by this repository-maintenance step. Journal supplementary files are prepared for upload; their later publication/access terms are governed by the journal and rights holders.

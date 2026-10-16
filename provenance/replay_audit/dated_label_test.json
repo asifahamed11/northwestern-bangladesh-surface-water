@@ -1,0 +1,1 @@
+{"status":"PASS","scope":"Software fixtures","tests":"date-wise zero and one; no cross-date propagation; temporal change not collapsed; uncertain and low-support preserved; legacy migration isolated; foreign or forged import rejected; CSV provenance"}
