@@ -1,0 +1,111 @@
+{
+  "created_utc": "2026-10-16T03:07:41.166706+00:00",
+  "figure": 1,
+  "projection": "+proj=tmerc +lat_0=0 +lon_0=90 +k=1 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs +type=crs",
+  "unsimplified_geometry": true,
+  "input_sources": [
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\New folder\\NW_Bangladesh_2000_2024\\verified_study_area.geojson",
+      "sha256": "10699eaea184d4c194da746e671feec2a2c715c477f593b0118b17332f736f18"
+    },
+    {
+      "path": "C:\\Users\\Admin\\Desktop\\New folder\\dataset-download\\boundaries\\Bangladesh_ADM2_original.geojson",
+      "sha256": "54379ccc77f6f59dab3569ecc5f9b3850dbed2d65a5f43a034bdf92179f5621b"
+    }
+  ],
+  "geodesic_scale_bars": [
+    {
+      "segment_km": 100,
+      "vertices_projected_m": [
+        [
+          -135187.69190385833,
+          2246262.133632311
+        ],
+        [
+          -35180.769762799784,
+          2245478.3071822855
+        ],
+        [
+          64817.46008196519,
+          2244694.617486524
+        ]
+      ],
+      "start_lon_lat": [
+        88.70575904646873,
+        20.301392929456018
+      ],
+      "geodesic_lengths_m": [
+        100000.00000000054,
+        200000.00000000204
+      ]
+    },
+    {
+      "segment_km": 20,
+      "vertices_projected_m": [
+        [
+          -148774.5304204399,
+          2663437.5521590794
+        ],
+        [
+          -128770.8512956566,
+          2663229.251208631
+        ],
+        [
+          -108768.44410604156,
+          2663020.976879302
+        ]
+      ],
+      "start_lon_lat": [
+        88.53722115049656,
+        24.066580082916065
+      ],
+      "geodesic_lengths_m": [
+        20000.000000000568,
+        40000.000000000495
+      ]
+    }
+  ],
+  "exports": [
+    {
+      "file": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_01_study_area_and_design.png",
+      "sha256": "50a4065fdcd9a5813fb259f4cb92766fe7ba746c9a21669945fec6571a11aac7"
+    },
+    {
+      "file": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_01_study_area_and_design.tiff",
+      "sha256": "bf4c36f347822076aa0ea24cd87fecca5f6ab5cc3a00ce226fdced89eb44c88e"
+    },
+    {
+      "file": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_01_study_area_and_design.pdf",
+      "sha256": "f535bceda95357d6cf4340d2793ec82c2d142a99066abaf30248e5d6f6b1687f"
+    },
+    {
+      "file": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_01_study_area_and_design.svg",
+      "sha256": "ee0445db369f03453e0b6f20b22c0d3b1706a7f2562a90ae6b46c05eb4185186"
+    }
+  ],
+  "pixels": [
+    2267,
+    1902
+  ],
+  "dpi": 320,
+  "font_sizes_points": {
+    "panel_titles": 10,
+    "district_labels": [
+      8.1,
+      8.8
+    ],
+    "design_body": 7.35,
+    "cartographic_annotations": 6.7
+  },
+  "packages": {
+    "matplotlib": "3.10.7",
+    "pyproj": "3.7.2",
+    "shapely": "2.1.2"
+  },
+  "python_executable": "C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "scientific_results_changed": false,
+  "outside_canvas_labels": [],
+  "manual_visual_review_required": false,
+  "visual_review_complete": true,
+  "redraw_script_sha256": "c80f1dbc8954c8102ee196b73884c1da537fd56463b2b0fad0c88a08047124f6"
+}

@@ -1,5 +1,0 @@
-# Figure provenance and caption
-
-The annual and radar figures retain their original, different periods, cohorts, variables and units. They were copied byte-for-byte and are not new replications. `figure_sources.json` gives their original locations and digests. The earlier consensus-viewer figure is excluded because it describes a different 720-point sample.
-
-**New figure:** All 720 frozen pixel-month samples, four selected months. Counts (A) differ from design-weighted area-time fractions (B). In C, dots show agreement conditional on assigned proxy labels. Grey ranges retain all unassigned comparison weight under arbitrary binary completion. These ranges are algebraic, not confidence intervals or physical-accuracy bounds. Approximate within-stratum bootstrap intervals are provided in the underlying table; scene-date repeats are not independent units. User-provided human labels were assisted and model-selected. Source: Tables/pixel_month_comparisons.csv, Tables/proxy_agreement_and_unknown_ranges.csv and Tables/reference_outcome_accounting.csv. General-purpose provisional layout; no journal-specific compliance claimed.

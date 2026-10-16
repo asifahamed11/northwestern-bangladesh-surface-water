@@ -1,0 +1,92 @@
+[
+  {
+    "file": "actual_dated_observations.csv",
+    "sha256": "b01d61c4cc61aef27a5c46b1e4777633500ad46cc0f9d0203e9eae6dfa055602",
+    "rows": 3022
+  },
+  {
+    "file": "annual_climate_model_coefficients.csv",
+    "sha256": "52e8d7463df94cfba231561337a6f125791e91375d9add0907e7050c71c97f76",
+    "rows": 88
+  },
+  {
+    "file": "annual_common_support_water.csv",
+    "sha256": "06a6d96dd1de50cc5a3669bf9c2a79b5747ce8a37aff028c508b5829d4e49c4c",
+    "rows": 100
+  },
+  {
+    "file": "annual_observation_effort_climate_sensitivity.csv",
+    "sha256": "8122a83c354d062ed644d4521dddc12ef53b2f0f3c57da37248102af9f74a026",
+    "rows": 24
+  },
+  {
+    "file": "annual_observation_quality.csv",
+    "sha256": "55c2a8af0649da06537326d27e7502c5634a958c5caa05a55ab4fb1fedbd8c7d",
+    "rows": 100
+  },
+  {
+    "file": "annual_predictive_validation_summary.csv",
+    "sha256": "f035912e1402e0c538ac0fa5b5870722514f8ebcd950ef536523c943776be7ab",
+    "rows": 8
+  },
+  {
+    "file": "annual_trend_results.csv",
+    "sha256": "c78120f719b943c248de616b135ad41763a7862896541217b9471d526e7772bd",
+    "rows": 24
+  },
+  {
+    "file": "common_support_quality.csv",
+    "sha256": "088ba9e182a6c0ed02f40e41d578811c163fd8bee288f55653751f8f36c98026",
+    "rows": 36
+  },
+  {
+    "file": "dw_threshold_support_and_agreement.csv",
+    "sha256": "10a51d7eddd0306f8acea4ef9fb0f6d492671261b8c261402b6ceca57541afa8",
+    "rows": 48
+  },
+  {
+    "file": "exploratory_climate_envelope_models.csv",
+    "sha256": "ad7239a34bc2457ee2241b4283fb19db135088b738cc7df7b98da1e7d041f9a8",
+    "rows": 24
+  },
+  {
+    "file": "exploratory_recovery_support_sensitivity.csv",
+    "sha256": "9af338777745136868a916d2db1e742ed708f0998e8f4fb6e6fe143ed1893eda",
+    "rows": 972
+  },
+  {
+    "file": "monthly_predictive_validation_summary.csv",
+    "sha256": "6a23d005e37910ed9031731d6a603ce68fb572001fa3a52faa32620add5404b6",
+    "rows": 12
+  },
+  {
+    "file": "pixel_month_comparisons.csv",
+    "sha256": "71e25d03680f5224f31233c705da21ee7ff6c393d487ccc0c3ef05487f3c3d3b",
+    "rows": 720
+  },
+  {
+    "file": "primary_endpoint_changes.csv",
+    "sha256": "e61f33bca0381be0be76a6d95211bbbb127db9ca585eb96b7db118b5303833b4",
+    "rows": 8
+  },
+  {
+    "file": "proxy_agreement_and_unknown_ranges.csv",
+    "sha256": "c7a4616214542c91fc3402b68a5e6db3624642ca65b726e300e077543101465a",
+    "rows": 88
+  },
+  {
+    "file": "radar_automated_recovery_intervals.csv",
+    "sha256": "c89f5dc98dc8458326aea0f4b65ccb2a4639311038b6ff46e669c695f9e8e4e6",
+    "rows": 108
+  },
+  {
+    "file": "radar_seasonal_reference_support.csv",
+    "sha256": "9960ce3f5e16ef51bcf65fb7dd6769e2283c6e2ad71e7a432b7356971632d448",
+    "rows": 144
+  },
+  {
+    "file": "reference_outcome_accounting.csv",
+    "sha256": "8c06c3e319dedd6b030442a87469a4c0e745ca7d308a612ea513c34ab86e2f09",
+    "rows": 5
+  }
+]

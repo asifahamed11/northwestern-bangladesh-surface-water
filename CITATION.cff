@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using these research materials."
+title: "Seasonal surface-water decline and limits to drought assessment in northwestern Bangladesh"
+type: dataset
+url: "https://github.com/asifahamed11/northwestern-bangladesh-surface-water"
+date-released: "2026-10-16"
+authors:
+  - family-names: Ahamed
+    given-names: Asif
+  - family-names: Hasan
+    given-names: "Md. Tanvir"
+  - family-names: Tabassum
+    given-names: "Most. Alisa"
+  - family-names: Hossain
+    given-names: Ahammad
+  - family-names: Kamruzzaman
+    given-names: "Md."
+  - family-names: Das
+    given-names: Jayanta
+  - family-names: Imon
+    given-names: "A.H.M. Rahmatullah"
+abstract: "Code and derived results accompanying an unpublished manuscript. Access to the repository is restricted."

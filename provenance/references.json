@@ -1,0 +1,945 @@
+[
+  {
+    "id": "Pekel2016",
+    "type": "article-journal",
+    "title": "High-resolution mapping of global surface water and its long-term changes",
+    "DOI": "10.1038/nature20584",
+    "URL": "https://doi.org/10.1038/nature20584",
+    "author": [
+      {
+        "family": "Pekel",
+        "given": "Jean-François"
+      },
+      {
+        "family": "Cottam",
+        "given": "Andrew"
+      },
+      {
+        "family": "Gorelick",
+        "given": "Noel"
+      },
+      {
+        "family": "Belward",
+        "given": "Alan S."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          7
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "volume": "540",
+    "issue": "7633",
+    "page": "418-422",
+    "container-title-short": "Nature"
+  },
+  {
+    "id": "Brown2022",
+    "type": "article-journal",
+    "title": "Dynamic World, Near real-time global 10 m land use land cover mapping",
+    "DOI": "10.1038/s41597-022-01307-4",
+    "URL": "https://doi.org/10.1038/s41597-022-01307-4",
+    "author": [
+      {
+        "family": "Brown",
+        "given": "Christopher F."
+      },
+      {
+        "family": "Brumby",
+        "given": "Steven P."
+      },
+      {
+        "family": "Guzder-Williams",
+        "given": "Brookie"
+      },
+      {
+        "family": "Birch",
+        "given": "Tanya"
+      },
+      {
+        "family": "Hyde",
+        "given": "Samantha Brooks"
+      },
+      {
+        "family": "Mazzariello",
+        "given": "Joseph"
+      },
+      {
+        "family": "Czerwinski",
+        "given": "Wanda"
+      },
+      {
+        "family": "Pasquarella",
+        "given": "Valerie J."
+      },
+      {
+        "family": "Haertel",
+        "given": "Robert"
+      },
+      {
+        "family": "Ilyushchenko",
+        "given": "Simon"
+      },
+      {
+        "family": "Schwehr",
+        "given": "Kurt"
+      },
+      {
+        "family": "Weisse",
+        "given": "Mikaela"
+      },
+      {
+        "family": "Stolle",
+        "given": "Fred"
+      },
+      {
+        "family": "Hanson",
+        "given": "Craig"
+      },
+      {
+        "family": "Guinan",
+        "given": "Oliver"
+      },
+      {
+        "family": "Moore",
+        "given": "Rebecca"
+      },
+      {
+        "family": "Tait",
+        "given": "Alexander M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          9
+        ]
+      ]
+    },
+    "container-title": "Scientific Data",
+    "volume": "9",
+    "issue": "1",
+    "number": "251",
+    "page": "251",
+    "container-title-short": "Sci Data"
+  },
+  {
+    "id": "Funk2026",
+    "type": "article-journal",
+    "title": "The Climate Hazards Center Infrared Precipitation with Stations, Version 3",
+    "DOI": "10.1038/s41597-026-07096-4",
+    "URL": "https://doi.org/10.1038/s41597-026-07096-4",
+    "author": [
+      {
+        "family": "Funk",
+        "given": "Chris"
+      },
+      {
+        "family": "Peterson",
+        "given": "Pete"
+      },
+      {
+        "family": "Harrison",
+        "given": "Laura"
+      },
+      {
+        "family": "Saldivar",
+        "given": "Robert"
+      },
+      {
+        "family": "Landsfeld",
+        "given": "Martin"
+      },
+      {
+        "family": "Pedreros",
+        "given": "Diego"
+      },
+      {
+        "family": "Shukla",
+        "given": "Shraddhanand"
+      },
+      {
+        "family": "Fink",
+        "given": "Andreas H."
+      },
+      {
+        "family": "Davenport",
+        "given": "Frank"
+      },
+      {
+        "family": "Peterson",
+        "given": "Seth"
+      },
+      {
+        "family": "Turner",
+        "given": "William"
+      },
+      {
+        "family": "Sonnier",
+        "given": "Austin"
+      },
+      {
+        "family": "Budde",
+        "given": "Michael"
+      },
+      {
+        "family": "Tabor",
+        "given": "Karyn"
+      },
+      {
+        "family": "Verdin",
+        "given": "James"
+      },
+      {
+        "family": "Hauzaree",
+        "given": "Disha"
+      },
+      {
+        "family": "Naim",
+        "given": "Mohamed"
+      },
+      {
+        "family": "Alaso",
+        "given": "Daniella"
+      },
+      {
+        "family": "Husak",
+        "given": "Gregory"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          11
+        ]
+      ]
+    },
+    "container-title": "Scientific Data",
+    "volume": "13",
+    "issue": "1",
+    "number": "718",
+    "page": "718",
+    "container-title-short": "Sci Data"
+  },
+  {
+    "id": "Munoz2021",
+    "type": "article-journal",
+    "title": "ERA5-Land: a state-of-the-art global reanalysis dataset for land applications",
+    "DOI": "10.5194/essd-13-4349-2021",
+    "URL": "https://doi.org/10.5194/essd-13-4349-2021",
+    "author": [
+      {
+        "family": "Muñoz-Sabater",
+        "given": "Joaquín"
+      },
+      {
+        "family": "Dutra",
+        "given": "Emanuel"
+      },
+      {
+        "family": "Agustí-Panareda",
+        "given": "Anna"
+      },
+      {
+        "family": "Albergel",
+        "given": "Clément"
+      },
+      {
+        "family": "Arduini",
+        "given": "Gabriele"
+      },
+      {
+        "family": "Balsamo",
+        "given": "Gianpaolo"
+      },
+      {
+        "family": "Boussetta",
+        "given": "Souhail"
+      },
+      {
+        "family": "Choulga",
+        "given": "Margarita"
+      },
+      {
+        "family": "Harrigan",
+        "given": "Shaun"
+      },
+      {
+        "family": "Hersbach",
+        "given": "Hans"
+      },
+      {
+        "family": "Martens",
+        "given": "Brecht"
+      },
+      {
+        "family": "Miralles",
+        "given": "Diego G."
+      },
+      {
+        "family": "Piles",
+        "given": "María"
+      },
+      {
+        "family": "Rodríguez-Fernández",
+        "given": "Nemesio J."
+      },
+      {
+        "family": "Zsoter",
+        "given": "Ervin"
+      },
+      {
+        "family": "Buontempo",
+        "given": "Carlo"
+      },
+      {
+        "family": "Thépaut",
+        "given": "Jean-Noël"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          9,
+          7
+        ]
+      ]
+    },
+    "container-title": "Earth System Science Data",
+    "volume": "13",
+    "issue": "9",
+    "page": "4349-4383",
+    "container-title-short": "Earth Syst. Sci. Data"
+  },
+  {
+    "id": "Olofsson2014",
+    "type": "article-journal",
+    "title": "Good practices for estimating area and assessing accuracy of land change",
+    "DOI": "10.1016/j.rse.2014.02.015",
+    "URL": "https://doi.org/10.1016/j.rse.2014.02.015",
+    "author": [
+      {
+        "family": "Olofsson",
+        "given": "Pontus"
+      },
+      {
+        "family": "Foody",
+        "given": "Giles M."
+      },
+      {
+        "family": "Herold",
+        "given": "Martin"
+      },
+      {
+        "family": "Stehman",
+        "given": "Stephen V."
+      },
+      {
+        "family": "Woodcock",
+        "given": "Curtis E."
+      },
+      {
+        "family": "Wulder",
+        "given": "Michael A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          5
+        ]
+      ]
+    },
+    "container-title": "Remote Sensing of Environment",
+    "volume": "148",
+    "page": "42-57",
+    "container-title-short": "Remote Sensing of Environment"
+  },
+  {
+    "id": "Stehman2019",
+    "type": "article-journal",
+    "title": "Key issues in rigorous accuracy assessment of land cover products",
+    "DOI": "10.1016/j.rse.2019.05.018",
+    "URL": "https://doi.org/10.1016/j.rse.2019.05.018",
+    "author": [
+      {
+        "family": "Stehman",
+        "given": "Stephen V."
+      },
+      {
+        "family": "Foody",
+        "given": "Giles M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9
+        ]
+      ]
+    },
+    "container-title": "Remote Sensing of Environment",
+    "volume": "231",
+    "page": "111199",
+    "number": "111199",
+    "container-title-short": "Remote Sensing of Environment"
+  },
+  {
+    "id": "Saunders2025",
+    "type": "article-journal",
+    "title": "Sensitivity to Data Choice for Index‐Based Flood Insurance",
+    "DOI": "10.1029/2025ef005966",
+    "URL": "https://doi.org/10.1029/2025ef005966",
+    "author": [
+      {
+        "family": "Saunders",
+        "given": "Alex"
+      },
+      {
+        "family": "Tellman",
+        "given": "Beth"
+      },
+      {
+        "family": "Benami",
+        "given": "Elinor"
+      },
+      {
+        "family": "Anchukaitis",
+        "given": "Kevin"
+      },
+      {
+        "family": "Hossain",
+        "given": "Sazzad"
+      },
+      {
+        "family": "Bennett",
+        "given": "Andrew"
+      },
+      {
+        "family": "Islam",
+        "given": "A. K. M. Saiful"
+      },
+      {
+        "family": "Giezendanner",
+        "given": "Jonathan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9
+        ]
+      ]
+    },
+    "container-title": "Earth's Future",
+    "volume": "13",
+    "issue": "9",
+    "number": "e2025EF005966",
+    "page": "e2025EF005966",
+    "container-title-short": "Earth's Future"
+  },
+  {
+    "id": "Rainfall2026",
+    "type": "article-journal",
+    "title": "Spatial-temporal analysis of annual rainfall trends and variability in the Barind Tract",
+    "DOI": "10.1007/s44292-026-00082-w",
+    "URL": "https://doi.org/10.1007/s44292-026-00082-w",
+    "author": [
+      {
+        "family": "Esha",
+        "given": "Maliha Zahin"
+      },
+      {
+        "family": "Khan",
+        "given": "Md Shahedin Alam"
+      },
+      {
+        "family": "Tabassum",
+        "given": "Sumaya"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          24
+        ]
+      ]
+    },
+    "container-title": "Discover Atmosphere",
+    "volume": "4",
+    "issue": "1",
+    "number": "14",
+    "page": "14",
+    "container-title-short": "Discov Atmos"
+  },
+  {
+    "id": "Barind2025",
+    "type": "article-journal",
+    "title": "Geospatial mapping of heatwaves and drought: Exploring their link to vegetation, soil moisture, and groundwater in the thirsty Barind Tract, Bangladesh",
+    "DOI": "10.1007/s12665-025-12787-z",
+    "URL": "https://doi.org/10.1007/s12665-025-12787-z",
+    "author": [
+      {
+        "family": "Sarker",
+        "given": "Tanoy"
+      },
+      {
+        "family": "Reza",
+        "given": "Selim"
+      },
+      {
+        "family": "Roy",
+        "given": "Roni"
+      },
+      {
+        "family": "Uddim",
+        "given": "Taslim"
+      },
+      {
+        "family": "Alif",
+        "given": "Salman Arefin"
+      },
+      {
+        "family": "Tariq",
+        "given": "Aqil"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          1
+        ]
+      ]
+    },
+    "container-title": "Environmental Earth Sciences",
+    "volume": "85",
+    "issue": "3",
+    "number": "88",
+    "page": "88",
+    "container-title-short": "Environ Earth Sci"
+  },
+  {
+    "id": "Huda2021",
+    "type": "article-journal",
+    "title": "Time-Series Remote Sensing Study to Detect Surface Water Seasonality and Local Water Management at Upper Reaches of Southwestern Bengal Delta from 1972 to 2020",
+    "DOI": "10.3390/su13179798",
+    "URL": "https://doi.org/10.3390/su13179798",
+    "author": [
+      {
+        "family": "Huda",
+        "given": "Nazmul"
+      },
+      {
+        "family": "Terao",
+        "given": "Toru"
+      },
+      {
+        "family": "Nonomura",
+        "given": "Atsuko"
+      },
+      {
+        "family": "Suenaga",
+        "given": "Yoshihiro"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          8,
+          31
+        ]
+      ]
+    },
+    "container-title": "Sustainability",
+    "volume": "13",
+    "issue": "17",
+    "page": "9798",
+    "container-title-short": "Sustainability"
+  },
+  {
+    "id": "Xu2006",
+    "type": "article-journal",
+    "title": "Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery",
+    "DOI": "10.1080/01431160600589179",
+    "URL": "https://doi.org/10.1080/01431160600589179",
+    "author": [
+      {
+        "family": "Xu",
+        "given": "Hanqiu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          7,
+          20
+        ]
+      ]
+    },
+    "container-title": "International Journal of Remote Sensing",
+    "volume": "27",
+    "issue": "14",
+    "page": "3025-3033",
+    "container-title-short": "International Journal of Remote Sensing"
+  },
+  {
+    "id": "BY2001",
+    "type": "article-journal",
+    "title": "The control of the false discovery rate in multiple testing under dependency",
+    "DOI": "10.1214/aos/1013699998",
+    "URL": "https://doi.org/10.1214/aos/1013699998",
+    "author": [
+      {
+        "family": "Benjamini",
+        "given": "Yoav"
+      },
+      {
+        "family": "Yekutieli",
+        "given": "Daniel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2001,
+          8,
+          1
+        ]
+      ]
+    },
+    "container-title": "The Annals of Statistics",
+    "volume": "29",
+    "issue": "4",
+    "page": "1165-1188",
+    "container-title-short": "Ann. Statist."
+  },
+  {
+    "id": "NeweyWest1987",
+    "type": "article-journal",
+    "title": "A Simple, Positive Semi-Definite, Heteroskedasticity and Autocorrelation Consistent Covariance Matrix",
+    "DOI": "10.2307/1913610",
+    "URL": "https://doi.org/10.2307/1913610",
+    "author": [
+      {
+        "family": "Newey",
+        "given": "Whitney K."
+      },
+      {
+        "family": "West",
+        "given": "Kenneth D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1987,
+          5
+        ]
+      ]
+    },
+    "container-title": "Econometrica",
+    "volume": "55",
+    "issue": "3",
+    "page": "703-708",
+    "container-title-short": "Econometrica"
+  },
+  {
+    "id": "VanLoon2015",
+    "type": "article-journal",
+    "title": "Hydrological drought explained",
+    "DOI": "10.1002/wat2.1085",
+    "URL": "https://doi.org/10.1002/wat2.1085",
+    "author": [
+      {
+        "family": "Van Loon",
+        "given": "Anne F."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          4,
+          14
+        ]
+      ]
+    },
+    "container-title": "WIREs Water",
+    "volume": "2",
+    "issue": "4",
+    "page": "359-392",
+    "container-title-short": "WIREs Water"
+  },
+  {
+    "id": "Vanderhoof2023",
+    "type": "article-journal",
+    "title": "High-frequency time series comparison of Sentinel-1 and Sentinel-2 satellites for mapping open and vegetated water across the United States (2017–2021)",
+    "DOI": "10.1016/j.rse.2023.113498",
+    "URL": "https://doi.org/10.1016/j.rse.2023.113498",
+    "author": [
+      {
+        "family": "Vanderhoof",
+        "given": "Melanie K."
+      },
+      {
+        "family": "Alexander",
+        "given": "Laurie"
+      },
+      {
+        "family": "Christensen",
+        "given": "Jay"
+      },
+      {
+        "family": "Solvik",
+        "given": "Kylen"
+      },
+      {
+        "family": "Nieuwlandt",
+        "given": "Peter"
+      },
+      {
+        "family": "Sagehorn",
+        "given": "Mallory"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4
+        ]
+      ]
+    },
+    "container-title": "Remote Sensing of Environment",
+    "volume": "288",
+    "page": "113498",
+    "number": "113498",
+    "container-title-short": "Remote Sensing of Environment"
+  },
+  {
+    "id": "Slinski2025",
+    "type": "article-journal",
+    "title": "In situ, modeled, and earth observation monitoring of surface water availability in West African rangelands",
+    "DOI": "10.3389/frwa.2025.1320010",
+    "URL": "https://doi.org/10.3389/frwa.2025.1320010",
+    "author": [
+      {
+        "family": "Slinski",
+        "given": "Kimberly"
+      },
+      {
+        "family": "Senay",
+        "given": "Gabriel B."
+      },
+      {
+        "family": "Adoum",
+        "given": "Alkhalil"
+      },
+      {
+        "family": "Shukla",
+        "given": "Shraddhanand"
+      },
+      {
+        "family": "McNally",
+        "given": "Amy"
+      },
+      {
+        "family": "Rowland",
+        "given": "James"
+      },
+      {
+        "family": "Fillol",
+        "given": "Erwann"
+      },
+      {
+        "family": "Yatheendradas",
+        "given": "Soni"
+      },
+      {
+        "family": "Funk",
+        "given": "Chris"
+      },
+      {
+        "family": "Hoell",
+        "given": "Andrew"
+      },
+      {
+        "family": "Jasinski",
+        "given": "Michael"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          27
+        ]
+      ]
+    },
+    "container-title": "Frontiers in Water",
+    "volume": "7",
+    "number": "1320010",
+    "page": "1320010",
+    "container-title-short": "Front. Water"
+  },
+  {
+    "id": "Girotto2025",
+    "type": "article-journal",
+    "title": "Decomposing land surface total water storage in the Indus, Ganges, and Brahmaputra basins",
+    "DOI": "10.3389/feart.2025.1551218",
+    "URL": "https://doi.org/10.3389/feart.2025.1551218",
+    "author": [
+      {
+        "family": "Prusevich",
+        "given": "A. A."
+      },
+      {
+        "family": "Lammers",
+        "given": "R. B."
+      },
+      {
+        "family": "Grogan",
+        "given": "D. S."
+      },
+      {
+        "family": "Zuidema",
+        "given": "S."
+      },
+      {
+        "family": "Meko",
+        "given": "D. M."
+      },
+      {
+        "family": "Rounce",
+        "given": "D. R."
+      },
+      {
+        "family": "Hock",
+        "given": "R."
+      },
+      {
+        "family": "Velicogna",
+        "given": "I."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          5
+        ]
+      ]
+    },
+    "container-title": "Frontiers in Earth Science",
+    "volume": "13",
+    "number": "1551218",
+    "page": "1551218",
+    "container-title-short": "Front. Earth Sci."
+  },
+  {
+    "id": "Gorelick2017",
+    "type": "article-journal",
+    "DOI": "10.1016/j.rse.2017.06.031",
+    "URL": "https://doi.org/10.1016/j.rse.2017.06.031",
+    "title": "Google Earth Engine: Planetary-scale geospatial analysis for everyone",
+    "author": [
+      {
+        "given": "Noel",
+        "family": "Gorelick"
+      },
+      {
+        "given": "Matt",
+        "family": "Hancher"
+      },
+      {
+        "given": "Mike",
+        "family": "Dixon"
+      },
+      {
+        "given": "Simon",
+        "family": "Ilyushchenko"
+      },
+      {
+        "given": "David",
+        "family": "Thau"
+      },
+      {
+        "given": "Rebecca",
+        "family": "Moore"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          12
+        ]
+      ]
+    },
+    "container-title": "Remote Sensing of Environment",
+    "volume": "202",
+    "page": "18-27",
+    "container-title-short": "Remote Sensing of Environment"
+  },
+  {
+    "id": "ScientificSkills",
+    "type": "article",
+    "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+    "author": [
+      {
+        "family": "Kassis",
+        "given": "Timothy"
+      },
+      {
+        "family": "Agarwal",
+        "given": "Vinayak"
+      },
+      {
+        "family": "He",
+        "given": "Yuhuan"
+      },
+      {
+        "family": "Patel",
+        "given": "Darshil"
+      },
+      {
+        "family": "Brueckner",
+        "given": "Aubrey M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          2
+        ]
+      ]
+    },
+    "container-title": "arXiv [Preprint]",
+    "page": "arXiv:2609.00065",
+    "DOI": "10.48550/arXiv.2609.00065",
+    "URL": "https://arxiv.org/abs/2609.00065"
+  }
+]

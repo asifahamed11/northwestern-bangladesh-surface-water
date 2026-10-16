@@ -1,0 +1,142 @@
+[
+  {
+    "file": "Extended_Diagnostics/annual_jrc/annual_calendar_cross_validation.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\annual_calendar_cross_validation.csv",
+    "sha256": "115aa45f54dd06840d5e712e4a2334f63721b289b79ffe24f86fd1cdf2ed6b64",
+    "rows": 32,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/annual_class_climate_adjusted.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\annual_class_climate_adjusted.csv",
+    "sha256": "3615619c604212ffab4c4a7e25619a239fd9cf35f89cd06ef9ac947dc80e8454",
+    "rows": 376,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/annual_climate_model_status.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\annual_climate_model_status.csv",
+    "sha256": "01d6ef09db47b73449a42c38c3c2002e283b5831e441f7d874457c63296496af",
+    "rows": 16,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/annual_transition_areas.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\annual_transition_areas.csv",
+    "sha256": "a5698226e56777e5210432046355e7a4bdf5f7b28a2bffc508e8c42e157e1ff9",
+    "rows": 40,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/calendar_block_cross_validation.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\calendar_block_cross_validation.csv",
+    "sha256": "242ef6870fe340ed89be14ce5ddb1bc1b8ddface3194421ed41ce44a7b51438c",
+    "rows": 80,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/climate_adjusted_water.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\climate_adjusted_water.csv",
+    "sha256": "0986d5a8e9b79887b9ec5815806fe0dff2fd64a09300f3e961e947a911ff8d9c",
+    "rows": 3466,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/drought_recovery_events.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\drought_recovery_events.csv",
+    "sha256": "b911b9858de4f66dd1bf9fc622aea7bc5bf7765b8e7a1a9405231bf87d67e923",
+    "rows": 297,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/drought_recovery_identifiability.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\drought_recovery_identifiability.csv",
+    "sha256": "ea516c0724d3e64154ad211bd239d37fd00c701e0e4a1a5705dbef0415b3b1a0",
+    "rows": 24,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/monthly_common_support_water.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\monthly_common_support_water.csv",
+    "sha256": "3bf8e7894490dafee3f8059ae0f8b912b49d8a46edb961d5831e15b575a191b9",
+    "rows": 10800,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/monthly_model_coefficients.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\monthly_model_coefficients.csv",
+    "sha256": "243de0568f8faea7d7a602581b88729278da16f4a7e4617ea106f788feac7359",
+    "rows": 300,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/monthly_model_status.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\monthly_model_status.csv",
+    "sha256": "bddda148f2f141266ce6ba2c4458812b3e330965d93c071e9d14d8a24ba0dfe2",
+    "rows": 72,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/recovery_calendar_reference_sample_sensitivity.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\recovery_calendar_reference_sample_sensitivity.csv",
+    "sha256": "6e9491fdafcc5b845fdc90f46b03b31638469e9758edf6b20ba5afe6e493bee6",
+    "rows": 3,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/recovery_coverage_sensitivity_status.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\recovery_coverage_sensitivity_status.csv",
+    "sha256": "b4617da832977b7103e090acf6145fd1dce14e1849ba5f6c56eae53dadcda8a2",
+    "rows": 6,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/recovery_failure_components.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\recovery_failure_components.csv",
+    "sha256": "19a9df9937917715aa2038b4df3a59bd1fdff09a34e00fb9e573cfcedcfba67d",
+    "rows": 297,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/spi_calibration_parameters.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\spi_calibration_parameters.csv",
+    "sha256": "e13503db27be892a5d059adb943855d45007c791692bf79de514ac7509aa2f16",
+    "rows": 96,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/annual_jrc/spi_indices.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\analysis_20261013_completed_data\\spi_indices.csv",
+    "sha256": "da9b11b7781e749ba8407036c5c3cdbe431dc62a8baf6bed0b621b1cbde905b4",
+    "rows": 2400,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/radar/downloaded_sensitivity_settings.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\automatic_water_outputs\\sensitivity_20261015_115522_c3ef05\\downloaded_sensitivity_settings.csv",
+    "sha256": "d6c7bc9b50cb34d63f4801eddec768f1a9b28093127abcd6e516955b0e7f00cf",
+    "rows": 1,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/radar/dw_monthly_threshold_evidence.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\automatic_water_outputs\\sensitivity_20261015_115522_c3ef05\\dw_monthly_threshold_evidence.csv",
+    "sha256": "0612766fe202161977a76d84854ec7bc6a5bd90b234b71ca0c4f934d2e0ec8fd",
+    "rows": 5760,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/radar/spi_calibration_parameters.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\automatic_water_outputs\\sensitivity_20261015_115522_c3ef05\\spi_calibration_parameters.csv",
+    "sha256": "3d88d7156b6a2641e7102d1d5492c324e2647f89331ae90442eebcd86ce0ede6",
+    "rows": 96,
+    "matches_original": true
+  },
+  {
+    "file": "Extended_Diagnostics/radar/spi_indices.csv",
+    "source": "C:\\Users\\Admin\\Desktop\\New folder\\automatic_water_outputs\\sensitivity_20261015_115522_c3ef05\\spi_indices.csv",
+    "sha256": "45ec4cd5c49ac76c39b6bdec740d19d359ac50aa987004243e992a9eef0f1998",
+    "rows": 2400,
+    "matches_original": true
+  }
+]

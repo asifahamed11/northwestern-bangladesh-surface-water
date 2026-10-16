@@ -1,0 +1,775 @@
+{
+  "repository_url": "https://github.com/asifahamed11/northwestern-bangladesh-surface-water",
+  "private": true,
+  "scientific_results_changed": false,
+  "files": [
+    {
+      "file": "code/automatic_water/__init__.py",
+      "bytes": 88,
+      "sha256": "331cc64316e5410c43cbeb19cfd0dac770ae396a412ff5e2ac5df7e6282e1aa8",
+      "source": "Reproducibility.zip:automatic_water/__init__.py"
+    },
+    {
+      "file": "code/automatic_water/analyze.py",
+      "bytes": 33522,
+      "sha256": "e8f217a5f74febb8844c8ca9e67e36b8f960a7e61969eddfd30c4eaaa3212d4f",
+      "source": "Reproducibility.zip:automatic_water/analyze.py"
+    },
+    {
+      "file": "code/automatic_water/analyze_dw_sensitivity.py",
+      "bytes": 19481,
+      "sha256": "d32d4b4ced6e0ea1804473ae78f8b0dd0e7f6f2b6955585952bcd8a3f81575f2",
+      "source": "Reproducibility.zip:automatic_water/analyze_dw_sensitivity.py"
+    },
+    {
+      "file": "code/automatic_water/finalize_sensitivity_results.py",
+      "bytes": 17488,
+      "sha256": "3013668d7315c13bf35eea2936846cf98b7c296311f0563398f565bbebbd6e8e",
+      "source": "Reproducibility.zip:automatic_water/finalize_sensitivity_results.py"
+    },
+    {
+      "file": "code/postprocessing/annual_quality_sensitivity.py",
+      "bytes": 7009,
+      "sha256": "a2074348bdda290380edee4bfd892a3167ade2aa6458ea84dd3a020743d9798a",
+      "source": "Reproducibility.zip:postprocessing/annual_quality_sensitivity.py"
+    },
+    {
+      "file": "code/postprocessing/apply_user_label144_correction.py",
+      "bytes": 6511,
+      "sha256": "5f9921f7df4a2a1421c3cce4cd284736ae9392fa97accd9ba6da2705a78a2db2",
+      "source": "Reproducibility.zip:postprocessing/apply_user_label144_correction.py"
+    },
+    {
+      "file": "code/postprocessing/build_dated_water_dataset.py",
+      "bytes": 7240,
+      "sha256": "89c9b6c33b8d261235b906db26a36bccca2ef103f02c420920c0dba7fa642d1a",
+      "source": "Reproducibility.zip:postprocessing/build_dated_water_dataset.py"
+    },
+    {
+      "file": "code/postprocessing/check_actual_dated_labels.py",
+      "bytes": 18138,
+      "sha256": "55db9898679d8ac66fc31dad35d2ac2397a25a2264825fe04d246486858644d4",
+      "source": "Reproducibility.zip:postprocessing/check_actual_dated_labels.py"
+    },
+    {
+      "file": "code/postprocessing/dated_reference_pilot.py",
+      "bytes": 15811,
+      "sha256": "31ec20be2bcc76f5339cd632a3940ffb256202c4a39a9ac3ed9308d328c6c87f",
+      "source": "Reproducibility.zip:postprocessing/dated_reference_pilot.py"
+    },
+    {
+      "file": "code/postprocessing/dated_water_core.js",
+      "bytes": 8881,
+      "sha256": "2ff2a4860076ee549ee8f0f8375f217969f4b2fb16e7647b3893cbfe8283fa27",
+      "source": "Reproducibility.zip:postprocessing/dated_water_core.js"
+    },
+    {
+      "file": "code/postprocessing/finalize_code_only_research.py",
+      "bytes": 30651,
+      "sha256": "68f2020a8326e7a1a68fa5c75692c38eb6e297e9638ea91c3abf63c6905ba0ee",
+      "source": "Reproducibility.zip:postprocessing/finalize_code_only_research.py"
+    },
+    {
+      "file": "code/postprocessing/http_range_raster.py",
+      "bytes": 2950,
+      "sha256": "ae2bac47f4c9b3b388b44b270d3099e4d7c5fc478508c028df0002d46b69a6b7",
+      "source": "Reproducibility.zip:postprocessing/http_range_raster.py"
+    },
+    {
+      "file": "code/postprocessing/independent_sensor_check.py",
+      "bytes": 15530,
+      "sha256": "ae485d2a63fccc509d1ef25c6f38e95c6dfcf680b935dec0b04a553b11108072",
+      "source": "Reproducibility.zip:postprocessing/independent_sensor_check.py"
+    },
+    {
+      "file": "code/postprocessing/prepare_blind_accuracy.py",
+      "bytes": 20230,
+      "sha256": "6a23f0efc41cfd7ca8d7ffc0b0e2288c033cd3e6a4174b91a1fdef2877fef7cc",
+      "source": "Reproducibility.zip:postprocessing/prepare_blind_accuracy.py"
+    },
+    {
+      "file": "code/postprocessing/render_dated_reference_pilot.py",
+      "bytes": 14422,
+      "sha256": "50edd168c871e28edfe8605587a7b7befc769ffe51d69bdd7938ae7de6af336e",
+      "source": "Reproducibility.zip:postprocessing/render_dated_reference_pilot.py"
+    },
+    {
+      "file": "code/postprocessing/screen_water_colors.py",
+      "bytes": 13107,
+      "sha256": "38a82512dfb84b8555c1369f5f9ee1f6107f929803a368b45590ff8be2c26dd9",
+      "source": "Reproducibility.zip:postprocessing/screen_water_colors.py"
+    },
+    {
+      "file": "code/requirements-dev.txt",
+      "bytes": 34,
+      "sha256": "59a0239e084f59949168a18fe9c3744f8e951fee6941f0e499a5be22428840f4",
+      "source": "Reproducibility.zip:requirements-dev.txt"
+    },
+    {
+      "file": "code/requirements.txt",
+      "bytes": 125,
+      "sha256": "a03548e3547026b6846002fea3ac59a8e49b6eae4f7510e4e966558a90c2f7e3",
+      "source": "Reproducibility.zip:requirements.txt"
+    },
+    {
+      "file": "code/research_pipeline/__init__.py",
+      "bytes": 88,
+      "sha256": "c56daf8a51b86d3056f946a1a682a81adf8665aaced02974c2860dbaa6d0e651",
+      "source": "Reproducibility.zip:research_pipeline/__init__.py"
+    },
+    {
+      "file": "code/research_pipeline/baseline.py",
+      "bytes": 4413,
+      "sha256": "3e74215d8caeaeb217ba160822ac1ad5bb4474dc5c39ef81322aaab2840fca51",
+      "source": "Reproducibility.zip:research_pipeline/baseline.py"
+    },
+    {
+      "file": "code/research_pipeline/common.py",
+      "bytes": 8967,
+      "sha256": "a622112a5adfc86bd03d3d010b8194c1601a344ea13523e048f89eb1f9e18796",
+      "source": "Reproducibility.zip:research_pipeline/common.py"
+    },
+    {
+      "file": "code/research_pipeline/config.json",
+      "bytes": 1260,
+      "sha256": "44490ebe535b3246dd20045b2eb41b0faeeac81a08619ca64705fd924f3624b9",
+      "source": "Reproducibility.zip:research_pipeline/config.json"
+    },
+    {
+      "file": "code/research_pipeline/drought.py",
+      "bytes": 9101,
+      "sha256": "a1efb62a2e547e057b0da640a4d01c689c3cbafd231846486ef444ab9e5a97b1",
+      "source": "Reproducibility.zip:research_pipeline/drought.py"
+    },
+    {
+      "file": "code/research_pipeline/models.py",
+      "bytes": 16229,
+      "sha256": "41e969b426dfe14bca4adca65ec84f89df0be5516547bda8fc671bcee5273735",
+      "source": "Reproducibility.zip:research_pipeline/models.py"
+    },
+    {
+      "file": "code/research_pipeline/run.py",
+      "bytes": 13079,
+      "sha256": "89b79894242ef5c3d510cae3ac8d574a17875e394ed62400183b13ca44ddaca3",
+      "source": "Reproducibility.zip:research_pipeline/run.py"
+    },
+    {
+      "file": "code/research_pipeline/spatial.py",
+      "bytes": 14333,
+      "sha256": "fee6cf9228eb42e5d612fb3ba97171d4908f10aacd106cfce40f7a0d505b0e81",
+      "source": "Reproducibility.zip:research_pipeline/spatial.py"
+    },
+    {
+      "file": "code/research_pipeline/validation.py",
+      "bytes": 6574,
+      "sha256": "ca9835cb6d292e5c3d62c5bb9572048a5d55c48c2d9feda95a1c7ccd5cb5074e",
+      "source": "Reproducibility.zip:research_pipeline/validation.py"
+    },
+    {
+      "file": "code/tests/test_baseline.py",
+      "bytes": 4058,
+      "sha256": "a96a72aa4a805ab0a511678579dc8a6dd4410d9de18c9b5ebf327757ab4613e3",
+      "source": "Reproducibility.zip:tests/test_baseline.py"
+    },
+    {
+      "file": "code/tests/test_dated_reference_ranges.py",
+      "bytes": 2916,
+      "sha256": "330f0cf73a550558f6e21943b4303afab0c1a8766b06ef9da846cbf591daddd2",
+      "source": "Reproducibility.zip:tests/test_dated_reference_ranges.py"
+    },
+    {
+      "file": "code/tests/test_dated_water_core.cjs",
+      "bytes": 3261,
+      "sha256": "d571ffa482edbf69522e0a3b5e218df4cdb2747c0c9e0e76ae8c28493d8ac0a1",
+      "source": "Reproducibility.zip:tests/test_dated_water_core.cjs"
+    },
+    {
+      "file": "code/tests/test_models.py",
+      "bytes": 2764,
+      "sha256": "b7d8ef1504bc5082230def6a769f89b507566df8e15cd0b86f487610a0cae82f",
+      "source": "Reproducibility.zip:tests/test_models.py"
+    },
+    {
+      "file": "code/tests/test_recovery.py",
+      "bytes": 5436,
+      "sha256": "1722fb9dcf8e8edbd92f612308312c1c35ccb089e9b5030ad7c2654c3b9c89bd",
+      "source": "Reproducibility.zip:tests/test_recovery.py"
+    },
+    {
+      "file": "code/tests/test_statistics.py",
+      "bytes": 5918,
+      "sha256": "c6d0afc9ee1ae22d082ea611a07bc2b75624c7181fcd893e3efd77459526d617",
+      "source": "Reproducibility.zip:tests/test_statistics.py"
+    },
+    {
+      "file": "code/verify_water_labels.py",
+      "bytes": 32352,
+      "sha256": "27d203c9a858c7bc00feb85eb64dfe7489b826feaaf0edd00c0bd78cd972f6c3",
+      "source": "verify_water_labels.py"
+    },
+    {
+      "file": "code/earth_engine/download_core_data.js",
+      "bytes": 9233,
+      "sha256": "242fa57901199b55fdd9e219b1a695c2156beed43fb4ffb77f31d75c9bf20763",
+      "source": "dataset-download\\download_core_data.js"
+    },
+    {
+      "file": "code/earth_engine/download_missing_2022_2024.js",
+      "bytes": 8968,
+      "sha256": "5622bb02a71d4d6364c298906835696bd757bf6434e6f30dda8d80b3ce60f409",
+      "source": "dataset-download\\download_missing_2022_2024.js"
+    },
+    {
+      "file": "code/earth_engine/download_climate_baseline_1981_1999.js",
+      "bytes": 3566,
+      "sha256": "67eeb209be72217e576e7d63a14b72e1985f82bb0cca3fdee672e839d83e747f",
+      "source": "dataset-download\\download_climate_baseline_1981_1999.js"
+    },
+    {
+      "file": "code/earth_engine/download_automatic_water.js",
+      "bytes": 16826,
+      "sha256": "521ac929a9715fde358ea8931701d0f9179eb0020c8ed721fb9bd269b46b2dbb",
+      "source": "automatic_water\\download_automatic_water.js"
+    },
+    {
+      "file": "code/earth_engine/download_dw_sensitivity_2015_2024.js",
+      "bytes": 84373,
+      "sha256": "d6e4defb9e5dc74884af3331c518e2affda15f267728a3f897e141bf256fdfa2",
+      "source": "automatic_water\\download_dw_sensitivity_2015_2024.js"
+    },
+    {
+      "file": "code/figure_sources/prepare_artifacts.py",
+      "bytes": 12748,
+      "sha256": "56b77ec55bd2d9de333c94f9c03441fb41e2833cb96bba5efa7b42306b134146",
+      "source": "Frontiers_Earth_Science_20261016\\prepare_artifacts.py"
+    },
+    {
+      "file": "code/figure_sources/redraw_promoted.py",
+      "bytes": 5021,
+      "sha256": "765c1d9b69cc40bf241a2cd32667998c0e9e055ad9888e103f25cdc50b88260f",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\redraw_promoted.py"
+    },
+    {
+      "file": "code/figure_sources/redesign_figure1.py",
+      "bytes": 15226,
+      "sha256": "c80f1dbc8954c8102ee196b73884c1da537fd56463b2b0fad0c88a08047124f6",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\redesign_figure1.py"
+    },
+    {
+      "file": "data/tables/actual_dated_observations.csv",
+      "bytes": 427523,
+      "sha256": "b01d61c4cc61aef27a5c46b1e4777633500ad46cc0f9d0203e9eae6dfa055602",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\actual_dated_observations.csv"
+    },
+    {
+      "file": "data/tables/annual_climate_model_coefficients.csv",
+      "bytes": 12425,
+      "sha256": "52e8d7463df94cfba231561337a6f125791e91375d9add0907e7050c71c97f76",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\annual_climate_model_coefficients.csv"
+    },
+    {
+      "file": "data/tables/annual_common_support_water.csv",
+      "bytes": 11833,
+      "sha256": "06a6d96dd1de50cc5a3669bf9c2a79b5747ce8a37aff028c508b5829d4e49c4c",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\annual_common_support_water.csv"
+    },
+    {
+      "file": "data/tables/annual_observation_effort_climate_sensitivity.csv",
+      "bytes": 6947,
+      "sha256": "8122a83c354d062ed644d4521dddc12ef53b2f0f3c57da37248102af9f74a026",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\annual_observation_effort_climate_sensitivity.csv"
+    },
+    {
+      "file": "data/tables/annual_observation_quality.csv",
+      "bytes": 13985,
+      "sha256": "55c2a8af0649da06537326d27e7502c5634a958c5caa05a55ab4fb1fedbd8c7d",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\annual_observation_quality.csv"
+    },
+    {
+      "file": "data/tables/annual_predictive_validation_summary.csv",
+      "bytes": 627,
+      "sha256": "f035912e1402e0c538ac0fa5b5870722514f8ebcd950ef536523c943776be7ab",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\annual_predictive_validation_summary.csv"
+    },
+    {
+      "file": "data/tables/annual_trend_results.csv",
+      "bytes": 4718,
+      "sha256": "c78120f719b943c248de616b135ad41763a7862896541217b9471d526e7772bd",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\annual_trend_results.csv"
+    },
+    {
+      "file": "data/tables/common_support_quality.csv",
+      "bytes": 5128,
+      "sha256": "088ba9e182a6c0ed02f40e41d578811c163fd8bee288f55653751f8f36c98026",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\common_support_quality.csv"
+    },
+    {
+      "file": "data/tables/dw_threshold_support_and_agreement.csv",
+      "bytes": 5861,
+      "sha256": "10a51d7eddd0306f8acea4ef9fb0f6d492671261b8c261402b6ceca57541afa8",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\dw_threshold_support_and_agreement.csv"
+    },
+    {
+      "file": "data/tables/exploratory_climate_envelope_models.csv",
+      "bytes": 5977,
+      "sha256": "ad7239a34bc2457ee2241b4283fb19db135088b738cc7df7b98da1e7d041f9a8",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\exploratory_climate_envelope_models.csv"
+    },
+    {
+      "file": "data/tables/exploratory_recovery_support_sensitivity.csv",
+      "bytes": 118534,
+      "sha256": "9af338777745136868a916d2db1e742ed708f0998e8f4fb6e6fe143ed1893eda",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\exploratory_recovery_support_sensitivity.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/annual_calendar_cross_validation.csv",
+      "bytes": 2417,
+      "sha256": "115aa45f54dd06840d5e712e4a2334f63721b289b79ffe24f86fd1cdf2ed6b64",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\annual_calendar_cross_validation.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/annual_class_climate_adjusted.csv",
+      "bytes": 54546,
+      "sha256": "3615619c604212ffab4c4a7e25619a239fd9cf35f89cd06ef9ac947dc80e8454",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\annual_class_climate_adjusted.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/annual_climate_model_status.csv",
+      "bytes": 2415,
+      "sha256": "01d6ef09db47b73449a42c38c3c2002e283b5831e441f7d874457c63296496af",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\annual_climate_model_status.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/annual_transition_areas.csv",
+      "bytes": 1402,
+      "sha256": "a5698226e56777e5210432046355e7a4bdf5f7b28a2bffc508e8c42e157e1ff9",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\annual_transition_areas.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/calendar_block_cross_validation.csv",
+      "bytes": 8466,
+      "sha256": "242ef6870fe340ed89be14ce5ddb1bc1b8ddface3194421ed41ce44a7b51438c",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\calendar_block_cross_validation.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/climate_adjusted_water.csv",
+      "bytes": 606909,
+      "sha256": "0986d5a8e9b79887b9ec5815806fe0dff2fd64a09300f3e961e947a911ff8d9c",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\climate_adjusted_water.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/drought_recovery_events.csv",
+      "bytes": 26541,
+      "sha256": "b911b9858de4f66dd1bf9fc622aea7bc5bf7765b8e7a1a9405231bf87d67e923",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\drought_recovery_events.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/drought_recovery_identifiability.csv",
+      "bytes": 1245,
+      "sha256": "ea516c0724d3e64154ad211bd239d37fd00c701e0e4a1a5705dbef0415b3b1a0",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\drought_recovery_identifiability.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/monthly_common_support_water.csv",
+      "bytes": 1248465,
+      "sha256": "3bf8e7894490dafee3f8059ae0f8b912b49d8a46edb961d5831e15b575a191b9",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\monthly_common_support_water.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/monthly_model_coefficients.csv",
+      "bytes": 46354,
+      "sha256": "243de0568f8faea7d7a602581b88729278da16f4a7e4617ea106f788feac7359",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\monthly_model_coefficients.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/monthly_model_status.csv",
+      "bytes": 4758,
+      "sha256": "bddda148f2f141266ce6ba2c4458812b3e330965d93c071e9d14d8a24ba0dfe2",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\monthly_model_status.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/recovery_calendar_reference_sample_sensitivity.csv",
+      "bytes": 101,
+      "sha256": "6e9491fdafcc5b845fdc90f46b03b31638469e9758edf6b20ba5afe6e493bee6",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\recovery_calendar_reference_sample_sensitivity.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/recovery_coverage_sensitivity_status.csv",
+      "bytes": 221,
+      "sha256": "b4617da832977b7103e090acf6145fd1dce14e1849ba5f6c56eae53dadcda8a2",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\recovery_coverage_sensitivity_status.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/recovery_failure_components.csv",
+      "bytes": 17984,
+      "sha256": "19a9df9937917715aa2038b4df3a59bd1fdff09a34e00fb9e573cfcedcfba67d",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\recovery_failure_components.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/spi_calibration_parameters.csv",
+      "bytes": 6414,
+      "sha256": "e13503db27be892a5d059adb943855d45007c791692bf79de514ac7509aa2f16",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\spi_calibration_parameters.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/annual_jrc/spi_indices.csv",
+      "bytes": 119019,
+      "sha256": "da9b11b7781e749ba8407036c5c3cdbe431dc62a8baf6bed0b621b1cbde905b4",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\annual_jrc\\spi_indices.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/manifest.json",
+      "bytes": 7265,
+      "sha256": "72454d61638802e07d8f8e6780a08e5fc1c23d1538fd86ec63cb6d1dc9e435bd",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\manifest.json"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/radar/downloaded_sensitivity_settings.csv",
+      "bytes": 949,
+      "sha256": "d6c7bc9b50cb34d63f4801eddec768f1a9b28093127abcd6e516955b0e7f00cf",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\radar\\downloaded_sensitivity_settings.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/radar/dw_monthly_threshold_evidence.csv",
+      "bytes": 1355623,
+      "sha256": "0612766fe202161977a76d84854ec7bc6a5bd90b234b71ca0c4f934d2e0ec8fd",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\radar\\dw_monthly_threshold_evidence.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/radar/spi_calibration_parameters.csv",
+      "bytes": 6414,
+      "sha256": "3d88d7156b6a2641e7102d1d5492c324e2647f89331ae90442eebcd86ce0ede6",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\radar\\spi_calibration_parameters.csv"
+    },
+    {
+      "file": "data/tables/Extended_Diagnostics/radar/spi_indices.csv",
+      "bytes": 101608,
+      "sha256": "45ec4cd5c49ac76c39b6bdec740d19d359ac50aa987004243e992a9eef0f1998",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\Extended_Diagnostics\\radar\\spi_indices.csv"
+    },
+    {
+      "file": "data/tables/monthly_predictive_validation_summary.csv",
+      "bytes": 950,
+      "sha256": "6a23d005e37910ed9031731d6a603ce68fb572001fa3a52faa32620add5404b6",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\monthly_predictive_validation_summary.csv"
+    },
+    {
+      "file": "data/tables/pixel_month_comparisons.csv",
+      "bytes": 97743,
+      "sha256": "71e25d03680f5224f31233c705da21ee7ff6c393d487ccc0c3ef05487f3c3d3b",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\pixel_month_comparisons.csv"
+    },
+    {
+      "file": "data/tables/primary_endpoint_changes.csv",
+      "bytes": 1166,
+      "sha256": "e61f33bca0381be0be76a6d95211bbbb127db9ca585eb96b7db118b5303833b4",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\primary_endpoint_changes.csv"
+    },
+    {
+      "file": "data/tables/proxy_agreement_and_unknown_ranges.csv",
+      "bytes": 49500,
+      "sha256": "c7a4616214542c91fc3402b68a5e6db3624642ca65b726e300e077543101465a",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\proxy_agreement_and_unknown_ranges.csv"
+    },
+    {
+      "file": "data/tables/radar_automated_recovery_intervals.csv",
+      "bytes": 11606,
+      "sha256": "c89f5dc98dc8458326aea0f4b65ccb2a4639311038b6ff46e669c695f9e8e4e6",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\radar_automated_recovery_intervals.csv"
+    },
+    {
+      "file": "data/tables/radar_seasonal_reference_support.csv",
+      "bytes": 10329,
+      "sha256": "9960ce3f5e16ef51bcf65fb7dd6769e2283c6e2ad71e7a432b7356971632d448",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\radar_seasonal_reference_support.csv"
+    },
+    {
+      "file": "data/tables/reference_outcome_accounting.csv",
+      "bytes": 370,
+      "sha256": "8c06c3e319dedd6b030442a87469a4c0e745ca7d308a612ea513c34ab86e2f09",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\reference_outcome_accounting.csv"
+    },
+    {
+      "file": "data/tables/table_manifest.json",
+      "bytes": 2921,
+      "sha256": "94e06f83ad50483f8115dd663319eb69ce5a2d5472ecf4f157fabd2b99941a1f",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Supplementary_Data\\table_manifest.json"
+    },
+    {
+      "file": "data/boundaries/study_area.geojson",
+      "bytes": 2064883,
+      "sha256": "10699eaea184d4c194da746e671feec2a2c715c477f593b0118b17332f736f18",
+      "source": "NW_Bangladesh_2000_2024\\verified_study_area.geojson"
+    },
+    {
+      "file": "figures/Figure_01_study_area_and_design.png",
+      "bytes": 535524,
+      "sha256": "50a4065fdcd9a5813fb259f4cb92766fe7ba746c9a21669945fec6571a11aac7",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_01_study_area_and_design.png"
+    },
+    {
+      "file": "figures/Figure_01_study_area_and_design.tiff",
+      "bytes": 621610,
+      "sha256": "bf4c36f347822076aa0ea24cd87fecca5f6ab5cc3a00ce226fdced89eb44c88e",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_01_study_area_and_design.tiff"
+    },
+    {
+      "file": "figures/Figure_02_annual_classes_and_observations.png",
+      "bytes": 435960,
+      "sha256": "bb3f4eb90d5d8a02e156b7ed30ccee5db1956220f2d079f1cc5f04d649d00d16",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_02_annual_classes_and_observations.png"
+    },
+    {
+      "file": "figures/Figure_02_annual_classes_and_observations.tiff",
+      "bytes": 488520,
+      "sha256": "79a7dc5e4cfe709af38f31d5fde6c320056419119ee5a8719470e288afb5b9a5",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_02_annual_classes_and_observations.tiff"
+    },
+    {
+      "file": "figures/Figure_03_annual_08_annual_transition_primary_pre2022.png",
+      "bytes": 414776,
+      "sha256": "9b579104631b00f3b604f12751751294dce7c3d902642a68e8985e580050698f",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_03_annual_08_annual_transition_primary_pre2022.png"
+    },
+    {
+      "file": "figures/Figure_03_annual_08_annual_transition_primary_pre2022.tiff",
+      "bytes": 417280,
+      "sha256": "3246847f25deef79f0a3c4bda2549e354bad41a136ae09a282da7c5c3adf9bae",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_03_annual_08_annual_transition_primary_pre2022.tiff"
+    },
+    {
+      "file": "figures/Figure_04_climate_observation_sensitivity.png",
+      "bytes": 100555,
+      "sha256": "b6bc455486df2a7edf1f9ccdd99dc5cc3a89910b769cd9930acacfbfe19c972a",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_04_climate_observation_sensitivity.png"
+    },
+    {
+      "file": "figures/Figure_04_climate_observation_sensitivity.tiff",
+      "bytes": 174700,
+      "sha256": "2de470de2224261cd0a34d1c03d219a27cddf1d3cc754b47d6ae30d87fa4052c",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_04_climate_observation_sensitivity.tiff"
+    },
+    {
+      "file": "figures/Figure_05_annual_02_annual_fixed_climate_expectations.png",
+      "bytes": 510033,
+      "sha256": "0d4df836a8a072503965023337c34d196ce9a62ff0e8b5ea5333f1073fc76aef",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_05_annual_02_annual_fixed_climate_expectations.png"
+    },
+    {
+      "file": "figures/Figure_05_annual_02_annual_fixed_climate_expectations.tiff",
+      "bytes": 611278,
+      "sha256": "76a8ac477ae24f9a81c2e0241caeaec519021264a4fb1506170a54476543d236",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_05_annual_02_annual_fixed_climate_expectations.tiff"
+    },
+    {
+      "file": "figures/Figure_06_agreement_and_retained_support.png",
+      "bytes": 159109,
+      "sha256": "cf9455635a9ba5c9a1cc28a08c16124641e109c21ee24765957fc6818177e8d8",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_06_agreement_and_retained_support.png"
+    },
+    {
+      "file": "figures/Figure_06_agreement_and_retained_support.tiff",
+      "bytes": 224668,
+      "sha256": "6968db7504296f16f709d277ec713ff358c6b17c3a8c0e3abeab6588ef894ca6",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_06_agreement_and_retained_support.tiff"
+    },
+    {
+      "file": "figures/Figure_07_radar_01_dw_support_and_envelopes.png",
+      "bytes": 480408,
+      "sha256": "4fe3b02c3b6c09991095ea9ab7a9554a3d79daf9cf618b5703538cef1811e865",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_07_radar_01_dw_support_and_envelopes.png"
+    },
+    {
+      "file": "figures/Figure_07_radar_01_dw_support_and_envelopes.tiff",
+      "bytes": 759532,
+      "sha256": "e32abd325d7dfc786a8730c04b5e929292287802362a6469fa7479e98f85f727",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_07_radar_01_dw_support_and_envelopes.tiff"
+    },
+    {
+      "file": "figures/Figure_08_radar_03_climate_envelope_models.png",
+      "bytes": 234135,
+      "sha256": "e7b2716137348e16da610e1066fba0ca7a5fc9559fdcd99e18cbd1fb94187b50",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_08_radar_03_climate_envelope_models.png"
+    },
+    {
+      "file": "figures/Figure_08_radar_03_climate_envelope_models.tiff",
+      "bytes": 347834,
+      "sha256": "67160370f6843139e476675001688887e19f4e038ef788e2ef52911d5a72671c",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_08_radar_03_climate_envelope_models.tiff"
+    },
+    {
+      "file": "figures/Figure_09_proxy_evidence_and_unknowns.png",
+      "bytes": 144828,
+      "sha256": "7f4cf722e02a23a50c5e264298d92100f2da7470aa52898ac26f99062d32d660",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_09_proxy_evidence_and_unknowns.png"
+    },
+    {
+      "file": "figures/Figure_09_proxy_evidence_and_unknowns.tiff",
+      "bytes": 203610,
+      "sha256": "b63caec4f9755f1365ccc3cb3a4eecbf1a0b0383ee9b93cbd6a90956358f6eb4",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_09_proxy_evidence_and_unknowns.tiff"
+    },
+    {
+      "file": "figures/Figure_10_annual_04_spi3_drought_history.png",
+      "bytes": 410148,
+      "sha256": "680c837c3f0494e2d58a46c726f1051b6d9ef79d0f856f873ddb00ca61d7c68d",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_10_annual_04_spi3_drought_history.png"
+    },
+    {
+      "file": "figures/Figure_10_annual_04_spi3_drought_history.tiff",
+      "bytes": 443308,
+      "sha256": "9de0db6b27d1f242e62a638d9e3af18adbb7e5d92ed08280d7ad8999c931f1b9",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_10_annual_04_spi3_drought_history.tiff"
+    },
+    {
+      "file": "figures/Figure_11_annual_05_monthly_recovery_observation_gaps.png",
+      "bytes": 228549,
+      "sha256": "07b31a8041405b0ac241aad6ea1af9992e575b32cb3e4aa242e4b7accb848003",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_11_annual_05_monthly_recovery_observation_gaps.png"
+    },
+    {
+      "file": "figures/Figure_11_annual_05_monthly_recovery_observation_gaps.tiff",
+      "bytes": 371954,
+      "sha256": "d50b3e4c82fc24263e1238ec869b7a1e0f4fd960c15f2fbe24c506df810627e9",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_11_annual_05_monthly_recovery_observation_gaps.tiff"
+    },
+    {
+      "file": "figures/Figure_12_recovery_support_gaps.png",
+      "bytes": 143933,
+      "sha256": "643a097f0d4cc399bf1042ac3ba9e98d66bf3b359f3abba25c48ba2a2f03365d",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_12_recovery_support_gaps.png"
+    },
+    {
+      "file": "figures/Figure_12_recovery_support_gaps.tiff",
+      "bytes": 210298,
+      "sha256": "2892d67f935dd67b2876b7a5f183985a5edf208ab77cfa18036d66adba7d41e9",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Figures\\Figure_12_recovery_support_gaps.tiff"
+    },
+    {
+      "file": "manuscript/manuscript.docx",
+      "bytes": 3864603,
+      "sha256": "fc14207eefd080dd7baa2456ed712d7d9c324f7fda85d4b86547dd011c08eb9b",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\manuscript.docx"
+    },
+    {
+      "file": "manuscript/manuscript.pdf",
+      "bytes": 2611070,
+      "sha256": "f5eacb0caa769f540b30219527ed9ccce68c34353fb4be008e612dca95d29c5e",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\manuscript.pdf"
+    },
+    {
+      "file": "manuscript/supplementary_methods.docx",
+      "bytes": 25904,
+      "sha256": "273eb8bc81d0c8d1847001eddf952912ece1f2a5900316ebb436ebd89a9286c9",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\supplementary_methods.docx"
+    },
+    {
+      "file": "manuscript/supplementary_methods.pdf",
+      "bytes": 94686,
+      "sha256": "9c07dc38e2f43f83779a995f8c0317fbc8e14e9aac8ea6782bac9bec473a6d17",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\supplementary_methods.pdf"
+    },
+    {
+      "file": "provenance/RESULTS.json",
+      "bytes": 52479,
+      "sha256": "ce582db740cb4bc3d50dae4fc66a2a9f9ef1f84d5354c63ef9ce4a279355b3c6",
+      "source": "Reproducibility.zip:code_only_final_20261016/analysis_v3_user_label144/RESULTS.json"
+    },
+    {
+      "file": "provenance/RUN_MANIFEST.json",
+      "bytes": 2201,
+      "sha256": "01376aa5fa888ffa4f0f3609ddf56ad2345dfed4ca28d88a0406c0fff9e19004",
+      "source": "Reproducibility.zip:code_only_final_20261016/analysis_v3_user_label144/RUN_MANIFEST.json"
+    },
+    {
+      "file": "provenance/STATUS.json",
+      "bytes": 198,
+      "sha256": "2e7812acc44f38b947b0c5ec92f770f385ed3c5c8e28786c1ef2616e301ef114",
+      "source": "Reproducibility.zip:code_only_final_20261016/analysis_v3_user_label144/STATUS.json"
+    },
+    {
+      "file": "provenance/verified_source_hashes.json",
+      "bytes": 2446579,
+      "sha256": "4171ab5556a058be812bfbb5470c8801647571691dac769abc1b243273161db5",
+      "source": "Reproducibility.zip:code_only_final_20261016/analysis_v3_user_label144/verified_source_hashes.json"
+    },
+    {
+      "file": "provenance/protocol.json",
+      "bytes": 3701,
+      "sha256": "25c700c9b3e7296543e5838ad2ca9f05edfc8ddfdaad30f40bec00b3eced3ca6",
+      "source": "Reproducibility.zip:code_only_final_20261016/protocol.json"
+    },
+    {
+      "file": "provenance/LATEST_LABEL_REVISION.json",
+      "bytes": 2092,
+      "sha256": "5087ebc0b63218e8e31fc68d2a7ee8d74e8fefddc1b5ff69464c58f568800ef4",
+      "source": "Reproducibility.zip:code_only_final_20261016/LATEST_LABEL_REVISION.json"
+    },
+    {
+      "file": "provenance/Reproducibility.zip",
+      "bytes": 5193199,
+      "sha256": "575bfcef1d19af7478307d6da8e9200c8736d1a37c8698b6e0b687a1958ff6e7",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\Reproducibility.zip"
+    },
+    {
+      "file": "provenance/figure_manifest.json",
+      "bytes": 14108,
+      "sha256": "98e1973a5827de1851cbf2e1b29cfbda04db2f58dd2c1c23ca0d5a779d902b5f",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\setup\\inline_figure_manifest.json"
+    },
+    {
+      "file": "provenance/figure_1_cartography.json",
+      "bytes": 3421,
+      "sha256": "bc26f55801972b1ab3465e4a9e7152d965899e8c34820b7fc4671e1953887e32",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\setup\\figure1_redesign_provenance.json"
+    },
+    {
+      "file": "provenance/document_audit.json",
+      "bytes": 22420,
+      "sha256": "3be6e78baf62a5a6492bd63f3eff671663f036529746b80755b1fd74ba3ffe75",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\reviews\\FINAL_AUDIT.json"
+    },
+    {
+      "file": "provenance/references.json",
+      "bytes": 20794,
+      "sha256": "d67b358ad58a6aa866a1c7dc2fff874951b13819f8e415cd6e7b0bb00d7dfb90",
+      "source": "Frontiers_Earth_Science_Inline_20261016\\references\\references.json"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2944,
+      "sha256": "9220318ae3c0c513bedfeadad408305623e700544bfd86c8022dba24a4466187",
+      "source": "Repository documentation"
+    },
+    {
+      "file": "docs/REPRODUCING.md",
+      "bytes": 3440,
+      "sha256": "6f59001a5c1808433b6e4270609d32cc8f7bdde581ba088eb18cade04b9b3fc4",
+      "source": "Repository documentation"
+    },
+    {
+      "file": "docs/DATA_SOURCES.md",
+      "bytes": 2092,
+      "sha256": "5a0836579184bea62e12d33259d1340c7a7daeacef78e5dabf1a3a63effc8b5a",
+      "source": "Repository documentation"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 149,
+      "sha256": "06127425edacc57dd041f3273accdfed38c5ceafa890cbc1c64021d4301f2edb",
+      "source": "Repository documentation"
+    },
+    {
+      "file": ".gitattributes",
+      "bytes": 77,
+      "sha256": "80811a0ed224753d8a3e53bcb70bca099a07175f717cc44cfa6a4b299dc96030",
+      "source": "Repository documentation"
+    },
+    {
+      "file": "CITATION.cff",
+      "bytes": 823,
+      "sha256": "43aaf97e107616aaa205203a57e2a33c66ccf07d59e085604bf0e70a993e2edd",
+      "source": "Repository documentation"
+    }
+  ]
+}

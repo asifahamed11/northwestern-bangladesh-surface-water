@@ -1,5 +1,0 @@
-# Final code-only research package
-
-Start with FINAL_RESULT_BN.md and PAPER_HANDOFF.md. Active numerical run: analysis_v3_user_label144/. Earlier analysis directories are preserved historical versions; only the named active run supplies the current human-label summary. Original data and prior labels remain unchanged. This is ready to begin writing within a restricted scope, not a publication or independent-accuracy certificate.
-
-To reproduce in the original workspace, run the existing scientific Python interpreter on postprocessing/finalize_code_only_research.py with --out code_only_final_20261016/<new-run-name> --csv dated_water_labels_corrected_sample144_20261016.csv --backup dated_water_backup_corrected_sample144_20261016.json. The command refuses to overwrite an existing run. Requires original datasets/evidence folders; they are not downloaded again or included in the small results archive. For software checks, use the already installed project Python: python -m pytest tests -q. New code, original dependency metadata and tests accompany the archive.
