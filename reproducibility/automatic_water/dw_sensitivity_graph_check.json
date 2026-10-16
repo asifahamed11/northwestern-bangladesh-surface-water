@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "official_sdk_expression_serialization": true,
+  "planned_csv_exports": 12,
+  "planned_monthly_rows": 1440,
+  "threshold_candidates": 4,
+  "retained_scene_ids": 1539,
+  "source_selection_metadata_only": true,
+  "source_snapshot_pinned": true,
+  "remote_evaluations": 0,
+  "submitted_tasks": 0,
+  "authenticated_full_exports_completed": false,
+  "note": "Local graph check only; all new remote computations remain unverified."
+}

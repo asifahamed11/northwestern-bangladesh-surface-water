@@ -1,0 +1,14 @@
+{
+  "actual_human_date_answers": 694,
+  "human_answer_counts": {
+    "1": 430,
+    "0": 236,
+    "UNCERTAIN": 28
+  },
+  "selected_human_review_points": 245,
+  "scene_rule_human_paired_binary_dates": 212,
+  "paired_points": 136,
+  "paired_matching_dates": 212,
+  "paired_date_matching_fraction": 1.0,
+  "scope": "Descriptive comparison on model-selected difficult dates only. Not representative accuracy; repeated dates are dependent."
+}

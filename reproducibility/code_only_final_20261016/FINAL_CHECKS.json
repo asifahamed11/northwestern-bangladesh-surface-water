@@ -1,0 +1,40 @@
+{
+  "status": "PASS_FOR_RESTRICTED_COMPUTATIONAL_FINALIZATION_AND_WRITING_HANDOFF",
+  "checked_at": "2026-10-15T19:06:39.584762+00:00",
+  "source_files_hash_verified": 9393,
+  "all720_samples_retained": true,
+  "actual_dated_observations": 3022,
+  "original_human_dates_completed": 694,
+  "weighted_ratios_recomputed_with_math_fsum": true,
+  "all_unknowns_retained_in_denominators": true,
+  "actual_app_csv_backup_roundtrip_match": true,
+  "all_four_thresholds_and_nine_recovery_settings_retained": true,
+  "python_tests_passed": 149,
+  "node_tests_passed": 9,
+  "figure_count": 12,
+  "figure_review": {
+    "reviewed_at": "2026-10-15T19:06:39.107464+00:00",
+    "contact_sheet_figures_reviewed": 12,
+    "new_figure_full_size_reviewed": true,
+    "additional_full_size_figures": [
+      "radar_03_climate_envelope_models.png",
+      "annual_03_climate_and_observation_effort_sensitivity.png"
+    ],
+    "new_figure_path": "analysis_v3_user_label144/Figures/new_reference_support_and_agreement.png",
+    "new_figure_sha256": "e92505a0883309c43cb82ec80472e4df62c72e399c16ee9979fd6009684acf44",
+    "findings": "New active figure inspected full size: 194 consistent assisted points, 35 temporally varying, and all 720 retained. Layout readable with 100-percent padding. Other 11 carried-over figures match previous reviewed versions.",
+    "self_review": true,
+    "target_journal_compliance_assessed": false
+  },
+  "result_audit_structural_validator_passed": true,
+  "bounded_method_source_audit_passed": true,
+  "old_inputs_and_labels_unchanged": true,
+  "new_human_labels_created": 0,
+  "new_manual_review_requested": false,
+  "independent_accuracy_complete": false,
+  "recovery_duration_resolved": false,
+  "manuscript_writing_ready_within_scope": true,
+  "scientific_publication_ready": false,
+  "self_review": true,
+  "automated_agreement_not_physical_truth": true
+}

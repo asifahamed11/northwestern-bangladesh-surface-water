@@ -1,0 +1,34 @@
+{
+  "title": "Sensitivity to Data Choice for Index-Based Flood Insurance",
+  "authors": [
+    "Alex Saunders",
+    "Beth Tellman",
+    "Elinor Benami",
+    "Kevin Anchukaitis",
+    "Sazzad Hossain",
+    "Andrew Bennett",
+    "A. K. M. Saiful Islam",
+    "Jonathan Giezendanner"
+  ],
+  "published": "2025-09-11",
+  "venue": "Earth's Future",
+  "publication_type": "journal-article",
+  "verification_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EF005966",
+  "doi": "10.1029/2025EF005966",
+  "crossref_metadata_verified": false,
+  "primary_metadata_verified": true,
+  "claim_support_verified": false,
+  "provenance": {
+    "retrieved_at": "2026-10-15T18:42:40.085329+00:00",
+    "method": "Primary publisher / author-institution metadata viewed with public web tool; switched after Crossref HTTP 429"
+  },
+  "metadata_verification_limit": "Exact title, author list, identifier and date checked on primary page; Crossref request was rate-limited, not retried.",
+  "source_id": "SAUNDERS_2025",
+  "canonical_url": "https://doi.org/10.1029/2025EF005966",
+  "reviewed_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025EF005966",
+  "review_level": "Relevant publisher full-text sections reviewed",
+  "claim_locator": "Abstract; study data in section 2; sections 5.1.1-5.1.3 on data choice and divergence in Bangladesh flood-insurance indices",
+  "support_reviewed": true,
+  "screening_decision": "Included for bounded methods context only",
+  "full_article_review_claimed": false
+}

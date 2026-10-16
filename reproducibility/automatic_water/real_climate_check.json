@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "real_climate_rows": 1200,
+  "actual_baseline_rows": 912,
+  "actual_spi_rows": 2400,
+  "spi_matches_previous_real_analysis": true,
+  "new_grid_matches_existing_export_alignment": true,
+  "new_water_observations_used": 0,
+  "independent_labels_generated": 0,
+  "note": "Actual climate/SPI component verification only; new automatic-water exports are still required."
+}

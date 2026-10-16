@@ -1,0 +1,16 @@
+{
+  "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+  "authors": [
+    "Timothy Kassis",
+    "Vinayak Agarwal",
+    "Yuhuan He",
+    "Darshil Patel",
+    "Aubrey M. Brueckner"
+  ],
+  "year": 2026,
+  "doi": "10.48550/arXiv.2609.00065",
+  "url": "https://arxiv.org/abs/2609.00065",
+  "type": "preprint",
+  "retrieval_and_verification": "Current arXiv abstract/metadata page opened in this turn. Latest displayed submission 2026-09-02. No full-text review. No publisher/journal reference displayed.",
+  "role": "Software/procedural-skill acknowledgement only, not evidence for the numerical sample-size result."
+}

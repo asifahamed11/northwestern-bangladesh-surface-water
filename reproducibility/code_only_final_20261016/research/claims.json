@@ -1,0 +1,40 @@
+[
+  {
+    "id": "REFERENCE_NOT_PROXY_AGREEMENT",
+    "source_ids": [
+      "OLOFSSON_2014",
+      "STEHMAN_FOODY_2019"
+    ],
+    "locator": "Olofsson sections 3.2-3.5 and 5.1; Stehman/Foody publisher abstract only",
+    "claim": "A valid reference response design and probability sampling are distinct from inter-product agreement.",
+    "support_reviewed": true
+  },
+  {
+    "id": "OPTICAL_INPUT_DEPENDENCE",
+    "source_ids": [
+      "BROWN_2022",
+      "DW_CATALOG_OFFICIAL"
+    ],
+    "locator": "Brown Methods, training/evaluation annotation description; official catalogue Description",
+    "claim": "Dynamic World is derived from Sentinel-2 imagery. The local S2 band rules and DW are not independent physical-truth votes.",
+    "support_reviewed": true
+  },
+  {
+    "id": "VERSION_SEPARATION",
+    "source_ids": [
+      "JRC_V15_OFFICIAL"
+    ],
+    "locator": "Collection 2 Transition; Seasonality Improvements; update validation caveat",
+    "claim": "Keep corrected annual layers and Landsat Collection 2 extension distinct in the interpretation and sensitivities.",
+    "support_reviewed": true
+  },
+  {
+    "id": "DIVERGENCE_AS_UNCERTAINTY",
+    "source_ids": [
+      "SAUNDERS_2025"
+    ],
+    "locator": "Abstract; sections 5.1.1-5.1.3",
+    "claim": "A Bangladesh flood-index study uses differences among evidence streams to reveal uncertain program outcomes; it is contextual, not a source of our local accuracy or hydrology results.",
+    "support_reviewed": true
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "paper_id": "nw-bangladesh-climate-adjusted-water",
+  "working_title": "Climate-adjusted surface-water changes and observation uncertainty in northwestern Bangladesh",
+  "route": "FINALIZE_AVAILABLE_COMPUTATIONAL_EVIDENCE_WITHOUT_NEW_MANUAL_LABELS",
+  "authorization": "User requests research first, then complete and finalize what code can do, and notify them before paper writing. No new manual review round requested.",
+  "assurance": "exploratory, transparent secondary analysis and same-process audit",
+  "prior_results_have_been_seen": true,
+  "new_threshold_tuning": false,
+  "new_human_labels": false,
+  "primary_period": "2000-2021 source-class analysis on its fixed common-observation footprint",
+  "source_version_sensitivity": "2000-2024 separately; 2016 asset-boundary sensitivity retained",
+  "supplementary_period": "2015-2024 SAR/Dynamic World analysis on its different fixed historical ever-water cohorts",
+  "new_comparison_frame": "720 stratified random pixel-month samples in four frozen district x month x JRC binary-class frames; old exposed cells excluded by original design",
+  "sampled_months": ["2018-03", "2020-11", "2023-03", "2024-11"],
+  "routes": [
+    "AUTOMATED_S2_PROXY_ONLY: retain frozen spectral triage binary predictions only; every other sample stays unresolved",
+    "ASSISTED_S2_PROXY: additionally retain completed, consistent human-dated interpretations; temporal variation, uncertain dates and quality-limited samples stay unresolved"
+  ],
+  "weight_formula": "w_i = eligible population pixels in stratum / 30 * geodesic area of sampled pixel. Normalize within the reported frame; approximate area-time ratio estimator, not exact census area.",
+  "metrics": [
+    "counts and design-weighted outcome fractions with all 720 samples retained",
+    "conditional JRC/proxy label agreement on assigned comparable support",
+    "binary-completion agreement range [known matching weight / total planned weight, (known matching + unassigned weight) / total planned weight]",
+    "2000 within-original-stratum pixel-month bootstrap replicates, seed 20261016; percentile sampling intervals, no reference-truth interpretation"
+  ],
+  "unknown_policy": "Unassigned or conflicting references remain missing; no zero filling, no replacement, no guessed dates, no averaging across temporal label changes.",
+  "date_policy": "One human answer belongs to one actual sample_id+scene_id. Repeated dates support one pixel-month, not extra independent samples.",
+  "research_scope": "Bounded methods scan with recent and foundational primary sources; not a systematic review or novelty certification.",
+  "completion_criterion": "Run new analysis, reconcile prior numerical claims from original tables, audit available source hashes and inventories, run meaningful software tests, inspect new figures, freeze claim limits and provide a reproducible writing handoff.",
+  "writing_ready_definition": "Evidence and computational package sufficient to begin a manuscript with the stated restricted claims and unresolved uncertainties. Does not mean publication, peer-review, or submission readiness.",
+  "excluded_claims": [
+    "100 percent accuracy or independent ground-truth accuracy",
+    "all-year or permanent/seasonal class accuracy validated by four monthly samples",
+    "identifiable drought recovery duration",
+    "climate-adjusted residuals causally identify pumping or other human effects",
+    "opposite JRC and SAR trends measured identical quantities or cancel one another",
+    "first study, proven novelty, guaranteed acceptance"
+  ],
+  "independent_accuracy_complete": false,
+  "recovery_duration_resolved": false,
+  "scientific_publication_ready": false
+}

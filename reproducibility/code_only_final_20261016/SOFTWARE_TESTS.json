@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-15T19:06:39.106465+00:00",
+  "python": {
+    "command": "python -m pytest tests -q",
+    "executable": "C:/Users/Admin/AppData/Local/Programs/Python/Python312/python.exe",
+    "exit_code": 0,
+    "passed": 149,
+    "duration_seconds": 4.3,
+    "environment": "Pre-existing project Python 3.12 with pytest 8.4.1; no installs or dependency changes"
+  },
+  "node": {
+    "command": "node --test tests/test_dated_water_core.cjs tests/test_blind_accuracy_core.cjs tests/test_assisted_water_core.cjs tests/manual_review_core.test.cjs",
+    "exit_code": 0,
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0
+  },
+  "scope": "Software fixtures and numerical invariants only; not human reference labels or scientific validation",
+  "resolved_execution_history": [
+    {
+      "attempt": "pytest in optional science interpreter",
+      "status": "environment prerequisite absent",
+      "reason": "pytest not installed in that interpreter",
+      "resolution": "Use original project Python where pytest and existing GIS/statistical dependencies are already installed"
+    },
+    {
+      "attempt": "unittest discovery on the whole mixed pytest/unittest suite in optional science interpreter",
+      "status": "import failures, not scientific-result failures",
+      "reason": "pytest and requests not available there",
+      "resolution": "Original project Python ran the entire pytest suite successfully"
+    }
+  ],
+  "new_test_scope": "Adds three exact-ID/date correction and original-input preservation fixtures. No source thresholds changed."
+}

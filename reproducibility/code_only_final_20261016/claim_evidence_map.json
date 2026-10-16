@@ -1,0 +1,66 @@
+[
+  {
+    "claim_id": "ANNUAL-SEASONAL",
+    "claim": "Seasonal source-class area fell by 25.42% between 2000 and 2021 on the 1276.41 km2 common-observation footprint.",
+    "disposition": "allowed_with_scope",
+    "evidence_table": "analysis_v3_user_label144/Tables/primary_endpoint_changes.csv",
+    "scope_limit": "Source-class endpoint difference, not error-adjusted true water extent or whole administrative district area.",
+    "audit_id": "FINAL-ANNUAL-SEASONAL-20261016"
+  },
+  {
+    "claim_id": "CLIMATE-ASSOCIATION",
+    "claim": "The negative annual seasonal-class time coefficient in Naogaon and Rajshahi remains in the exploratory observation-effort and 2016 asset-boundary specification.",
+    "disposition": "allowed_with_scope",
+    "evidence_table": "analysis_v3_user_label144/Tables/annual_observation_effort_climate_sensitivity.csv",
+    "scope_limit": "Conditional exploratory association, n=22 annual records; not causal pumping attribution. Seasonal prediction does not improve mean CV RMSE over its training-mean benchmark.",
+    "audit_id": "FINAL-CLIMATE-ASSOCIATION-20261016"
+  },
+  {
+    "claim_id": "PERMANENT-ROBUST-RISE",
+    "claim": "The permanent-class endpoint increase establishes a robust continuing physical-water increase.",
+    "disposition": "excluded_from_positive_results",
+    "evidence_table": "analysis_v3_user_label144/Tables/annual_observation_effort_climate_sensitivity.csv",
+    "scope_limit": "All permanent time-coefficient intervals include zero after the 2016-boundary sensitivity. A boundary control can absorb real hydrological steps too.",
+    "audit_id": "FINAL-PERMANENT-ROBUST-RISE-20261016"
+  },
+  {
+    "claim_id": "RADAR-ENVELOPE",
+    "claim": "Both Rajshahi baseline-seasonal radar-envelope endpoint time coefficients are positive in the specified 2015-2024 exploratory models.",
+    "disposition": "allowed_with_scope",
+    "evidence_table": "analysis_v3_user_label144/Tables/exploratory_climate_envelope_models.csv",
+    "scope_limit": "Logit method-envelope fraction/year, n=90. Different period, support, class cohort and sensor than the primary annual analysis; not true-water area or causal effect.",
+    "audit_id": "FINAL-RADAR-ENVELOPE-20261016"
+  },
+  {
+    "claim_id": "AGREEMENT-SUPPORT",
+    "claim": "The four fixed DW threshold comparisons exhibit increasing conditional SAR/DW agreement alongside decreasing paired footprint.",
+    "disposition": "allowed_with_scope",
+    "evidence_table": "analysis_v3_user_label144/Tables/dw_threshold_support_and_agreement.csv",
+    "scope_limit": "No threshold was selected. The denominator is paired area-month, with shared optical dependence and SAR classification error remaining.",
+    "audit_id": "FINAL-AGREEMENT-SUPPORT-20261016"
+  },
+  {
+    "claim_id": "PROXY-UNKNOWNS",
+    "claim": "The final 720-point comparison retains all unknowns and quantifies conditional proxy agreement plus a binary-completion range.",
+    "disposition": "allowed_with_scope",
+    "evidence_table": "analysis_v3_user_label144/Tables/proxy_agreement_and_unknown_ranges.csv",
+    "scope_limit": "Four frozen months only; assisted labels are selected, automatic labels are heuristic, ranges are not physical-accuracy intervals.",
+    "audit_id": "FINAL-PROXY-UNKNOWNS-20261016"
+  },
+  {
+    "claim_id": "INDEPENDENT-ACCURACY",
+    "claim": "Code-generated or model-assisted labels establish representative independent water-classification accuracy.",
+    "disposition": "excluded_from_positive_results",
+    "evidence_table": "analysis_v3_user_label144/Tables/pixel_month_comparisons.csv",
+    "scope_limit": "No separate representative independent references exist. No accuracy percentage is certified; the manual protocol was not silently relaxed.",
+    "audit_id": "FINAL-INDEPENDENT-ACCURACY-20261016"
+  },
+  {
+    "claim_id": "RECOVERY-DURATION",
+    "claim": "The available observations identify a reliable time to water recovery after drought.",
+    "disposition": "excluded_from_positive_results",
+    "evidence_table": "analysis_v3_user_label144/Tables/exploratory_recovery_support_sensitivity.csv",
+    "scope_limit": "All 108 primary event-cohort records and all nine sensitivity specifications lack identifiable duration. This is not no recovery or zero recovery time.",
+    "audit_id": "FINAL-RECOVERY-DURATION-20261016"
+  }
+]

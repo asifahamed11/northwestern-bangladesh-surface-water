@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "syntax": "PASS",
+  "planned_csv_tasks": 1,
+  "planned_region_cohort_rows": 12,
+  "month": "2024-11",
+  "thresholds": [
+    0.5,
+    0.6,
+    0.7,
+    0.8
+  ],
+  "csv_columns": 29,
+  "official_sdk_expression_serialization": true,
+  "remote_evaluations": 0,
+  "submitted_tasks": 0,
+  "authenticated_export_success_verified": false,
+  "note": "Local graph construction only. Regional pilot data have not been exported or examined."
+}

@@ -1,0 +1,6 @@
+Validation failed:
+- results-audit.json.audits[1]: positive support verdict requires audited_claim_effect=strengthen
+- results-audit.json.audits[2]: positive support verdict requires audited_claim_effect=strengthen
+- results-audit.json.audits[4]: positive support verdict requires audited_claim_effect=strengthen
+- results-audit.json.audits[5]: positive support verdict requires audited_claim_effect=strengthen
+- results-audit.json.audits[6]: positive support verdict requires audited_claim_effect=strengthen

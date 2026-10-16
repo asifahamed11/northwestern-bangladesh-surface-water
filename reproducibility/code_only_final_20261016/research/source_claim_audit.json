@@ -1,0 +1,13 @@
+{
+  "status": "PASS_FOR_BOUNDED_METADATA_AND_RECORDED_CLAIM_LOCATORS",
+  "checks": {
+    "source_ids_unique": true,
+    "article_dois_unique": true,
+    "metadata_verified": true,
+    "no_unreviewed_source_supports_claim": true,
+    "all_claims_have_locators": true
+  },
+  "independent_scientific_verification": false,
+  "whole_article_full_text_review_claimed": false,
+  "novelty_or_systematic_coverage_established": false
+}

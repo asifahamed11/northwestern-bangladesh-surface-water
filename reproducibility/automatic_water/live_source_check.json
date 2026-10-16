@@ -1,0 +1,5 @@
+{
+  "authenticated_live_source_check": false,
+  "error_type": "EEException",
+  "error": "Please authorize access to your Earth Engine account by running\n\nearthengine authenticate\n\nin your command line, or ee.Authenticate() in Python, and then retry."
+}

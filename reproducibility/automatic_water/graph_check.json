@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "official_sdk_graph_serialization": true,
+  "api_signatures": 985,
+  "planned_csv_exports": 14,
+  "remote_evaluations": 0,
+  "submitted_tasks": 0,
+  "interactive_computedobject_calls_forbidden": true,
+  "orbit_selection_has_no_pixel_reduction_or_reprojection": true,
+  "note": "Local expression/API contract check without any mocked server replies. This does not verify authenticated Earth Engine batch computation."
+}
