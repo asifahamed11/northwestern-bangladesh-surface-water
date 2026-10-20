@@ -1,4 +1,11 @@
-# Code and data files for journal upload
+# Current revision files and review access
+
+The current manuscript is an author-review revision with pending batch outputs and unresolved independent accuracy/recovery evidence. The new `Revision_Supplement_20261020.zip` supplies the current revision code, derived inputs, tables, provenance and five figure reference PNGs. Its README gives the two replay commands. The original four v0.2.0 archives below are historical inputs/replays; they do not reproduce the updated models and figures alone. Use the revised Word manuscript, compact supplementary methods and separate `Figures/` TIFFs for author review. No journal submission has been made.
+
+Author contributions, accountable-author verification, all-author approval and a journal-compliant access arrangement remain required. The private repository has not been made public and no reuse license has been granted. Check the live portal constraints before any eventual upload. The local author-delivery ZIP is not one supplementary upload.
+
+## Historical v0.2.0 replay
+
 
 The private GitHub repository is the author development record. Reviewers should receive the prepared supplementary archives through the journal portal; a private URL alone is not an access method.
 

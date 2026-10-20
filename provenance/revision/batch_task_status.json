@@ -1,0 +1,55 @@
+{
+  "checked_utc": "2026-10-20T05:04:58.822525+00:00",
+  "source": "Authenticated Earth Engine Task Manager visible task detail, about 23 minutes after submission",
+  "project": "gen-lang-client-0603076418",
+  "restricted_mode_warning_visible": true,
+  "cause_of_queue_delay": "Not established by task status",
+  "completed_audited_quarters": [
+    "2018_Q1"
+  ],
+  "pending_tasks": [
+    {
+      "description": "review_joint_cells_2024_Q1",
+      "id": "PLLWRGP5YQQDGNG4FACWSNAQ",
+      "phase": "Submitted to server",
+      "downloaded": false
+    },
+    {
+      "description": "review_joint_cells_2024_Q3",
+      "id": "CQXCKNKP2DNMRIJHAXP2WDAY",
+      "phase": "Submitted to server",
+      "downloaded": false
+    },
+    {
+      "description": "review_joint_cells_2018_Q4",
+      "id": "HDYFEZY67MMQ3RGIWNHBALNX",
+      "phase": "Submitted to server",
+      "downloaded": false
+    },
+    {
+      "description": "review_joint_cells_2018_Q3",
+      "id": "ON35T7YBK27VENPIERC72ODC",
+      "phase": "Submitted to server",
+      "downloaded": false
+    },
+    {
+      "description": "review_joint_cells_2024_Q4",
+      "id": "RGJIXEGDLKZLDSK4LDWTJV3Y",
+      "phase": "Submitted to server",
+      "downloaded": false
+    },
+    {
+      "description": "review_joint_cells_2024_Q2",
+      "id": "TA2U253PAOO5Z5G64PU5OS7Y",
+      "phase": "Submitted to server",
+      "downloaded": false
+    },
+    {
+      "description": "review_joint_cells_2018_Q2",
+      "id": "Z3GUGVZA22DXMQJNCGMSECTA",
+      "phase": "Submitted to server",
+      "downloaded": false
+    }
+  ],
+  "resubmit": false
+}

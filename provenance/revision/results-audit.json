@@ -1,0 +1,194 @@
+{
+  "schema_version": "1.0",
+  "paper_id": "NW-BANGLADESH-SURFACE-WATER",
+  "identity_version": 1,
+  "status": "complete",
+  "audits": [
+    {
+      "audit_id": "REVIEW-EVIDENCE-20261020",
+      "claim_id": "ROBUSTNESS-AND-EVIDENCE",
+      "claim_text": "Requested seven-stream revision is fully supported for the measured exploratory scope, with independent accuracy, actual recovery and full joint-cell pilot explicitly unresolved.",
+      "scope": "Naogaon, Chapainawabganj and Rajshahi; restricted annual 2000?2021 cohorts, separate 2015?2024 radar frame, four-month assisted sample, frozen sensitivity specification and partial batch pilot.",
+      "source_mode": "orchestrated",
+      "requested_assurance_class": "exploratory",
+      "attained_assurance_class": "exploratory",
+      "verdict": "inconclusive",
+      "audited_claim_effect": "inconclusive",
+      "source_runs": [
+        {
+          "work_item_id": "REVISE-1-7",
+          "episode_id": "review-20261019-1",
+          "episode_digest": "98b3ecd7b40003f34dd4a0593e81ab8fc6ba473e612d4a6373cfe8e2535ce2a1",
+          "run_id": "REVIEW-REVISION-20261020",
+          "block_id": "REVIEW-REVISION",
+          "gate_id": "EVIDENCE-ACCOUNTED",
+          "gate_result": "inconclusive",
+          "scientific_disposition": "inconclusive",
+          "submitted_claim_effect": "inconclusive",
+          "submitted_claim_scope": "Original source-class decline has additional sensitivity evidence; whole requested evidence package remains limited by queued pilot exports, absent eligible independent truth and unidentified actual recovery.",
+          "lineage_relation": "baseline",
+          "parent_run_id": null,
+          "verification_decision": "revise",
+          "verified_gate_result": "inconclusive",
+          "verified_scientific_disposition": "inconclusive",
+          "verification_self_review": true
+        }
+      ],
+      "run_selection": {
+        "selection_rule": "Include the sole event-backed episode for this paper identity/claim; all corrected technical attempts and pending exports are accounted within that episode.",
+        "excluded_runs": []
+      },
+      "evidence_artifacts": [
+        {
+          "path": "outputs/REVISION_RESPONSE.md",
+          "kind": "reported result and validation record",
+          "source": "experiment",
+          "digest": "d96afc850a2d1a07e675e4158d0ed0bc6aaa6534c22eb93536f691e89ce19aed"
+        },
+        {
+          "path": "outputs/revision_validation.json",
+          "kind": "reported result and validation record",
+          "source": "experiment",
+          "digest": "1b2c0ecec371de70cd2c18e6673deb1bcf2be54ca00184ed2e4a709725fec1c5"
+        },
+        {
+          "path": "outputs/revision_results_manifest.json",
+          "kind": "reported result and validation record",
+          "source": "experiment",
+          "digest": "fbd26833d0f0e3000df00f2fa2a02bae8625e86ee7b568c2ad355bda8696710b"
+        },
+        {
+          "path": "outputs/batch_task_status.json",
+          "kind": "reported result and validation record",
+          "source": "experiment",
+          "digest": "e906a3519c086eda163375ee56dc178b048193e03fd35325b2fe4865f1e26fe3"
+        },
+        {
+          "path": "outputs/document_visual_qa.json",
+          "kind": "reported result and validation record",
+          "source": "experiment",
+          "digest": "00623a81625c1a5e6dc46cf0b03d4d060ef73bb0a553cdc7ec9f234f17c36a85"
+        }
+      ],
+      "check_results": [
+        {
+          "check_id": "protocol_integrity",
+          "status": "pass",
+          "rationale": "Exploratory protocol frozen before new outcomes; original findings already known. Bootstrap correction and bounded addenda logged.",
+          "evidence_paths": [
+            "outputs/REVISION_RESPONSE.md",
+            "outputs/revision_validation.json"
+          ]
+        },
+        {
+          "check_id": "metric_validity",
+          "status": "pass",
+          "rationale": "Area and source-class estimands explicit; missing support retained; assisted agreement and synthetic scenarios not called independent accuracy or actual recovery.",
+          "evidence_paths": [
+            "outputs/REVISION_RESPONSE.md",
+            "outputs/revision_validation.json"
+          ]
+        },
+        {
+          "check_id": "baseline_fairness",
+          "status": "pass",
+          "rationale": "Mean and trend baselines use identical accepted chronological folds, including rejected constant-step designs.",
+          "evidence_paths": [
+            "outputs/REVISION_RESPONSE.md",
+            "outputs/revision_validation.json"
+          ]
+        },
+        {
+          "check_id": "outcome_accounting",
+          "status": "pass",
+          "rationale": "All cohort/model fits, nulls, missing intervals, failed controls, duplicates and pending exports retained; no selected best threshold.",
+          "evidence_paths": [
+            "outputs/REVISION_RESPONSE.md",
+            "outputs/revision_validation.json"
+          ]
+        },
+        {
+          "check_id": "inferential_support",
+          "status": "inconclusive",
+          "rationale": "Approximate intervals and restricted-footprint associations support description; complete requested independent/recovery evidence not obtained.",
+          "evidence_paths": [
+            "outputs/REVISION_RESPONSE.md",
+            "outputs/revision_validation.json"
+          ]
+        },
+        {
+          "check_id": "confound_control",
+          "status": "inconclusive",
+          "rationale": "Controls and static context cannot identify water-use causes or eliminate observation error and retrospective selection.",
+          "evidence_paths": [
+            "outputs/REVISION_RESPONSE.md",
+            "outputs/revision_validation.json"
+          ]
+        },
+        {
+          "check_id": "provenance",
+          "status": "pass",
+          "rationale": "Actual source hashes, source versions, execution tables, Word preservation and replay reports retained.",
+          "evidence_paths": [
+            "outputs/REVISION_RESPONSE.md",
+            "outputs/revision_validation.json"
+          ]
+        },
+        {
+          "check_id": "snapshot_continuity",
+          "status": "pass",
+          "rationale": "Frozen protocol/evaluator hashes matched the submitted work-item snapshot; repository validation only, not executor isolation.",
+          "evidence_paths": [
+            "outputs/REVISION_RESPONSE.md",
+            "outputs/revision_validation.json"
+          ]
+        },
+        {
+          "check_id": "independence",
+          "status": "fail",
+          "rationale": "Same agent designed, implemented and reviewed; no independent eligible local truth acquired. Alternative OLS implementation does not establish evaluator or data independence.",
+          "evidence_paths": [
+            "outputs/REVISION_RESPONSE.md",
+            "outputs/revision_validation.json"
+          ]
+        }
+      ],
+      "independence": {
+        "self_review": true,
+        "dimensions": [],
+        "evidence": "Same agent and original observations; statsmodels is an alternative implementation only."
+      },
+      "limitations": [
+        "Seven quarter exports pending without downloaded output audit.",
+        "No eligible independent local labels acquired; existing human review was assisted.",
+        "No actual recovery durations; simulations retained real gaps and widths and positive controls failed.",
+        "Static WorldCover 2020 and global river network are contextual, not causal drivers.",
+        "No accountable-author source/approval assertion."
+      ],
+      "predecessor_failures": [
+        {
+          "failure_id": "BOOTSTRAP-GAPS",
+          "status": "resolved",
+          "rationale": "Withdrawn intervals and scope collision corrected; complete annual models rerun."
+        },
+        {
+          "failure_id": "INDEPENDENT-TRUTH",
+          "status": "accepted_with_narrowing",
+          "rationale": "Access/eligibility unresolved; paper claims proxy agreement only."
+        },
+        {
+          "failure_id": "RECOVERY-TIMING",
+          "status": "accepted_with_narrowing",
+          "rationale": "Actual timing remains unidentified; paper reports detectability limits."
+        },
+        {
+          "failure_id": "BATCH-PILOT",
+          "status": "open",
+          "rationale": "One audited quarter complete; seven tasks queued, not counted as results."
+        }
+      ],
+      "minimum_corrective_action": "Audit downloaded remaining quarters when server tasks finish; obtain eligible independent dated high-resolution reference and a continuous interpretable water record for stronger accuracy/recovery claims; otherwise preserve the narrowed claims.",
+      "narrative_anchor": "results-audit.md#Audit-REVIEW-EVIDENCE-20261020"
+    }
+  ]
+}

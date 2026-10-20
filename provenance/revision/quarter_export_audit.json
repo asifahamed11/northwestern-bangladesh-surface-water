@@ -1,0 +1,11 @@
+{
+  "rows": 36,
+  "same_source_area_columns": 35,
+  "max_absolute_difference_km2": 6.821210263296962e-13,
+  "joint_cells_partition_pair": true,
+  "diagonal_equals_agreement": true,
+  "task_id": "XNME7P5RXWXUSN4ZPUJ7SB47",
+  "phase": "COMPLETED",
+  "sha256": "b0add8337e2c637f5bcc605ba09a9df6ad86c3df3ed7d064685dcb16e1ec2f69",
+  "duplicate_submissions": "Three completed copies appeared; only latest copy downloaded and used once"
+}

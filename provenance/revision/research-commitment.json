@@ -1,0 +1,41 @@
+{
+  "central_object_or_phenomenon": "Observed surface-water source classes in Naogaon, Chapainawabganj and Rajshahi; changing spatial/temporal support, 2000-2024.",
+  "contribution_class": "empirical-finding",
+  "identity_version": 1,
+  "intended_audience": "Frontiers in Earth Science Hydrosphere, Original Research, Research Topic 83484.",
+  "kill_conditions": [
+    "Cannot reproduce original annual extraction from unchanged inputs",
+    "Any required inference would need invented observations or false independent-reference provenance"
+  ],
+  "last_change_class": "D1",
+  "last_change_rationale": "Author explicitly delegated workstreams 1-7 and necessary evidence acquisition on 19 October 2026; paper identity retained.",
+  "main_question": "How robust are annual seasonal/permanent source-class changes in northwestern Bangladesh to observation, cohort and climate specifications, and which independent, hydrological and recovery interpretations are supported?",
+  "minimum_publishable_claim": "An evidence-bounded exploratory assessment of source-class changes and monitoring limitations; no assumed direction, accuracy or causal driver.",
+  "next_mandatory_evidence_artifact": "outputs/revision_results_manifest.json",
+  "paper_id": "NW-BANGLADESH-SURFACE-WATER",
+  "permitted_refinements": [
+    "Observation/cohort sensitivities",
+    "Simpler rainfall associations and chronological validation",
+    "Class/season product comparison diagnostics",
+    "Missingness-aware recovery detectability",
+    "Public external-label eligibility audit",
+    "Contextual hydrological/landscape evidence",
+    "Claim narrowing to measured outcomes"
+  ],
+  "pivot_triggers": [
+    "A source/processing error invalidates reported values",
+    "Robustness eliminates support for a directional change",
+    "No geographically and temporally eligible independent reference can be acquired"
+  ],
+  "predecessor_failures": [
+    "Independent accuracy not established by prior assisted labels",
+    "Recovery durations unidentifiable under nine prior settings",
+    "Earth Engine Python credentials unavailable at first scalar probe"
+  ],
+  "primary_evidence_obligation": "Retain original inputs, reproduce the original extraction, run frozen cohort/model sensitivities, and distinguish external independent labels from same-product agreement and simulated detectability.",
+  "reconsideration_gate": "All seven requested workstreams have a measured result or an evidence-backed limitation; no desired-sign selection.",
+  "schema_version": "1.0",
+  "selection_history": [],
+  "status": "committed",
+  "successor_idea_policy": "park"
+}

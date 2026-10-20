@@ -1,0 +1,23 @@
+{
+  "frozen_before_context_outcomes_utc": "2026-10-19T18:08:13.195708+00:00",
+  "river_buffers_m": [
+    200,
+    500,
+    1000
+  ],
+  "primary_buffer_m": 500,
+  "river_distance_crs": "EPSG:32645",
+  "landcover": "ESA WorldCover 2020 v100, categorical modal resampling to source grid; static 2020 context only",
+  "groups": [
+    "near_mapped_river",
+    "far_2020_cropland",
+    "far_2020_other",
+    "missing_context"
+  ],
+  "cohorts": [
+    "original_everwater_2000_2024_complete_2000_2024",
+    "baseline_anywater_2000_2004_complete_2000_2021"
+  ],
+  "comparisons": "single endpoints and 5-year mean areas; strict 3-of-5 majority gross transitions, ambiguous retained",
+  "caveats": "No 2000 crop backcast, pond identity, pumping attribution, or observed discharge inferred from static context."
+}

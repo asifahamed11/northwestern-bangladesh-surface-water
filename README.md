@@ -1,8 +1,8 @@
 # Surface-water change in northwestern Bangladesh
 
-Research materials for *Seasonal surface-water decline and limits to drought assessment in northwestern Bangladesh*.
+Research materials for *Mapped seasonal surface water decline under changing observation support in northwestern Bangladesh*.
 
-[Paper](manuscript/manuscript.pdf) · [Word manuscript](manuscript/manuscript.docx) · [Result tables](data/tables) · [Reproduction guide](docs/REPRODUCING.md) · [Review downloads](https://github.com/asifahamed11/northwestern-bangladesh-surface-water/releases/tag/v0.2.0-review)
+[Paper](manuscript/manuscript.pdf) · [Word manuscript](manuscript/manuscript.docx) · [Revision results](data/revision/tables) | [Revision guide](docs/REVISION_20261020.md) · [Reproduction guide](docs/REPRODUCING.md) · [Review downloads](https://github.com/asifahamed11/northwestern-bangladesh-surface-water/releases/tag/v0.2.0-review)
 
 <img src="figures/Figure_01_study_area_and_design.png" alt="Study districts in northwestern Bangladesh and the three analysis domains" width="900">
 
@@ -15,18 +15,20 @@ Use Python 3.12. From this folder:
 ```powershell
 python -m venv .venv
 .venv\Scripts\python -m pip install -r code/requirements-dev.txt
+.venv\Scripts\python code/reproduce_revision.py --output reproduced/revision_results
 .venv\Scripts\python code/reproduce_reported_results.py --output reproduced/results
 .venv\Scripts\python code/reproduce_figures.py --output reproduced/figures
 .venv\Scripts\python -m pytest -q
 ```
 
-The first command replays 15 result tables from the supplied regional summaries and downloaded Earth Engine CSVs. The second redraws Figures 1, 3 and 5 and compares their rendered pixels with the delivered images. Both write to a new folder and retain the original results. No Earth Engine login or new download is needed for these calculations. Raw satellite processing is a separate upstream stage; see the [reproduction guide](docs/REPRODUCING.md).
+The revision command refits the declared annual sensitivities from genuine derived inputs and checks eleven tables. The figure command redraws Figures 3, 4, 5, 8 and 12 and compares their pixels with the delivered versions. The older result command retains the original fifteen-table replay. All write to new folders. Full raw-pixel aggregation and pending exports are separate upstream work; see the [revision guide](docs/REVISION_20261020.md).
 
 ## Find a file
 
 | Folder | Contents |
 | :-- | :-- |
 | [manuscript](manuscript) | Current author-review manuscript and compact supplementary methods, in Word and PDF |
+| [data/revision](data/revision) | Frozen protocols, new result tables and audited completed batch downloads |
 | [data/tables](data/tables) | 18 main-result CSVs and 20 extended diagnostic CSVs |
 | [data/inputs](data/inputs) | Genuine climate summaries, 26 exported CSVs, dated evidence and two required rasters |
 | [data/boundaries](data/boundaries) | Study boundary, losslessly compressed national context and source metadata |
@@ -40,7 +42,7 @@ Open [primary_endpoint_changes.csv](data/tables/primary_endpoint_changes.csv) fo
 
 Climate-adjusted coefficients describe associations. Assisted image comparison measures proxy agreement; independent classification accuracy remains unmeasured. Recovery duration could not be estimated under the evaluated support rules. A missing duration does not mean that water failed to return.
 
-Version **v0.2.0-review** adds portable statistical replay and genuine inputs without changing the reported tables, labels or figures. The repository remains private. The accompanying [journal submission guide](docs/JOURNAL_SUBMISSION.md) identifies the four code/data archives that can be uploaded with the manuscript so reviewers can run the supplied calculations without GitHub access. No journal submission has been made.
+The October 20 revision adds cohort/window comparisons, simpler models, matched-fold benchmarks, static river/cropland context and synthetic detectability checks. The original endpoint decline is 25.42%; the five-year-mean comparison on the same footprint is 14.70%. These are different summaries. The repository remains private. The original **v0.2.0-review** release is preserved as a historical version and does not reproduce the new figures/models by itself. No journal submission has been made.
 
 The manuscript is an author-review draft. Author contributions and all-author approval remain for the authors to complete. [Reuse and source-license notes](docs/REUSE_AND_ACCESS.md) distinguish author materials from third-party products.
 

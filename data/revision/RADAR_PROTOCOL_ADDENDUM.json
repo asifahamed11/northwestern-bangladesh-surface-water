@@ -1,0 +1,30 @@
+{
+  "frozen_utc": "2026-10-19T18:10:39.565280+00:00",
+  "pilot_years": [
+    2018,
+    2024
+  ],
+  "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "thresholds": [
+    0.5,
+    0.6,
+    0.7,
+    0.8
+  ],
+  "source_snapshot": "same frozen scene IDs as original study",
+  "scope": "conditional product comparison only, not independent reference accuracy",
+  "stopping_rule": "Pilot must complete and reconcile original marginals before considering a full decade export; resource failures retained"
+}

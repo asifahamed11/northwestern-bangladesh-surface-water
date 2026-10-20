@@ -1,0 +1,55 @@
+[
+  {
+    "id": "planet_labels_doi",
+    "url": "https://doi.org/10.25739/03nt-4f29",
+    "params": null,
+    "retrieved_utc": "2026-10-19T17:59:21.782113+00:00",
+    "access_level": "public metadata only",
+    "error_type": "ReadTimeout",
+    "error": "HTTPSConnectionPool(host='doi.org', port=443): Read timed out. (read timeout=10)"
+  },
+  {
+    "id": "gbm_dataverse",
+    "url": "https://dataverse.harvard.edu/api/datasets/:persistentId/",
+    "params": {
+      "persistentId": "doi:10.7910/DVN/V2C6G2"
+    },
+    "retrieved_utc": "2026-10-19T17:59:21.782550+00:00",
+    "access_level": "public metadata only",
+    "error_type": "ReadTimeout",
+    "error": "HTTPSConnectionPool(host='dataverse.harvard.edu', port=443): Read timed out. (read timeout=35)"
+  },
+  {
+    "id": "bd_water_dataset",
+    "url": "https://data.mendeley.com/public-api/datasets/c5c26dghnh/versions/1",
+    "params": null,
+    "retrieved_utc": "2026-10-19T17:59:21.782550+00:00",
+    "access_level": "public metadata only",
+    "status_code": 403,
+    "final_url": "https://data.mendeley.com/public-api/datasets/c5c26dghnh/versions/1",
+    "bytes": 5711,
+    "sha256": "378afeb24a31db6039f97967af3ac33070ded9413943ff2dcff41719f920e755"
+  },
+  {
+    "id": "hydrorivers_metadata",
+    "url": "https://www.hydrosheds.org/products/hydrorivers",
+    "params": null,
+    "retrieved_utc": "2026-10-19T17:59:21.783054+00:00",
+    "access_level": "public metadata only",
+    "status_code": 200,
+    "final_url": "https://www.hydrosheds.org/products/hydrorivers",
+    "bytes": 31468,
+    "sha256": "ea8ca5f29c27452ff1fa972bef481576756f091b7070b004a84112595eb4bd9f"
+  },
+  {
+    "id": "worldcover_metadata",
+    "url": "https://esa-worldcover.org/en/data-access",
+    "params": null,
+    "retrieved_utc": "2026-10-19T17:59:22.128565+00:00",
+    "access_level": "public metadata only",
+    "status_code": 200,
+    "final_url": "https://esa-worldcover.org/en/data-access",
+    "bytes": 49887,
+    "sha256": "71dccb4c949d489a903865f97ff3bddab75dbefad7f1c277acd1ba94967ed0e8"
+  }
+]

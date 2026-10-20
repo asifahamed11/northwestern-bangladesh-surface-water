@@ -1,0 +1,3 @@
+probe,source_count,raw_water_max,raw_land_max,monthly_water_max,monthly_land_max,t80_selected_pixels,region
+land_context,5,0.6190368367824703,0.7706265805754811,0.5061483534518629,0.7561217455659062,0,500m buffer bounds at 88.6E 24.5N
+three_stable_water_interiors,5,0.7527553476393223,0.17402249411679804,0.747838587500155,0.04322917107492685,0,150m buffers at three native JRC permanent-class interior points

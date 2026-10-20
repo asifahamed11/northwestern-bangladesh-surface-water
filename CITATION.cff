@@ -1,10 +1,10 @@
 cff-version: 1.2.0
 message: "Please cite the accompanying manuscript when using these research materials."
-title: "Seasonal surface-water decline and limits to drought assessment in northwestern Bangladesh"
+title: "Mapped seasonal surface water decline under changing observation support in northwestern Bangladesh"
 type: dataset
-version: "0.2.0-review"
+version: "0.3.0-author-review"
 url: "https://github.com/asifahamed11/northwestern-bangladesh-surface-water"
-date-released: "2026-10-16"
+date-released: "2026-10-20"
 authors:
   - family-names: Ahamed
     given-names: Asif
@@ -24,7 +24,7 @@ abstract: "Code and derived results accompanying an unpublished manuscript. Acce
 
 preferred-citation:
   type: unpublished
-  title: "Seasonal surface-water decline and limits to drought assessment in northwestern Bangladesh"
+  title: "Mapped seasonal surface water decline under changing observation support in northwestern Bangladesh"
   year: 2026
   authors:
     - family-names: Ahamed

@@ -1,0 +1,1 @@
+20 October: During self-review, residual blocks on nonconsecutive selected years were found to compress calendar gaps. Those bootstrap intervals were withdrawn (replicates=0, missing bounds). Calendar-distance HAC remains available. The source script now rejects gap-compressed bootstraps. No original source/label or reported manuscript was changed.

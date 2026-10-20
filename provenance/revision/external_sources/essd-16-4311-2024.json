@@ -1,0 +1,582 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        11
+      ]
+    ],
+    "date-time": "2026-09-11T08:22:46Z",
+    "timestamp": 1789114966110,
+    "version": "build-2803163510"
+  },
+  "reference-count": 35,
+  "publisher": "Copernicus GmbH",
+  "issue": "9",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2024-09-23T00:00:00Z",
+        "timestamp": 1727049600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100014573",
+      "name": "Earth Sciences Division",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "80NSSC22K0744"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "80NSSC22K0744"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100014573",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Earth Syst. Sci. Data"
+  ],
+  "abstract": "<jats:p>Effective monitoring of global water resources is increasingly critical due to climate change and population growth. Advancements in remote sensing technology, specifically in spatial, spectral, and temporal resolutions, are revolutionizing water resource monitoring, leading to more frequent and high-quality surface water extent maps using various techniques such as traditional image processing and machine learning algorithms. However, satellite imagery datasets contain trade-offs that result in inconsistencies in performance, such as disparities in measurement principles between optical (e.g.,\u00a0Sentinel-2) and radar (e.g.,\u00a0Sentinel-1) sensors and differences in spatial and spectral resolutions among optical sensors. Therefore, developing accurate and robust surface water mapping solutions requires independent validations from multiple datasets to identify potential biases within the imagery and algorithms. However, high-quality validation datasets are expensive to build, and few contain information on water resources. For this purpose, we introduce a globally sampled, high-spatial-resolution dataset labeled using 3\u2009m PlanetScope imagery (Planet Team,\u00a02017). Our surface water extent dataset comprises 100 images, each with a size of 1024\u00d71024\u00a0pixels, which were sampled using a stratified random sampling strategy covering all 14 biomes. We highlighted urban and rural regions, lakes, and rivers, including braided rivers and coastal regions. We evaluated two surface water extent mapping methods using our dataset \u2013 Dynamic World (Brown et\u00a0al.,\u00a02022), based on Sentinel-2, and the NASA IMPACT model (Paul and Ganju,\u00a02021), based on Sentinel-1. Dynamic World achieved a mean intersection over union (IoU) of 72.16\u2009% and F1 score of 79.70\u2009%, while the NASA IMPACT model had a mean IoU of 57.61\u2009% and F1 score of 65.79\u2009%. Performance varied substantially across biomes, highlighting the importance of evaluating models on diverse landscapes to assess their generalizability and robustness. Our dataset can be used to analyze satellite products and methods, providing insights into their advantages and drawbacks. Our dataset offers a unique tool for analyzing satellite products, aiding the development of more accurate and robust surface water monitoring solutions. The dataset can be accessed via https://doi.org/10.25739/03nt-4f29 (Mukherjee et\u00a0al.,\u00a02024).</jats:p>",
+  "DOI": "10.5194/essd-16-4311-2024",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        9,
+        23
+      ]
+    ],
+    "date-time": "2024-09-23T02:13:16Z",
+    "timestamp": 1727057596000
+  },
+  "page": "4311-4323",
+  "source": "Crossref",
+  "is-referenced-by-count": 11,
+  "title": [
+    "A globally sampled high-resolution hand-labeled validation dataset for evaluating surface water extent maps"
+  ],
+  "prefix": "10.5194",
+  "volume": "16",
+  "author": [
+    {
+      "given": "Rohit",
+      "family": "Mukherjee",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "id": [
+            {
+              "id": "https://ror.org/05h992307",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ],
+          "name": "Pacific Northwest National Laboratory (Richland, United States of America)"
+        },
+        {
+          "id": [
+            {
+              "id": "https://ror.org/03m2x1q45",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ],
+          "name": "University of Arizona (Tucson, United States of America)"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        },
+        {
+          "role": "corresponding-author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Frederick",
+      "family": "Policelli",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ruixue",
+      "family": "Wang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Elise",
+      "family": "Arellano-Thompson",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Beth",
+      "family": "Tellman",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Prashanti",
+      "family": "Sharma",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Zhijie",
+      "family": "Zhang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jonathan",
+      "family": "Giezendanner",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "3145",
+  "published-online": {
+    "date-parts": [
+      [
+        2024,
+        9,
+        23
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Acharki, S.: PlanetScope contributions compared to Sentinel-2, and Landsat-8 for LULC mapping, Remote Sensing Applications: Society and Environment, 27, 100774, 10.1016/j.rsase.2022.100774, 2022.",
+      "DOI": "10.1016/j.rsase.2022.100774"
+    },
+    {
+      "key": "ref2",
+      "unstructured": "Alemohammad, H. and Booth, K.: LandCoverNet: A global benchmark land cover classification training dataset, arXiv [preprint], arXiv:2012.03111, 2020.",
+      "type": "preprint"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bamber, J. and Bindschadler, R.: An improved elevation dataset for climate and ice-sheet modelling: validation with satellite imagery, Ann. Glaciol., 25, 439\u2013444, 1997.",
+      "DOI": "10.3189/S0260305500014427"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bijeesh, T. and Narasimhamurthy, K.: Surface water detection and delineation using remote sensing images: A review of methods and algorithms, Sustainable Water Resour. Manag., 6, 1\u201323, 2020.",
+      "DOI": "10.1007/s40899-020-00425-4"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Bonafilia, D., Tellman, B., Anderson, T., and Issenberg, E.: Sen1Floods11: A georeferenced dataset to train and test deep learning flood algorithms for Sentinel-1, 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), Seattle, WA, USA, 835\u2013845, 10.1109/CVPRW50498.2020.00113, 2020.",
+      "DOI": "10.1109/CVPRW50498.2020.00113"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Brown, C.\u00a0F., Brumby, S.\u00a0P., Guzder-Williams, B., Birch, T., Hyde, S.\u00a0B., Mazzariello, J., and Tait, A.\u00a0M.: Dynamic World, Near real-time global 10 m land use land cover mapping, Sci. Data, 9, 251, 10.1038/s41597-022-01307-4, 2022.",
+      "DOI": "10.1038/s41597-022-01307-4"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Chesapeake Bay Program: Chesapeake Bay Land Use and Land Cover (LULC) Database 2022 Edition, U.S. Geological Survey data release, 10.5066/P981GV1L, 2023.",
+      "DOI": "10.5066/P981GV1L"
+    },
+    {
+      "key": "ref8",
+      "unstructured": "Cloud to Street, Microsoft, and Radiant Earth Foundation: A Global Flood Events and Cloud Cover Dataset (Version 1.0), https://registry.opendata.aws/c2smsfloods/ (last access: 9\u00a0September\u00a02024), 2022.",
+      "type": "web-resource"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Dai, A.: Increasing drought under global warming in observations and models, Nat. Clim. Change, 3, 52\u201358, 2013.",
+      "DOI": "10.1038/nclimate1633"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Gahlot, S., Gurung, I., Molthan, A., Maskey, M., and Ramasubramanian, M.: Flood Extent Data for Machine Learning, Radiant MLHub [data set], 10.34911/rdnt.ebk43x, 2021.",
+      "DOI": "10.34911/rdnt.ebk43x",
+      "type": "dataset"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Ghayour, L., Neshat, A., Paryani, S., Shahabi, H., Shirzadi, A., Chen, W., Al-Ansari, N., Geertsema, M., Pourmehdi Amiri, M., Gholamnia, M., Dou, J., and Ahmad, A.: Performance evaluation of sentinel-2 and landsat 8 OLI data for land cover/use classification using a comparison between machine learning algorithms, Remote Sens., 13, 1349, 10.3390/rs13071349, 2021.",
+      "DOI": "10.3390/rs13071349"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Giezendanner, J., Mukherjee, R., Purri, M., Thomas, M., Mauerman, M., Islam, A. K. M.\u00a0S., and Tellman, B.: Inferring the Past: A Combined CNN-LSTM Deep Learning Framework To Fuse Satellites for Historical Inundation Mapping, 2155\u20132165, 10.1109/CVPRW59228.2023.00209, 2023.",
+      "DOI": "10.1109/CVPRW59228.2023.00209"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Isikdogan, F., Bovik, A.\u00a0C., and Passalacqua, P.: Surface water mapping by deep learning, IEEE J. Sel. Top. Appl. Earth Obs., 10, 4909\u20134918, 2017.",
+      "DOI": "10.1109/JSTARS.2017.2735443"
+    },
+    {
+      "key": "ref14",
+      "unstructured": "Labelbox: Online platform for data labeling, https://labelbox.com (last access: 15\u00a0March\u00a02024), 2024.",
+      "type": "web-resource"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Li, J., Ma, R., Cao, Z., Xue, K., Xiong, J., Hu, M., and Feng, X.: Satellite detection of surface water extent: A review of methodology, Water, 14, 1148, 10.3390/w14071148, 2022.",
+      "DOI": "10.3390/w14071148"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Markert, K.\u00a0N., Chishtie, F., Anderson, E.\u00a0R., Saah, D., and Griffin, R.\u00a0E.: On the merging of optical and SAR satellite imagery for surface water mapping applications, Results in Physics, 9, 275\u2013277, 2018.",
+      "DOI": "10.1016/j.rinp.2018.02.054"
+    },
+    {
+      "key": "ref17",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Martinis, S.: Improving flood mapping in arid areas using Sentinel-1 time series data, in: 2017 IEEE International Geoscience and Remote Sensing Symposium (IGARSS), IEEE, 193\u2013196, 10.1109/IGARSS.2017.8126927, 2017.",
+      "DOI": "10.1109/IGARSS.2017.8126927"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Martinis, S., Groth, S., Wieland, M., Knopp, L., and R\u00e4ttich, M.: Towards a global seasonal and permanent reference water product from Sentinel-1/2 data for improved flood mapping, Remote Sens. Environ., 278, 113077, 10.1016/j.rse.2022.113077, 2022.",
+      "DOI": "10.1016/j.rse.2022.113077"
+    },
+    {
+      "key": "ref19",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Misra, I., Lawrence\u00a0Zitnick, C., Mitchell, M., and Girshick, R.: Seeing through the human reporting bias: Visual classifiers from noisy human-centric labels, in: Proceedings of the IEEE conference on computer vision and pattern recognition, 2930\u20132939, 10.48550/arXiv.1512.06974, 2016.",
+      "DOI": "10.48550/arXiv.1512.06974"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S., Ip, A.: Water observations from space: Mapping surface water from 25 years of Landsat imagery across Australia, Remote Sens. Environ., 174, 341\u2013352, 10.1016/j.rse.2015.11.003, 2016.",
+      "DOI": "10.1016/j.rse.2015.11.003"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Mukherjee, R., Zhang, Z., Policeli, F., Wang, R., and Tellman, B.: Rohit_GlobalSurfaceWaterDataset_2024, CyVerse Data Commons [data set], 10.25739/03nt-4f29, 2024.",
+      "DOI": "10.25739/03nt-4f29",
+      "type": "dataset"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Olson, D. M., Dinerstein, E., Wikramanayake, E. D., Burgess, N. D., Powell, G. V. N., Underwood, E. C., D'amico, J. A., Itoua, I., Strand, H. E., Morrison, J. C., Loucks, C. J., Allnutt, T. F., Ricketts, T. H., Kura, Y., Lamoreux, J. F., Wettengel, W. W., Hedao, P., and Kassem, K. R.: Terrestrial ecoregions of the world: A new global map of terrestrial ecoregions provides an innovative tool for conserving biodiversity, BioScience, 51, 933\u2013938, 10.1641/0006-3568(2001)051[0933]2.0.CO;2, 2001.",
+      "DOI": "10.1641/0006-3568(2001)051[0933]2.0.CO;2"
+    },
+    {
+      "key": "ref23",
+      "unstructured": "Patterson, T. and Kelso, N.\u00a0V.: World Urban Areas, LandScan, 1:10 million (2012) [Shapefile], North American Cartographic Information Society, https://earthworks.stanford.edu/catalog/stanford-yk247bg4748 (last access: 12\u00a0February\u00a02024), 2012.",
+      "type": "web-resource"
+    },
+    {
+      "key": "ref24",
+      "unstructured": "Paul, S. and Ganju, S.: Flood segmentation on sentinel-1 SAR imagery with semi-supervised learning, arXiv [preprint], arXiv:2107.08369, 2021.",
+      "type": "preprint"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Paullada, A., Raji, I.\u00a0D., Bender, E.\u00a0M., Denton, E., and Hanna, A.: Data and its (dis) contents: A survey of dataset development and use in machine learning research, Patterns, 2, 100336, 10.1016/j.patter.2021.100336, 2021.",
+      "DOI": "10.1016/j.patter.2021.100336"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Pekel, J.-F., Cottam, A., Gorelick, N., and Belward, A.\u00a0S.: High-resolution mapping of global surface water and its long-term changes, Nature, 540, 418\u2013422, 2016.",
+      "DOI": "10.1038/nature20584"
+    },
+    {
+      "key": "ref27",
+      "unstructured": "Planet Team: Planet application program interface: In space for life on Earth, San Francisco, CA, 2017, 2, 2017."
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Rambour, C., Audebert, N., Koeniguer, E., Le\u00a0Saux, B., Crucianu, M., and Datcu, M.: Flood detection in time series of optical and sar images, The International Archives of the Photogrammetry, Remote Sens. Spatial Inf. Sci., 43, 1343\u20131346, 2020.",
+      "DOI": "10.5194/isprs-archives-XLIII-B2-2020-1343-2020"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Sumbul, G., Charfuelan, M., Demir, B., and Markl, V.: Bigearthnet: A large-scale benchmark archive for remote sensing image understanding, in: IGARSS 2019\u20132019 IEEE International Geoscience and Remote Sensing Symposium, Yokohama, Japan, 28\u00a0July\u20132\u00a0August, 5901\u20135904, IEEE, 2019.",
+      "DOI": "10.1109/IGARSS.2019.8900532"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Tellman, B., Sullivan, J., Kuhn, C., Kettner, A., Doyle, C., Brakenridge, G., Erickson, T., and Slayback, D.: Satellite imaging reveals increased proportion of population exposed to floods, Nature, 596, 80\u201386, 2021.",
+      "DOI": "10.1038/s41586-021-03695-w"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Vandewiele, G., Dehaene, I., Kov\u00e1cs, G., Sterckx, L., Janssens, O., Ongenae, F., De Backere, F., De Turck, F., Roelens, K., Decruyenaere, J., Van Hoecke, S., and Demeester, T.: Overly optimistic prediction results on imbalanced data: a case study of flaws and benefits when applying over-sampling, Artificial Intelligence in Medicine, 111, 101987, 10.1016/j.artmed.2020.101987, 2021.",
+      "DOI": "10.1016/j.artmed.2020.101987"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Wieland, M., Martinis, S., Kiefl, R., and Gstaiger, V.: Semantic segmentation of water bodies in very high-resolution satellite and aerial images, Remote Sens. Environ., 287, 113452, 10.1016/j.rse.2023.113452, 2023.",
+      "DOI": "10.1016/j.rse.2023.113452"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Wolpert, D.\u00a0H.: The supervised learning no-free-lunch theorems, in: Soft computing and industry: Recent applications, edited by: Roy, R., K\u00f6ppen, M., Ovaska, S., Furuhashi, T., and Hoffmann, F., Soft Computing and Industry, Springer, London, 39\u201366, 10.1007/978-1-4471-0123-9_3, 2002.",
+      "DOI": "10.1007/978-1-4471-0123-9_3"
+    },
+    {
+      "key": "ref34",
+      "unstructured": "World Wildlife Fund: Global Lakes and Wetlands Database: Large Lake Polygons (Level 1), https://www.worldwildlife.org/publications/global-lakes-and-wetlands-database-large-lake-polygons-level-1 (last access: 12\u00a0February\u00a02024), 2005.",
+      "type": "web-resource"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wulder, M.\u00a0A., Hilker, T., White, J.\u00a0C., Coops, N.\u00a0C., Masek, J.\u00a0G., Pflugmacher, D., and Crevier, Y.: Virtual constellations for global terrestrial monitoring, Remote Sens. Environ., 170, 62\u201376, 2015.",
+      "DOI": "10.1016/j.rse.2015.09.001"
+    }
+  ],
+  "container-title": [
+    "Earth System Science Data"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://essd.copernicus.org/articles/16/4311/2024/essd-16-4311-2024.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        11
+      ]
+    ],
+    "date-time": "2026-09-11T07:26:26Z",
+    "timestamp": 1789111586000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://essd.copernicus.org/articles/16/4311/2024/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        9,
+        23
+      ]
+    ]
+  },
+  "references-count": 35,
+  "journal-issue": {
+    "issue": "9",
+    "published-online": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.5194/essd-16-4311-2024",
+  "relation": {
+    "has-preprint": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168",
+        "asserted-by": "object"
+      }
+    ],
+    "has-review": [
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-RC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-AC1",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-RC2",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-AC2",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-AC3",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-AC4",
+        "asserted-by": "subject"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-RC2",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-RC1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-AC4",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-AC1",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-AC3",
+        "asserted-by": "object"
+      },
+      {
+        "id-type": "doi",
+        "id": "10.5194/essd-2023-168-AC2",
+        "asserted-by": "object"
+      }
+    ],
+    "is-part-of": [
+      {
+        "id-type": "doi",
+        "id": "10.25739/03nt-4f29",
+        "asserted-by": "subject"
+      }
+    ]
+  },
+  "ISSN": [
+    "1866-3516"
+  ],
+  "issn-type": [
+    {
+      "value": "1866-3516",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        9,
+        23
+      ]
+    ]
+  }
+}

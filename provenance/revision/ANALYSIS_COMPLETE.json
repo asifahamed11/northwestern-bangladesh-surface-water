@@ -1,0 +1,8 @@
+{
+  "status": "COMPUTATION_COMPLETED",
+  "exploratory": true,
+  "protocol_sha256": "de8a8c86945ee86d6eec48e6e462ae7b4bc161c84b8d47ca7ec60b79ecad60b4",
+  "original_inputs_unchanged": true,
+  "independent_accuracy_established": false,
+  "caveat": "Numerical execution is not independent scientific validation."
+}

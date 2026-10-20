@@ -941,5 +941,279 @@
     "page": "arXiv:2609.00065",
     "DOI": "10.48550/arXiv.2609.00065",
     "URL": "https://arxiv.org/abs/2609.00065"
+  },
+  {
+    "id": "Lehner2013",
+    "type": "article-journal",
+    "title": "Global river hydrography and network routing: baseline data and new approaches to study the world's large river systems",
+    "author": [
+      {
+        "given": "Bernhard",
+        "family": "Lehner",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Geography McGill University  805 Sherbrooke Street West Montreal QC H3A 0B9 Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Günther",
+        "family": "Grill",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Geography McGill University  805 Sherbrooke Street West Montreal QC H3A 0B9 Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          4,
+          4
+        ]
+      ]
+    },
+    "container-title": "Hydrological Processes",
+    "DOI": "10.1002/hyp.9740",
+    "volume": "27",
+    "issue": "15",
+    "page": "2171-2186"
+  },
+  {
+    "id": "Mukherjee2024",
+    "type": "article-journal",
+    "title": "A globally sampled high-resolution hand-labeled validation dataset for evaluating surface water extent maps",
+    "author": [
+      {
+        "given": "Rohit",
+        "family": "Mukherjee",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "id": [
+              {
+                "id": "https://ror.org/05h992307",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "Pacific Northwest National Laboratory (Richland, United States of America)"
+          },
+          {
+            "id": [
+              {
+                "id": "https://ror.org/03m2x1q45",
+                "id-type": "ROR",
+                "asserted-by": "publisher"
+              }
+            ],
+            "name": "University of Arizona (Tucson, United States of America)"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          },
+          {
+            "role": "corresponding-author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Frederick",
+        "family": "Policelli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruixue",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Elise",
+        "family": "Arellano-Thompson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Beth",
+        "family": "Tellman",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Prashanti",
+        "family": "Sharma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhijie",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jonathan",
+        "family": "Giezendanner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          23
+        ]
+      ]
+    },
+    "container-title": "Earth System Science Data",
+    "DOI": "10.5194/essd-16-4311-2024",
+    "volume": "16",
+    "issue": "9",
+    "page": "4311-4323"
+  },
+  {
+    "id": "WorldCover2021",
+    "type": "dataset",
+    "title": "ESA WorldCover 10 m 2020 v100",
+    "author": [
+      {
+        "literal": "Zanaga, Daniele"
+      },
+      {
+        "literal": "Van De Kerchove, Ruben"
+      },
+      {
+        "literal": "De Keersmaecker, Wanda"
+      },
+      {
+        "literal": "Souverijns, Niels"
+      },
+      {
+        "literal": "Brockmann, Carsten"
+      },
+      {
+        "literal": "Quast, Ralf"
+      },
+      {
+        "literal": "Wevers, Jan"
+      },
+      {
+        "literal": "Grosu, Alex"
+      },
+      {
+        "literal": "Paccini, Audrey"
+      },
+      {
+        "literal": "Vergnaud, Sylvain"
+      },
+      {
+        "literal": "Cartus, Oliver"
+      },
+      {
+        "literal": "Santoro, Maurizio"
+      },
+      {
+        "literal": "Fritz, Steffen"
+      },
+      {
+        "literal": "Georgieva, Ivelina"
+      },
+      {
+        "literal": "Lesiv, Myroslava"
+      },
+      {
+        "literal": "Carter, Sarah"
+      },
+      {
+        "literal": "Herold, Martin"
+      },
+      {
+        "literal": "Li, Linlin"
+      },
+      {
+        "literal": "Tsendbazar, Nandin-Erdene"
+      },
+      {
+        "literal": "Ramoino, Fabrizio"
+      },
+      {
+        "literal": "Arino, Olivier"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "DOI": "10.5281/zenodo.5571936",
+    "publisher": "Zenodo"
   }
 ]
