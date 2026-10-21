@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the accompanying manuscript when using these research materials."
 title: "Mapped seasonal surface water decline under changing observation support in northwestern Bangladesh"
 type: dataset
-version: "0.3.1-author-review"
+version: "0.3.2-author-review"
 url: "https://github.com/asifahamed11/northwestern-bangladesh-surface-water"
 date-released: "2026-10-21"
 authors:

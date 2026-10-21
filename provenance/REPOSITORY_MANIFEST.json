@@ -1,10 +1,10 @@
 {
   "repository_url": "https://github.com/asifahamed11/northwestern-bangladesh-surface-water",
   "private": true,
-  "version": "0.3.1-author-review",
+  "version": "0.3.2-author-review",
   "release_created": false,
   "pending_batch_outputs": 0,
-  "scientific_results_changed": true,
+  "scientific_results_changed": false,
   "original_result_tables_and_labels_preserved": true,
   "digest_scope": "Current intended Git files excluding this manifest and checksums.sha256",
   "files": [
@@ -23,7 +23,19 @@
     {
       "file": "CITATION.cff",
       "bytes": 1564,
-      "sha256": "799b398b2fcaf1ee5cc1fa9f84c19108b0475d7a215b4e5108782da0456e9cc6",
+      "sha256": "13c90cd2a8a96c7b6a1648cd4c45ecd6df32056eed4f0d287c91327f0aaa6858",
+      "source": "Figure 1 presentation update or current author document; see provenance/figure1_refinement_20261021"
+    },
+    {
+      "file": "README.md",
+      "bytes": 5280,
+      "sha256": "36dd489f1ea66218e714ea65c41d779fe644f658c513d4c5c317ea29b97ba13b",
+      "source": "Figure 1 presentation update or current author document; see provenance/figure1_refinement_20261021"
+    },
+    {
+      "file": "code/automatic_water/DW_SENSITIVITY_SNAPSHOT.json",
+      "bytes": 116838,
+      "sha256": "56053f3408510b1b80fb1d0489f46f180fdc0ac5c19a4bafb9699827a4acd603",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -42,12 +54,6 @@
       "file": "code/automatic_water/analyze_dw_sensitivity.py",
       "bytes": 19481,
       "sha256": "d32d4b4ced6e0ea1804473ae78f8b0dd0e7f6f2b6955585952bcd8a3f81575f2",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "code/automatic_water/DW_SENSITIVITY_SNAPSHOT.json",
-      "bytes": 116838,
-      "sha256": "56053f3408510b1b80fb1d0489f46f180fdc0ac5c19a4bafb9699827a4acd603",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -121,6 +127,12 @@
       "bytes": 5021,
       "sha256": "765c1d9b69cc40bf241a2cd32667998c0e9e055ad9888e103f25cdc50b88260f",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "code/figure_sources/refine_figure1.py",
+      "bytes": 12971,
+      "sha256": "a5f13e39a0c841202d8a491383467f149db2c4b15f1059f6897c915b6bc2cd33",
+      "source": "Figure 1 presentation update or current author document; see provenance/figure1_refinement_20261021"
     },
     {
       "file": "code/postprocessing/annual_quality_sensitivity.py",
@@ -423,6 +435,78 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2015.csv",
+      "bytes": 43950,
+      "sha256": "7f4770c20eb20128d873f8fa76e8dada08e7b9072a154c8545f6ab76b3caa1b5",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2016.csv",
+      "bytes": 57320,
+      "sha256": "c7a86d1baf8369a4f0b2acc961946abdc1bcf7a40b9209f0b79e70c5aaea73df",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2017.csv",
+      "bytes": 67469,
+      "sha256": "5469124f431953ce80d9c6ff474151e55fc6d3d86a26f253dd663feecf5887af",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2018.csv",
+      "bytes": 84024,
+      "sha256": "051153ed07e7a0f731d4d3ca02fd818da5d5700b9f0fcb5a8c75b97c08cde7aa",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2019.csv",
+      "bytes": 86457,
+      "sha256": "2c98b0ca27d9985c13bec9a7a05680c14baecb6697043a1353ee6da37ed0bbeb",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2020.csv",
+      "bytes": 88897,
+      "sha256": "154a6b2884f4252a88b1b5c162500f87983a76789b7ca4496aebd1b4fef84f24",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2021.csv",
+      "bytes": 86777,
+      "sha256": "c395959251a1119e81ac1a8c406a8adfc9911bd6487b22392eea5d4414cb6dad",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2022.csv",
+      "bytes": 83690,
+      "sha256": "a7d0f5fffab9d5dbe213471642dfa5415653dffd7fcab051fda62f2d141288c6",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2023.csv",
+      "bytes": 85964,
+      "sha256": "9dc1e06cb33d67fd76b727847991f742572365f2dd1fe53c6496d457135c8b79",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2024.csv",
+      "bytes": 86363,
+      "sha256": "c3fb466669a981cf034ea22906d973d3030b3f89ee84f611798352690e17392b",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_scene_inventory.csv",
+      "bytes": 130140,
+      "sha256": "1ac37181efecc6631b2f294f5bc5e84eaccb3f91208ef243a914f112511d9c0b",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_settings.csv",
+      "bytes": 947,
+      "sha256": "320e20a106263c39284b8bc516912f8b86cfa2dc646125d9c8802d666ce565af",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
       "file": "data/inputs/earth_engine_exports/NW_Bangladesh_automatic_water_2015_2024/auto_monthly_2015.csv",
       "bytes": 27196,
       "sha256": "96c68beb78c44a546bd94a91dbb4f7024864e4d58964e821f3a94b19db2519b6",
@@ -507,78 +591,6 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2015.csv",
-      "bytes": 43950,
-      "sha256": "7f4770c20eb20128d873f8fa76e8dada08e7b9072a154c8545f6ab76b3caa1b5",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2016.csv",
-      "bytes": 57320,
-      "sha256": "c7a86d1baf8369a4f0b2acc961946abdc1bcf7a40b9209f0b79e70c5aaea73df",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2017.csv",
-      "bytes": 67469,
-      "sha256": "5469124f431953ce80d9c6ff474151e55fc6d3d86a26f253dd663feecf5887af",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2018.csv",
-      "bytes": 84024,
-      "sha256": "051153ed07e7a0f731d4d3ca02fd818da5d5700b9f0fcb5a8c75b97c08cde7aa",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2019.csv",
-      "bytes": 86457,
-      "sha256": "2c98b0ca27d9985c13bec9a7a05680c14baecb6697043a1353ee6da37ed0bbeb",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2020.csv",
-      "bytes": 88897,
-      "sha256": "154a6b2884f4252a88b1b5c162500f87983a76789b7ca4496aebd1b4fef84f24",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2021.csv",
-      "bytes": 86777,
-      "sha256": "c395959251a1119e81ac1a8c406a8adfc9911bd6487b22392eea5d4414cb6dad",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2022.csv",
-      "bytes": 83690,
-      "sha256": "a7d0f5fffab9d5dbe213471642dfa5415653dffd7fcab051fda62f2d141288c6",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2023.csv",
-      "bytes": 85964,
-      "sha256": "9dc1e06cb33d67fd76b727847991f742572365f2dd1fe53c6496d457135c8b79",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_2024.csv",
-      "bytes": 86363,
-      "sha256": "c3fb466669a981cf034ea22906d973d3030b3f89ee84f611798352690e17392b",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_scene_inventory.csv",
-      "bytes": 130140,
-      "sha256": "1ac37181efecc6631b2f294f5bc5e84eaccb3f91208ef243a914f112511d9c0b",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/inputs/earth_engine_exports/NW_Bangladesh_DW_sensitivity_2015_2024/dw_sensitivity_settings.csv",
-      "bytes": 947,
-      "sha256": "320e20a106263c39284b8bc516912f8b86cfa2dc646125d9c8802d666ce565af",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
       "file": "data/inputs/jrc_monthly_2000.tif",
       "bytes": 18818481,
       "sha256": "65d2d0a571d5c0df420c83cabff26ed735dd5ea0a34576ab509ea61d0582a090",
@@ -600,6 +612,30 @@
       "file": "data/inputs/spectral_screening_evidence.json",
       "bytes": 4387152,
       "sha256": "f1646c20af7502a72d905ff0081998cea467feba9f5f8901edd43c2d3ed79a74",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/revision/CONTEXT_PROTOCOL_ADDENDUM.json",
+      "bytes": 823,
+      "sha256": "31b04c78633be30d0974c2babed05d1b8f0ab37b45870dfbbd8fb4d21e1b5e81",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/revision/DETECTABILITY_PROTOCOL_ADDENDUM.json",
+      "bytes": 877,
+      "sha256": "08e0e73c36a9edfe0047bdf84d80e4d9a8e026bf0a5b6af2beba0aa91330594d",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/revision/FROZEN_REVISION_PROTOCOL.json",
+      "bytes": 5220,
+      "sha256": "de8a8c86945ee86d6eec48e6e462ae7b4bc161c84b8d47ca7ec60b79ecad60b4",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/revision/RADAR_PROTOCOL_ADDENDUM.json",
+      "bytes": 582,
+      "sha256": "ad5585aae841537429b5952caa20ed4fdba9bb77d618d3b4d3b4289e85013250",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -690,30 +726,6 @@
       "file": "data/revision/batch_downloads/review_joint_cells_2018_Q1.csv",
       "bytes": 40495,
       "sha256": "b0add8337e2c637f5bcc605ba09a9df6ad86c3df3ed7d064685dcb16e1ec2f69",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/revision/CONTEXT_PROTOCOL_ADDENDUM.json",
-      "bytes": 823,
-      "sha256": "31b04c78633be30d0974c2babed05d1b8f0ab37b45870dfbbd8fb4d21e1b5e81",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/revision/DETECTABILITY_PROTOCOL_ADDENDUM.json",
-      "bytes": 877,
-      "sha256": "08e0e73c36a9edfe0047bdf84d80e4d9a8e026bf0a5b6af2beba0aa91330594d",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/revision/FROZEN_REVISION_PROTOCOL.json",
-      "bytes": 5220,
-      "sha256": "de8a8c86945ee86d6eec48e6e462ae7b4bc161c84b8d47ca7ec60b79ecad60b4",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/revision/RADAR_PROTOCOL_ADDENDUM.json",
-      "bytes": 582,
-      "sha256": "ad5585aae841537429b5952caa20ed4fdba9bb77d618d3b4d3b4289e85013250",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -879,72 +891,6 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
-      "file": "data/tables/actual_dated_observations.csv",
-      "bytes": 427523,
-      "sha256": "b01d61c4cc61aef27a5c46b1e4777633500ad46cc0f9d0203e9eae6dfa055602",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/tables/annual_climate_model_coefficients.csv",
-      "bytes": 12425,
-      "sha256": "52e8d7463df94cfba231561337a6f125791e91375d9add0907e7050c71c97f76",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/tables/annual_common_support_water.csv",
-      "bytes": 11833,
-      "sha256": "06a6d96dd1de50cc5a3669bf9c2a79b5747ce8a37aff028c508b5829d4e49c4c",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/tables/annual_observation_effort_climate_sensitivity.csv",
-      "bytes": 6947,
-      "sha256": "8122a83c354d062ed644d4521dddc12ef53b2f0f3c57da37248102af9f74a026",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/tables/annual_observation_quality.csv",
-      "bytes": 13985,
-      "sha256": "55c2a8af0649da06537326d27e7502c5634a958c5caa05a55ab4fb1fedbd8c7d",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/tables/annual_predictive_validation_summary.csv",
-      "bytes": 627,
-      "sha256": "f035912e1402e0c538ac0fa5b5870722514f8ebcd950ef536523c943776be7ab",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/tables/annual_trend_results.csv",
-      "bytes": 4718,
-      "sha256": "c78120f719b943c248de616b135ad41763a7862896541217b9471d526e7772bd",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/tables/common_support_quality.csv",
-      "bytes": 5128,
-      "sha256": "088ba9e182a6c0ed02f40e41d578811c163fd8bee288f55653751f8f36c98026",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/tables/dw_threshold_support_and_agreement.csv",
-      "bytes": 5861,
-      "sha256": "10a51d7eddd0306f8acea4ef9fb0f6d492671261b8c261402b6ceca57541afa8",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/tables/exploratory_climate_envelope_models.csv",
-      "bytes": 5977,
-      "sha256": "ad7239a34bc2457ee2241b4283fb19db135088b738cc7df7b98da1e7d041f9a8",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "data/tables/exploratory_recovery_support_sensitivity.csv",
-      "bytes": 118534,
-      "sha256": "9af338777745136868a916d2db1e742ed708f0998e8f4fb6e6fe143ed1893eda",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
       "file": "data/tables/Extended_Diagnostics/annual_jrc/annual_calendar_cross_validation.csv",
       "bytes": 2417,
       "sha256": "115aa45f54dd06840d5e712e4a2334f63721b289b79ffe24f86fd1cdf2ed6b64",
@@ -1071,6 +1017,72 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
+      "file": "data/tables/actual_dated_observations.csv",
+      "bytes": 427523,
+      "sha256": "b01d61c4cc61aef27a5c46b1e4777633500ad46cc0f9d0203e9eae6dfa055602",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/tables/annual_climate_model_coefficients.csv",
+      "bytes": 12425,
+      "sha256": "52e8d7463df94cfba231561337a6f125791e91375d9add0907e7050c71c97f76",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/tables/annual_common_support_water.csv",
+      "bytes": 11833,
+      "sha256": "06a6d96dd1de50cc5a3669bf9c2a79b5747ce8a37aff028c508b5829d4e49c4c",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/tables/annual_observation_effort_climate_sensitivity.csv",
+      "bytes": 6947,
+      "sha256": "8122a83c354d062ed644d4521dddc12ef53b2f0f3c57da37248102af9f74a026",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/tables/annual_observation_quality.csv",
+      "bytes": 13985,
+      "sha256": "55c2a8af0649da06537326d27e7502c5634a958c5caa05a55ab4fb1fedbd8c7d",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/tables/annual_predictive_validation_summary.csv",
+      "bytes": 627,
+      "sha256": "f035912e1402e0c538ac0fa5b5870722514f8ebcd950ef536523c943776be7ab",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/tables/annual_trend_results.csv",
+      "bytes": 4718,
+      "sha256": "c78120f719b943c248de616b135ad41763a7862896541217b9471d526e7772bd",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/tables/common_support_quality.csv",
+      "bytes": 5128,
+      "sha256": "088ba9e182a6c0ed02f40e41d578811c163fd8bee288f55653751f8f36c98026",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/tables/dw_threshold_support_and_agreement.csv",
+      "bytes": 5861,
+      "sha256": "10a51d7eddd0306f8acea4ef9fb0f6d492671261b8c261402b6ceca57541afa8",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/tables/exploratory_climate_envelope_models.csv",
+      "bytes": 5977,
+      "sha256": "ad7239a34bc2457ee2241b4283fb19db135088b738cc7df7b98da1e7d041f9a8",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "data/tables/exploratory_recovery_support_sensitivity.csv",
+      "bytes": 118534,
+      "sha256": "9af338777745136868a916d2db1e742ed708f0998e8f4fb6e6fe143ed1893eda",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
       "file": "data/tables/monthly_predictive_validation_summary.csv",
       "bytes": 950,
       "sha256": "6a23d005e37910ed9031731d6a603ce68fb572001fa3a52faa32620add5404b6",
@@ -1131,6 +1143,12 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
+      "file": "docs/FIGURE1_DESIGN.md",
+      "bytes": 1945,
+      "sha256": "1ef29e8348cdaceeeea3b156e601008ccb3f36e77288dfce70138c28ca87c799",
+      "source": "Figure 1 presentation update or current author document; see provenance/figure1_refinement_20261021"
+    },
+    {
       "file": "docs/FILE_TO_RESULT_MAP.md",
       "bytes": 3264,
       "sha256": "425465672d8975522440b93ba68eb1f457d0b987550a9343be884e917bf89587",
@@ -1186,15 +1204,15 @@
     },
     {
       "file": "figures/Figure_01_study_area_and_design.png",
-      "bytes": 535524,
-      "sha256": "50a4065fdcd9a5813fb259f4cb92766fe7ba746c9a21669945fec6571a11aac7",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+      "bytes": 502154,
+      "sha256": "1b92f7cfa096b83b87acec331863f4522e2a535daee9eb00fc6d182360dc22d1",
+      "source": "Figure 1 presentation update or current author document; see provenance/figure1_refinement_20261021"
     },
     {
       "file": "figures/Figure_01_study_area_and_design.tiff",
-      "bytes": 621610,
-      "sha256": "bf4c36f347822076aa0ea24cd87fecca5f6ab5cc3a00ce226fdced89eb44c88e",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+      "bytes": 527896,
+      "sha256": "037e918591d25a208db4366c43a57c180eac7dceb44a6e411b5d5cc8401410fa",
+      "source": "Figure 1 presentation update or current author document; see provenance/figure1_refinement_20261021"
     },
     {
       "file": "figures/Figure_02_annual_classes_and_observations.png",
@@ -1330,15 +1348,15 @@
     },
     {
       "file": "manuscript/manuscript.docx",
-      "bytes": 3334601,
-      "sha256": "937e729ff157c0e91fc77cd523222d7c4df15eac781a5b1cc46e9a32e7f7395a",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+      "bytes": 3543583,
+      "sha256": "42beaf4972276135ab56c93527592479c42088f5a1d25a8f38d5985f8a7cd8bb",
+      "source": "Figure 1 presentation update or current author document; see provenance/figure1_refinement_20261021"
     },
     {
       "file": "manuscript/manuscript.pdf",
-      "bytes": 2575096,
-      "sha256": "1899152568f1081f599c3742e18f6cd56aa36ea18cd9af0387f396da0b77c502",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+      "bytes": 2550646,
+      "sha256": "63d464d017153366452e3d97c6834565bda912440b19530253601cfa979115e1",
+      "source": "Figure 1 presentation update or current author document; see provenance/figure1_refinement_20261021"
     },
     {
       "file": "manuscript/supplementary_methods.docx",
@@ -1353,9 +1371,45 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
+      "file": "provenance/LATEST_LABEL_REVISION.json",
+      "bytes": 2092,
+      "sha256": "5087ebc0b63218e8e31fc68d2a7ee8d74e8fefddc1b5ff69464c58f568800ef4",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/REPLAY_INPUTS.json",
+      "bytes": 10822,
+      "sha256": "02e3321aa039e0e0c13f3495933a91df17c7698ca43c7b3fa0cbb33187efc988",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/RESULTS.json",
+      "bytes": 52479,
+      "sha256": "ce582db740cb4bc3d50dae4fc66a2a9f9ef1f84d5354c63ef9ce4a279355b3c6",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/RUN_MANIFEST.json",
+      "bytes": 2201,
+      "sha256": "01376aa5fa888ffa4f0f3609ddf56ad2345dfed4ca28d88a0406c0fff9e19004",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/STATUS.json",
+      "bytes": 198,
+      "sha256": "2e7812acc44f38b947b0c5ec92f770f385ed3c5c8e28786c1ef2616e301ef114",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
       "file": "provenance/batch_completion_20261021/ARCHIVE_REPLAY_CHECK.json",
       "bytes": 2936,
       "sha256": "f3772717a1f8297bf45aeacaed1a978b5416b29cd895f994a0f3a8ef55db954a",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/batch_completion_20261021/REVISION_RESPONSE.md",
+      "bytes": 5959,
+      "sha256": "dcb35b12b5245df289fb20949e0f1ccdfe2e1f45561ba331ac1dac7c445f6313",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -1413,12 +1467,6 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
-      "file": "provenance/batch_completion_20261021/REVISION_RESPONSE.md",
-      "bytes": 5959,
-      "sha256": "dcb35b12b5245df289fb20949e0f1ccdfe2e1f45561ba331ac1dac7c445f6313",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
       "file": "provenance/batch_completion_20261021/work-items.json",
       "bytes": 10990,
       "sha256": "a9acb828fe5d4e7aa1de5b6822567e1797c6965e6a684e44efe684c7d78ed4fc",
@@ -1431,6 +1479,18 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
+      "file": "provenance/figure1_refinement_20261021/FIGURE1_FINAL_QA.json",
+      "bytes": 7172,
+      "sha256": "bc77baa269a7d90469795caf11d82bd68e0ee2680b504f3b098cca9370ba906e",
+      "source": "Figure 1 presentation update or current author document; see provenance/figure1_refinement_20261021"
+    },
+    {
+      "file": "provenance/figure1_refinement_20261021/FIGURE1_INTEGRATION_AUDIT.json",
+      "bytes": 5403,
+      "sha256": "08aa816bb7671d2ccb0f2f834e65d67ce4ee5652e84b7bbf17dcf77a067f38c7",
+      "source": "Figure 1 presentation update or current author document; see provenance/figure1_refinement_20261021"
+    },
+    {
       "file": "provenance/figure_1_cartography.json",
       "bytes": 3421,
       "sha256": "bc26f55801972b1ab3465e4a9e7152d965899e8c34820b7fc4671e1953887e32",
@@ -1438,9 +1498,9 @@
     },
     {
       "file": "provenance/figure_manifest.json",
-      "bytes": 20438,
-      "sha256": "93bb6b96ea3bbcca74eeb939bb0702488ae78b5155c64f8c31f775644a13b08b",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+      "bytes": 20740,
+      "sha256": "8b81168caf005a5b026c412f3178489979bef88747f85ec5eec432efe39a4b70",
+      "source": "Figure 1 presentation update or current author document; see provenance/figure1_refinement_20261021"
     },
     {
       "file": "provenance/figure_manifest_v020.json",
@@ -1452,12 +1512,6 @@
       "file": "provenance/journal_policy_sources.json",
       "bytes": 3559,
       "sha256": "550d3d03ef3ca439ca755052271f4f37e64b4ae9ae9b068f388fb337e5562b69",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/LATEST_LABEL_REVISION.json",
-      "bytes": 2092,
-      "sha256": "5087ebc0b63218e8e31fc68d2a7ee8d74e8fefddc1b5ff69464c58f568800ef4",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -1509,15 +1563,27 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
-      "file": "provenance/replay_audit/dated_label_test.json",
-      "bytes": 253,
-      "sha256": "8298254f6ff62b4a2875f1e56bdbcc77a291982bc08586f950c2bd4751cc1627",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
       "file": "provenance/replay_audit/FIGURE_REPLAY_REPORT.json",
       "bytes": 880,
       "sha256": "3ff4975dac8b55bd136a73141a917fa6a56a0196b19fdb14c8d93921993d53ac",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/replay_audit/ISOLATED_ARCHIVE_CHECK.json",
+      "bytes": 2018,
+      "sha256": "c42ba93f068fbc6ecacbeb3fceeb4a1ed31ec5c7c9dd6f174a4c5efef216a9c3",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/replay_audit/REPRODUCTION_REPORT.json",
+      "bytes": 5601,
+      "sha256": "360ddd2f22e19ede1cf0915c5553d80dea0c8ba13c3a05be9ec20bced80b53a0",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/replay_audit/dated_label_test.json",
+      "bytes": 253,
+      "sha256": "8298254f6ff62b4a2875f1e56bdbcc77a291982bc08586f950c2bd4751cc1627",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -1539,21 +1605,9 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
-      "file": "provenance/replay_audit/ISOLATED_ARCHIVE_CHECK.json",
-      "bytes": 2018,
-      "sha256": "c42ba93f068fbc6ecacbeb3fceeb4a1ed31ec5c7c9dd6f174a4c5efef216a9c3",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
       "file": "provenance/replay_audit/python_tests.txt",
       "bytes": 101,
       "sha256": "a3830719776ba8d2dbcc845068c7c4e67bda02ac44a8dedb9abba98e8ae4d709",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/replay_audit/REPRODUCTION_REPORT.json",
-      "bytes": 5601,
-      "sha256": "360ddd2f22e19ede1cf0915c5553d80dea0c8ba13c3a05be9ec20bced80b53a0",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -1569,39 +1623,9 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
-      "file": "provenance/REPLAY_INPUTS.json",
-      "bytes": 10822,
-      "sha256": "02e3321aa039e0e0c13f3495933a91df17c7698ca43c7b3fa0cbb33187efc988",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/RESULTS.json",
-      "bytes": 52479,
-      "sha256": "ce582db740cb4bc3d50dae4fc66a2a9f9ef1f84d5354c63ef9ce4a279355b3c6",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/revision/actual_intext_check.csv",
-      "bytes": 1254,
-      "sha256": "77e2abad2e2ea3aba4131ec38e2b945bab91a8b06db67f7c8d67119b32e2fbb9",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
       "file": "provenance/revision/ANALYSIS_COMPLETE.json",
       "bytes": 317,
       "sha256": "a433eca5ed56ce3bc4974af0841fc7ffd8ea187f7f83f358bf0e4f6db78b201f",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/revision/batch_task_status.json",
-      "bytes": 1640,
-      "sha256": "e906a3519c086eda163375ee56dc178b048193e03fd35325b2fe4865f1e26fe3",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/revision/citation-audit_revision.csv",
-      "bytes": 5997,
-      "sha256": "c20c46e9819e3aabd857d93d922dc4f5d8b45c9aae3908ad93e3cdbf23100633",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -1620,6 +1644,60 @@
       "file": "provenance/revision/DETECTABILITY_COMPLETE.json",
       "bytes": 188,
       "sha256": "20492c8e40834b1f2a43e42df056ca0fd81e8fba67e72816c03269db50537a3a",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/revision/EXTRACTED_FIGURE_REPLAY_REPORT.json",
+      "bytes": 319,
+      "sha256": "44bc7d48f5d7c55e2ecf0f3992bd863c0774aa4d897a038a61a378282f4acbd7",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/revision/EXTRACTED_REPLAY_REPORT.json",
+      "bytes": 1482,
+      "sha256": "fc9e70986fe1388681a26f2714714939e33008e7dfaffd9802ff4d4fa899cee0",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/revision/EXTRACTION_COMPLETE.json",
+      "bytes": 1147,
+      "sha256": "76162b4e9330a3c5e29c56458de8578531946ad173fb1f7f9cadacd5c8bdaea0",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/revision/FIGURE_REPLAY_REPORT.json",
+      "bytes": 319,
+      "sha256": "44bc7d48f5d7c55e2ecf0f3992bd863c0774aa4d897a038a61a378282f4acbd7",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/revision/NOTE_ENCODING_CORRECTION.json",
+      "bytes": 523,
+      "sha256": "46b595cffa491d7a0a32251d1dd0a55b058a84a1d3295e41f5fd4764d87efbc7",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/revision/STATISTICAL_REPLAY_REPORT.json",
+      "bytes": 1482,
+      "sha256": "fc9e70986fe1388681a26f2714714939e33008e7dfaffd9802ff4d4fa899cee0",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/revision/actual_intext_check.csv",
+      "bytes": 1254,
+      "sha256": "77e2abad2e2ea3aba4131ec38e2b945bab91a8b06db67f7c8d67119b32e2fbb9",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/revision/batch_task_status.json",
+      "bytes": 1640,
+      "sha256": "e906a3519c086eda163375ee56dc178b048193e03fd35325b2fe4865f1e26fe3",
+      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
+    },
+    {
+      "file": "provenance/revision/citation-audit_revision.csv",
+      "bytes": 5997,
+      "sha256": "c20c46e9819e3aabd857d93d922dc4f5d8b45c9aae3908ad93e3cdbf23100633",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -1683,30 +1761,6 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
-      "file": "provenance/revision/EXTRACTED_FIGURE_REPLAY_REPORT.json",
-      "bytes": 319,
-      "sha256": "44bc7d48f5d7c55e2ecf0f3992bd863c0774aa4d897a038a61a378282f4acbd7",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/revision/EXTRACTED_REPLAY_REPORT.json",
-      "bytes": 1482,
-      "sha256": "fc9e70986fe1388681a26f2714714939e33008e7dfaffd9802ff4d4fa899cee0",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/revision/EXTRACTION_COMPLETE.json",
-      "bytes": 1147,
-      "sha256": "76162b4e9330a3c5e29c56458de8578531946ad173fb1f7f9cadacd5c8bdaea0",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/revision/FIGURE_REPLAY_REPORT.json",
-      "bytes": 319,
-      "sha256": "44bc7d48f5d7c55e2ecf0f3992bd863c0774aa4d897a038a61a378282f4acbd7",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
       "file": "provenance/revision/final_citation_crossreference_audit.json",
       "bytes": 422,
       "sha256": "5000d101ec4ba22eb567206353ca124a7e2e58f9243f46d970a5b19e01f9dd5b",
@@ -1716,12 +1770,6 @@
       "file": "provenance/revision/harness-events.jsonl",
       "bytes": 7403,
       "sha256": "0fe01b8e686df10d6239170c16f9d1f04953a50577604ee8d34861f97d3dac0d",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/revision/NOTE_ENCODING_CORRECTION.json",
-      "bytes": 523,
-      "sha256": "46b595cffa491d7a0a32251d1dd0a55b058a84a1d3295e41f5fd4764d87efbc7",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -1791,27 +1839,9 @@
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
-      "file": "provenance/revision/STATISTICAL_REPLAY_REPORT.json",
-      "bytes": 1482,
-      "sha256": "fc9e70986fe1388681a26f2714714939e33008e7dfaffd9802ff4d4fa899cee0",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
       "file": "provenance/revision/work-items.json",
       "bytes": 7272,
       "sha256": "e34d28b6f71977661a869fa93ed440fe58cd092730f5c266e64a9eedcf4eb48c",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/RUN_MANIFEST.json",
-      "bytes": 2201,
-      "sha256": "01376aa5fa888ffa4f0f3609ddf56ad2345dfed4ca28d88a0406c0fff9e19004",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "provenance/STATUS.json",
-      "bytes": 198,
-      "sha256": "2e7812acc44f38b947b0c5ec92f770f385ed3c5c8e28786c1ef2616e301ef114",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     },
     {
@@ -1825,12 +1855,9 @@
       "bytes": 101,
       "sha256": "2b35b1caec36805ba8121c9067a978e8c840af7063e496d9e10987791377c65e",
       "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
-    },
-    {
-      "file": "README.md",
-      "bytes": 5213,
-      "sha256": "3f11ae933db988975ddfbe631e7b6e009c1dd3e393d910934571417bf1af364d",
-      "source": "Completed pilot revision or preserved original; see provenance/batch_completion_20261021 and historical records"
     }
-  ]
+  ],
+  "current_update": "Figure 1 presentation refinement with latest local author edits retained",
+  "comparison_base_commit": "eaa905799cac94d442c7b40483b23aa3ff765a58",
+  "current_update_provenance": "provenance/figure1_refinement_20261021/FIGURE1_FINAL_QA.json"
 }

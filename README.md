@@ -6,6 +6,8 @@ Research materials for *Mapped seasonal surface water decline under changing obs
 
 <img src="figures/Figure_01_study_area_and_design.png" alt="Study districts in northwestern Bangladesh and the three analysis domains" width="900">
 
+[Figure 1 design and redraw instructions](docs/FIGURE1_DESIGN.md)
+
 The study examines seasonal and permanent surface-water classes in Naogaon, Chapainawabganj and Rajshahi. The primary annual comparison covers 2000–2021 on a fixed observed footprint of 1,276.41 km². A separate 2015–2024 radar–optical analysis examines how confidence thresholds change the area available for comparison. Dated image interpretation covers 720 sampled pixel-months in four selected months.
 
 ## Run the reported calculations

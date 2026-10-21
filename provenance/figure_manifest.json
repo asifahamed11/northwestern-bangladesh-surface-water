@@ -3,10 +3,10 @@
     "number": 1,
     "caption": "Figure 1. Study location and analytical design. (A) Location of the study districts within Bangladesh. (B) The three district reporting boundaries; Chapainawabganj is harmonized from the source name Nawabganj. (C) The primary annual analysis, separate radar–optical analysis and four-month dated comparison. Maps use a WGS84 transverse Mercator projection centered on 90°E; scale bars and north arrows are geodesic. Boundaries: geoBoundaries gbOpen BGD ADM2, BGD-ADM2-16705992; underlying sources Bangladesh Bureau of Statistics and OCHA ROAP, CC BY 3.0 IGO. Boundaries are shown for analysis and imply no position on legal status.",
     "png": "Figure_01_study_area_and_design.png",
-    "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Figures\\Figure_1_study_area_and_design.png",
+    "source": "code/figure_sources/refine_figure1.py",
     "source_sha256": "0d480274898bd24f548c22ccfa66eae7adcef99cf25b35d02a5bba43dc313908",
-    "final_png_sha256": "50a4065fdcd9a5813fb259f4cb92766fe7ba746c9a21669945fec6571a11aac7",
-    "final_tiff_sha256": "bf4c36f347822076aa0ea24cd87fecca5f6ab5cc3a00ce226fdced89eb44c88e",
+    "final_png_sha256": "1b92f7cfa096b83b87acec331863f4522e2a535daee9eb00fc6d182360dc22d1",
+    "final_tiff_sha256": "037e918591d25a208db4366c43a57c180eac7dceb44a6e411b5d5cc8401410fa",
     "pixels": [
       2267,
       1902
@@ -16,15 +16,19 @@
     "redraw_input_sha256": "10699eaea184d4c194da746e671feec2a2c715c477f593b0118b17332f736f18",
     "input_sources": [
       {
-        "path": "C:\\Users\\Admin\\Desktop\\New folder\\NW_Bangladesh_2000_2024\\verified_study_area.geojson",
-        "sha256": "10699eaea184d4c194da746e671feec2a2c715c477f593b0118b17332f736f18"
+        "path": "data/boundaries/study_area.geojson",
+        "file_sha256": "10699eaea184d4c194da746e671feec2a2c715c477f593b0118b17332f736f18",
+        "geometry_bytes_sha256": "10699eaea184d4c194da746e671feec2a2c715c477f593b0118b17332f736f18"
       },
       {
-        "path": "C:\\Users\\Admin\\Desktop\\New folder\\dataset-download\\boundaries\\Bangladesh_ADM2_original.geojson",
-        "sha256": "54379ccc77f6f59dab3569ecc5f9b3850dbed2d65a5f43a034bdf92179f5621b"
+        "path": "data/boundaries/national_adm2.geojson.gz",
+        "file_sha256": "a8784a4cc15ec79298f774bddb84b95b68c60d223095a3f8681c7ecd6c5b8dcf",
+        "geometry_bytes_sha256": "54379ccc77f6f59dab3569ecc5f9b3850dbed2d65a5f43a034bdf92179f5621b"
       }
     ],
-    "rendering": "Unsimplified verified district boundaries and ADM2 context, WGS84 transverse Mercator centered on 90 E; geodesic scale bars and true-north arrows. Frozen analysis domains; no models or estimates changed."
+    "rendering": "Unsimplified verified district boundaries and ADM2 context, WGS84 transverse Mercator centered on 90 E; geodesic scale bars and true-north arrows. Frozen analysis domains; no models or estimates changed.",
+    "presentation_refinement": "Muted cartography, serif labels, short north arrows and a compact analysis-domain table; same unsimplified boundaries, projection and analysis facts.",
+    "presentation_audit": "provenance/figure1_refinement_20261021/FIGURE1_INTEGRATION_AUDIT.json"
   },
   {
     "number": 2,
