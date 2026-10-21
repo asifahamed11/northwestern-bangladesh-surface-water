@@ -1,0 +1,91 @@
+{
+  "checked_date": "2026-10-21",
+  "source": "Authenticated Earth Engine Task Manager visible task detail and genuine Drive CSV downloads",
+  "project": "gen-lang-client-0603076418",
+  "drive_folder_url": "https://drive.google.com/drive/u/0/folders/11fhf4PY_1lYmDVXhs9qtta3lR0fIkKmt",
+  "pending_tasks": [],
+  "completed_tasks": [
+    {
+      "description": "review_joint_cells_2024_Q1",
+      "id": "PLLWRGP5YQQDGNG4FACWSNAQ",
+      "phase": "Completed",
+      "runtime": "3m",
+      "started_local": "2026-10-20 22:22:34 +0600",
+      "batch_eecu_seconds": 76076.4141,
+      "attempt": 1,
+      "download_sha256": "04830223d67b0c7697e3d912fdce7abd34b8bf06fedbd84394f4383810d78c45"
+    },
+    {
+      "description": "review_joint_cells_2024_Q3",
+      "id": "CQXCKNKP2DNMRIJHAXP2WDAY",
+      "phase": "Completed",
+      "runtime": "3m",
+      "started_local": "2026-10-20 20:07:28 +0600",
+      "batch_eecu_seconds": 40867.9688,
+      "attempt": 1,
+      "download_sha256": "efb67a3d645d3959953db02a1244de71987ee9dd3cd3ef01075d18bdc800bd42"
+    },
+    {
+      "description": "review_joint_cells_2018_Q4",
+      "id": "HDYFEZY67MMQ3RGIWNHBALNX",
+      "phase": "Completed",
+      "runtime": "3m",
+      "started_local": "2026-10-20 17:49:56 +0600",
+      "batch_eecu_seconds": 101151.5391,
+      "attempt": 1,
+      "download_sha256": "055bdc1dbf2d5fe180c1b018b7cc6392d028f17e7a4e79449344e45b9e0f6a5d"
+    },
+    {
+      "description": "review_joint_cells_2018_Q3",
+      "id": "ON35T7YBK27VENPIERC72ODC",
+      "phase": "Completed",
+      "runtime": "2m",
+      "started_local": "2026-10-20 16:07:27 +0600",
+      "batch_eecu_seconds": 40282.5898,
+      "attempt": 1,
+      "download_sha256": "7108d995ff1c25907fbe5dc4590cbae1cff7daba873e7a369fe1861d39946d81"
+    },
+    {
+      "description": "review_joint_cells_2024_Q4",
+      "id": "RGJIXEGDLKZLDSK4LDWTJV3Y",
+      "phase": "Completed",
+      "runtime": "2m",
+      "started_local": "2026-10-20 14:30:34 +0600",
+      "batch_eecu_seconds": 78199.1016,
+      "attempt": 1,
+      "download_sha256": "fce372a7e91d64feef1873d7b3bd97b0b2655a44a4cd93596937b40eea4dfde9"
+    },
+    {
+      "description": "review_joint_cells_2024_Q2",
+      "id": "TA2U253PAOO5Z5G64PU5OS7Y",
+      "phase": "Completed",
+      "runtime": "2m",
+      "started_local": "2026-10-20 13:08:09 +0600",
+      "batch_eecu_seconds": 66651.0156,
+      "attempt": 1,
+      "download_sha256": "0d5744327b230affe43e9c971541cb08b5579426666238119e239d6f95bc1574"
+    },
+    {
+      "description": "review_joint_cells_2018_Q2",
+      "id": "Z3GUGVZA22DXMQJNCGMSECTA",
+      "phase": "Completed",
+      "runtime": "4m",
+      "started_local": "2026-10-20 11:52:44 +0600",
+      "batch_eecu_seconds": 51142.707,
+      "attempt": 1,
+      "download_sha256": "ccd55da9f02ea816c2731b7ecee2744ba711331a12bca6e4b97cf7a55742b1bf"
+    }
+  ],
+  "previously_completed_q1": {
+    "id": "XNME7P5RXWXUSN4ZPUJ7SB47",
+    "quarter": "2018_Q1",
+    "sha256": "b0add8337e2c637f5bcc605ba09a9df6ad86c3df3ed7d064685dcb16e1ec2f69",
+    "duplicates": "Only one of the three earlier completed copies is used; original audit retained."
+  },
+  "download_incidents": [
+    "Bulk Drive ZIP canceled; no archive obtained. Individual CSV downloads succeeded.",
+    "One browser locator download loop timed out; downloaded filenames checked before resuming; no export resubmission."
+  ],
+  "analysis_incident": "Initial schema assertion used generic cohort names; corrected to actual baseline_seasonal/baseline_permanent before any result was generated.",
+  "scope": "Eight quarters, two frozen pilot years, 288 rows; technical completion is not independent accuracy."
+}

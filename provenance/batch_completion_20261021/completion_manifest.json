@@ -1,0 +1,94 @@
+{
+  "created_date": "2026-10-21",
+  "completed_pilot": true,
+  "pending_exports": 0,
+  "pilot_rows": 288,
+  "technical_validation": "All frozen source areas, metadata, joint partitions and diagonals reconcile; decimal ratios agree.",
+  "scientific_limits": [
+    "No independent physical-water accuracy",
+    "No actual drought-recovery duration",
+    "No causal water-use identification"
+  ],
+  "inputs": [
+    {
+      "path": "review_joint_cells_2018_Q1.csv",
+      "bytes": 40495,
+      "sha256": "b0add8337e2c637f5bcc605ba09a9df6ad86c3df3ed7d064685dcb16e1ec2f69",
+      "rows": 36
+    },
+    {
+      "path": "review_joint_cells_2018_Q2.csv",
+      "bytes": 24182,
+      "sha256": "ccd55da9f02ea816c2731b7ecee2744ba711331a12bca6e4b97cf7a55742b1bf",
+      "rows": 36
+    },
+    {
+      "path": "review_joint_cells_2018_Q3.csv",
+      "bytes": 23779,
+      "sha256": "7108d995ff1c25907fbe5dc4590cbae1cff7daba873e7a369fe1861d39946d81",
+      "rows": 36
+    },
+    {
+      "path": "review_joint_cells_2018_Q4.csv",
+      "bytes": 40803,
+      "sha256": "055bdc1dbf2d5fe180c1b018b7cc6392d028f17e7a4e79449344e45b9e0f6a5d",
+      "rows": 36
+    },
+    {
+      "path": "review_joint_cells_2024_Q1.csv",
+      "bytes": 37093,
+      "sha256": "04830223d67b0c7697e3d912fdce7abd34b8bf06fedbd84394f4383810d78c45",
+      "rows": 36
+    },
+    {
+      "path": "review_joint_cells_2024_Q2.csv",
+      "bytes": 40619,
+      "sha256": "0d5744327b230affe43e9c971541cb08b5579426666238119e239d6f95bc1574",
+      "rows": 36
+    },
+    {
+      "path": "review_joint_cells_2024_Q3.csv",
+      "bytes": 16827,
+      "sha256": "efb67a3d645d3959953db02a1244de71987ee9dd3cd3ef01075d18bdc800bd42",
+      "rows": 36
+    },
+    {
+      "path": "review_joint_cells_2024_Q4.csv",
+      "bytes": 40601,
+      "sha256": "fce372a7e91d64feef1873d7b3bd97b0b2655a44a4cd93596937b40eea4dfde9",
+      "rows": 36
+    },
+    {
+      "path": "dw_sensitivity_2018.csv",
+      "sha256": "051153ed07e7a0f731d4d3ca02fd818da5d5700b9f0fcb5a8c75b97c08cde7aa",
+      "role": "frozen comparator"
+    },
+    {
+      "path": "dw_sensitivity_2024.csv",
+      "sha256": "c3fb466669a981cf034ea22906d973d3030b3f89ee84f611798352690e17392b",
+      "role": "frozen comparator"
+    }
+  ],
+  "outputs": {
+    "analysis\\joint_pilot_audit.json": "c36c58e935d223b45b1fbba8acace22fa571e604943cbd2f6db742dfc3c88100",
+    "analysis\\joint_pilot_by_season.csv": "31f5dce05a1f42753a10e6b070162b1633bba36c195224a8493f09db80d662f8",
+    "analysis\\joint_pilot_by_year.csv": "d6109ccca09dba1a143c94f8398727aef8951b33faf021fc21eb8cd704da2ad1",
+    "analysis\\joint_pilot_monthly_cells.csv": "337f4bf687ce86ded9d7cf8a2d8406e4598fbb57514120a6e7117d102976afdb",
+    "analysis\\joint_pilot_pooled.csv": "276af9f38ad20d71fa80e738ab87da88c68655ac1f83aea21db71e1d3585de99"
+  },
+  "manuscript_sha256": "937e729ff157c0e91fc77cd523222d7c4df15eac781a5b1cc46e9a32e7f7395a",
+  "supplement_sha256": "e615fc98917e0f1c362e3e2b4b90e4eb27218cc8bb84b4cc8c13acc45c1d3f45",
+  "archive_sha256": "4a501a2d6ccce6d9db48c0e21ece9c3b17f1939c9de7e8af335f0d8354ee9af2",
+  "archive_bytes": 3800539,
+  "self_review": true,
+  "previous_run": "REVIEW-REVISION-20261020",
+  "new_run": "REVIEW-REVISION-20261021-PILOT",
+  "original_labels_annual_tables_and_prior_delivery_preserved": true,
+  "archive_manifest_refreshed": true,
+  "actual_extracted_replay": {
+    "annual_tables": 11,
+    "joint_tables": 4,
+    "figure_pixel_matches": 5,
+    "all_supplied_hashes_preserved": true
+  }
+}

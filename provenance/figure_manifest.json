@@ -161,13 +161,13 @@
   },
   {
     "number": 8,
-    "caption": "Figure 8. Seasonal and class-specific limits to satellite agreement. (A) Mean SAR–Dynamic World paired support in June–September and other months during 2015–2024, retaining zero-support months. (B) Agreement pooled by paired area-time in those seasons. (C) November 2024 maximum raw and monthly-median probabilities in one small land-context probe and three stable-source-water interiors; probes are selected diagnostics, not independently labeled validation sites. The dashed line is threshold 0.8. (D) Symmetric positive (water) and negative (nonwater) agreement between JRC and assigned assisted labels, pooled across the four sampled months within district; unresolved weight is excluded from these conditional ratios. Assisted labels and optical lineage prevent interpreting them as independent accuracy.",
+    "caption": "Figure 8. Seasonal and class-specific limits to satellite agreement. (A) Mean SAR–Dynamic World paired support in June–September and other months during 2015–2024, retaining zero-support months. (B) Agreement pooled by paired area-time in those seasons. (C) November 2024 maximum raw and monthly-median probabilities in one small land-context probe and three stable-source-water interiors; probes are selected diagnostics, not independently labeled validation sites. The dashed line is threshold 0.8. (D) Symmetric positive (water) and negative (nonwater) product agreement in the completed 2018/2024 union historical ever-water pilot, pooled across all 24 intended months. Product pairs have different support. Threshold 0.8 has no pairs; its class agreement is unavailable. Panels A–B cover ten years, whereas D covers the two pilot years. No panel estimates independent accuracy.",
     "png": "Figure_08_radar_03_climate_envelope_models.png",
     "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Supplementary_Figures\\Figure_S6.png",
     "source_sha256": "037490005aedefb0b94475ba1f05a8cdbc216d14dd7c3c26547d6f40c5307158",
     "rendering": "Recomputed exploratory revision; original inputs retained. 320 dpi RGB, original vector export.",
-    "final_png_sha256": "3e7cdf5cc2fc912bd34729e15d8d980b8f44732303f4b27fae142c587e16b034",
-    "final_tiff_sha256": "1f241a2a5a3d4b363d71b0879ad5b9ea97716ddb566c63adac5c8923a2b16dcd",
+    "final_png_sha256": "867878d60a8721a6fef5d7d77d3e1e411b96e8e73401003ab9e8d239894ecb56",
+    "final_tiff_sha256": "4eb62f6d57b886047df4175eff7b76aeb4f749f83f6aefe97c8a43833bf38119",
     "pixels": [
       2272,
       2016
@@ -176,16 +176,16 @@
     "pre_revision_png_sha256": "e7b2716137348e16da610e1066fba0ca7a5fc9559fdcd99e18cbd1fb94187b50",
     "revision_inputs": [
       {
-        "path": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\review_revision_20261019\\research_pack\\outputs\\tables\\seasonal_dw_pair_support.csv",
+        "path": "C:\\Users\\Admin\\Desktop\\New folder\\github_repository\\northwestern-bangladesh-surface-water\\data\\revision\\tables\\seasonal_dw_pair_support.csv",
         "sha256": "ee52596df322cc75693d74b53ca1113c7a1f81884a091553c43d9ed0ee68231c"
       },
       {
-        "path": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\review_revision_20261019\\research_pack\\outputs\\tables\\dw_browser_stage_audit_202411.csv",
+        "path": "C:\\Users\\Admin\\Desktop\\New folder\\github_repository\\northwestern-bangladesh-surface-water\\data\\revision\\tables\\dw_browser_stage_audit_202411.csv",
         "sha256": "01d426b9b1dfcc624ec33df335d0739d542e4d0f5d0009d26bffb2960a92672b"
       },
       {
-        "path": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\review_revision_20261019\\research_pack\\outputs\\tables\\dated_class_specific_proxy_agreement.csv",
-        "sha256": "0fac4caddd4fded34650162c905bc7870051266ec78a928ff287c393f1fb1d36"
+        "path": "C:\\Users\\Admin\\Desktop\\New folder\\github_repository\\northwestern-bangladesh-surface-water\\data\\revision\\batch_completion_20261021\\analysis\\joint_pilot_pooled.csv",
+        "sha256": "276af9f38ad20d71fa80e738ab87da88c68655ac1f83aea21db71e1d3585de99"
       }
     ]
   },

@@ -1,0 +1,117 @@
+{
+  "actual_delivered_zip_sha256": "4a501a2d6ccce6d9db48c0e21ece9c3b17f1939c9de7e8af335f0d8354ee9af2",
+  "actual_delivered_zip_bytes": 3800539,
+  "statistical_replay": {
+    "tables": [
+      {
+        "table": "annual_fitted_revision.csv",
+        "rows": 7108,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "annual_model_inputs_revision.csv",
+        "rows": 700,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "area_trends_revision.csv",
+        "rows": 112,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "block_bootstrap_revision.csv",
+        "rows": 1176,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "calendar_matched_monthly_water.csv",
+        "rows": 1056,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "calendar_matched_trends_revision.csv",
+        "rows": 48,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "chronological_cv_revision.csv",
+        "rows": 4368,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "endpoint_window_changes_revision.csv",
+        "rows": 168,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "leave_one_year_out_revision.csv",
+        "rows": 7108,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "model_coefficients_revision.csv",
+        "rows": 3472,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "model_status_revision.csv",
+        "rows": 784,
+        "equal_within_tolerance": true
+      }
+    ],
+    "raw_pixels_reprocessed": false,
+    "models_refit": true,
+    "reference_labels_created": false
+  },
+  "joint_pilot_replay": {
+    "tables": [
+      {
+        "table": "joint_pilot_by_season.csv",
+        "rows": 384,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "joint_pilot_by_year.csv",
+        "rows": 192,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "joint_pilot_monthly_cells.csv",
+        "rows": 2304,
+        "equal_within_tolerance": true
+      },
+      {
+        "table": "joint_pilot_pooled.csv",
+        "rows": 96,
+        "equal_within_tolerance": true
+      }
+    ],
+    "requires_earth_engine": false,
+    "creates_independent_labels": false,
+    "estimates_physical_accuracy": false
+  },
+  "figure_replay": [
+    {
+      "figure": 3,
+      "same_rendered_pixels": true
+    },
+    {
+      "figure": 4,
+      "same_rendered_pixels": true
+    },
+    {
+      "figure": 5,
+      "same_rendered_pixels": true
+    },
+    {
+      "figure": 8,
+      "same_rendered_pixels": true
+    },
+    {
+      "figure": 12,
+      "same_rendered_pixels": true
+    }
+  ],
+  "all_supplied_file_checksums_match_after_execution": true,
+  "self_review": true
+}

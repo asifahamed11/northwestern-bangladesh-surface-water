@@ -135,15 +135,18 @@ for i,col in enumerate(['raw_water_max','monthly_water_max','raw_land_max','mont
  vals=audit[col]
  ax.scatter(np.arange(2)+(i-1.5)*.13,vals,marker=['o','s','^','D'][i],c=[BLUE,BLUE,ORANGE,ORANGE][i],s=32,label=['Water: raw max','Water: monthly max','Land: raw max','Land: monthly max'][i])
 ax.axhline(.8,color=GRAY,ls='--',lw=2);ax.set_xticks([0,1],['Land context','Stable-water probes']);ax.set_ylabel('Maximum probability in probe');ax.set_ylim(0,.92);ax.legend(frameon=False,fontsize=8.5,loc='lower left',ncol=1)
-proxy=pd.read_csv(T/'dated_class_specific_proxy_agreement.csv');ax=axes[1,1];panel(ax,'D','Assisted class agreement')
-for y,r in enumerate(regions[1:]):
- g=proxy[proxy.region.eq(r)&proxy.comparison.eq('assisted_proxy')]
- cells=g[['a0_b0','a0_b1','a1_b0','a1_b1']].sum();dis=cells.a0_b1+cells.a1_b0
- pp=2*cells.a1_b1/(2*cells.a1_b1+dis);nn=2*cells.a0_b0/(2*cells.a0_b0+dis)
- ax.scatter(pp,y-.16,c=BLUE,marker='o',s=35);ax.scatter(nn,y+.16,c=ORANGE,marker='s',s=35)
-ax.set_xlim(0,1.08);ax.set_ylim(-.65,2.55);ax.set_yticks(range(3),region_names[1:]);ax.invert_yaxis();ax.set_xlabel('Symmetric paired class agreement (0–1)')
-ax.legend([Line2D([],[],color=BLUE,marker='o',lw=0),Line2D([],[],color=ORANGE,marker='s',lw=0)],['Water','Nonwater'],frameon=False,loc='lower left')
-finish(fig,8,[T/'seasonal_dw_pair_support.csv',T/'dw_browser_stage_audit_202411.csv',T/'dated_class_specific_proxy_agreement.csv'])
+joint_path=OUT/'batch_completion_20261021/analysis/joint_pilot_pooled.csv'
+joint=pd.read_csv(joint_path);ax=axes[1,1];panel(ax,'D','Paired classes: 2018 and 2024')
+for comparison,marker,style in [('sar','o','-'),('jrc','^','--')]:
+ g=joint[joint.region.eq('All_districts')&joint.water_group.eq('all_water')&joint.comparison.eq(comparison)].sort_values('threshold')
+ name='SAR–DW' if comparison=='sar' else 'DW–JRC'
+ for metric,color,cls in [('positive_agreement',BLUE,'water'),('negative_agreement',ORANGE,'nonwater')]:
+  ax.plot(g.threshold,g[metric]*100,c=color,marker=marker,ls=style,label=name+': '+cls)
+ax.set_xlabel('Monthly probability threshold');ax.set_ylabel('Symmetric class agreement (%)')
+ax.set_xticks([.5,.6,.7,.8]);ax.set_ylim(0,104);ax.set_xlim(.48,.82)
+ax.text(.8,3,'no pair',ha='right',fontsize=8.5)
+ax.legend(frameon=False,loc='lower left',fontsize=8.5)
+finish(fig,8,[T/'seasonal_dw_pair_support.csv',T/'dw_browser_stage_audit_202411.csv',joint_path])
 
 # Figure 12: actual event accounting and explicitly separate simulated controls.
 events=pd.read_csv(ROOT/'data/tables/exploratory_recovery_support_sensitivity.csv')

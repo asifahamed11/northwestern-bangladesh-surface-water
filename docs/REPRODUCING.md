@@ -1,6 +1,6 @@
 # Reproducing the reported calculations
 
-The frozen reported run is `code_only_final_20261016/analysis_v3_user_label144`. Its scientific results are unchanged. The new entry points adapt file locations in an isolated output folder and call the original scientific functions.
+The frozen original run is `code_only_final_20261016/analysis_v3_user_label144`. Its tables and labels are unchanged. Separate revision commands refit the annual sensitivity models and replay the completed 2018/2024 satellite pilot. See [the annual revision](REVISION_20261020.md) and [the completed pilot](REVISION_20261021.md) for their distinct scopes.
 
 ## Environment
 
@@ -10,6 +10,8 @@ The tested runtime is Python 3.12.0 on Windows with the pinned libraries in `cod
 python -m venv .venv
 .venv\Scripts\python -m pip install -r code/requirements-dev.txt
 .venv\Scripts\python code/reproduce_reported_results.py --output reproduced/results
+.venv\Scripts\python code/reproduce_revision.py --output reproduced/revision_results
+.venv\Scripts\python code/reproduce_joint_pilot.py --output reproduced/joint_pilot
 .venv\Scripts\python code/reproduce_figures.py --output reproduced/figures
 .venv\Scripts\python -m pytest -q
 node code/tests/test_dated_water_core.cjs
@@ -21,7 +23,7 @@ Use a fresh output directory each time. On Linux/macOS, use `.venv/bin/python` i
 
 The results command checks genuine code/data hashes, then compares 15 recalculated CSV tables with frozen references: annual endpoints and trends; climate coefficients, model status, fitted series and calendar validation; observation/processing controls; monthly and pooled Dynamic World threshold evidence; SPI history and calibration; radar endpoint regressions; nine recovery settings; weighted proxy comparisons with fixed-seed bootstrap intervals; and all 720 outcome counts. Every column, category and null location is compared, with relative numeric tolerance `1e-7` and absolute tolerance `1e-9`. Hashes are checked again after the run. The report is `REPRODUCTION_REPORT.json`.
 
-The figure command redraws Figures 1, 3 and 5 from actual boundaries, the original transition raster and frozen model-output CSV. It compares rendered RGB pixels with the supplied PNGs and writes `FIGURE_REPLAY_REPORT.json`. It does not redraw the other nine figures. The original plotting sources and all 12 delivered images remain available.
+The current figure command redraws Figures 3, 4, 5, 8 and 12 from the supplied revision tables and compares rendered RGB pixels with the delivered PNGs. Figure 8D includes the completed two-year pilot. The historical command `reproduce_figures_v020.py` instead redraws the original Figures 1, 3 and 5 against their historical reference images. Both write `FIGURE_REPLAY_REPORT.json`; neither redraws all twelve figures. Original plotting sources and all twelve delivered images remain available.
 
 The table guards deliberately alter in-memory copies of genuine results to ensure a changed estimate, an omitted category or a missing accuracy value replaced with zero is rejected. These software tests do not establish scientific accuracy.
 
