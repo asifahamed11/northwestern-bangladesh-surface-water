@@ -16,8 +16,4 @@ Paths below are relative to the repository. Tables are unchanged observations/re
 | Figure 7 | `Extended_Diagnostics/radar/dw_monthly_threshold_evidence.csv` | `automatic_water/analyze_dw_sensitivity.py`; delivered image; monthly threshold table replay |
 | Figure 8 | `exploratory_climate_envelope_models.csv` | `automatic_water/finalize_sensitivity_results.py`; delivered image; endpoint-regression table replay |
 | Figure 9 | `proxy_agreement_and_unknown_ranges.csv`, `reference_outcome_accounting.csv` | `figure_sources/prepare_artifacts.py`; delivered image; comparison/outcome table replay |
-| Figure 10 | `Extended_Diagnostics/annual_jrc/spi_indices.csv`, `spi_calibration_parameters.csv` | Original monthly JRC-domain SPI diagnostic; delivered image and frozen tables, no portable redraw claim |
-| Figure 11 | `Extended_Diagnostics/annual_jrc/monthly_common_support_water.csv`, `recovery_failure_components.csv`, related recovery diagnostics | Original monthly JRC-domain diagnostic; delivered image and frozen tables, no portable redraw claim |
-| Figure 12 | `exploratory_recovery_support_sensitivity.csv` | `figure_sources/prepare_artifacts.py`; delivered image; all nine settings replay |
 
-Unqualified CSV names in the table refer to `data/tables/`. All 38 CSVs, including rejected fits and null recovery intervals, are inventoried in `docs/table_schema.json`. The journal archives retain these result tables; the development repository additionally holds all manuscript files and all 12 figures.

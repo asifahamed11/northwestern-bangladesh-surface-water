@@ -1,7 +1,0 @@
-{
-  "status": "SIMULATION_COMPLETED",
-  "records": 25920,
-  "actual_observed_recovery_created": false,
-  "synthetic_gap_filling": false,
-  "zero_control_false_positive_deficits": 0
-}

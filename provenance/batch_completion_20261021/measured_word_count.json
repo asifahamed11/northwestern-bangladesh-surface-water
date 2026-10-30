@@ -1,5 +1,0 @@
-{
-  "main_text_words": 8309,
-  "abstract_words": 268,
-  "main_count_rule": "Same regex and Introduction-through-Conclusion prose plus footnotes as the previous 7933-word version; headings, captions and tables excluded; native math tokens excluded."
-}

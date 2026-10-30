@@ -1,6 +1,0 @@
-{
-  "change": "Windows PowerShell pipeline replaced some non-ASCII ancillary note characters with question marks. UTF-8 author names, line ranges and Bengali delivery notes corrected. Scientific CSVs, figure pixels and manuscript DOCX were unaffected.",
-  "original_checkpoint_report_sha256": "d96afc850a2d1a07e675e4158d0ed0bc6aaa6534c22eb93536f691e89ce19aed",
-  "corrected_delivery_report_sha256": "f1a07eada4a817f504c50ca1edbf590a1b030eedf30bc3c4823c344151fbd3d6",
-  "original_checkpoint_artifacts_preserved": true
-}

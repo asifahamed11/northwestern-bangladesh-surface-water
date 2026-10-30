@@ -1,7 +1,7 @@
 [
   {
     "number": 1,
-    "caption": "Figure 1. Study location and analytical design. (A) Location of the study districts within Bangladesh. (B) The three district reporting boundaries; Chapainawabganj is harmonized from the source name Nawabganj. (C) The primary annual analysis, separate radar–optical analysis and four-month dated comparison. Maps use a WGS84 transverse Mercator projection centered on 90°E; scale bars and north arrows are geodesic. Boundaries: geoBoundaries gbOpen BGD ADM2, BGD-ADM2-16705992; underlying sources Bangladesh Bureau of Statistics and OCHA ROAP, CC BY 3.0 IGO. Boundaries are shown for analysis and imply no position on legal status.",
+    "caption": "Figure 1. Study location and analytical design. (A) Location of the study districts within Bangladesh. (B) The three district reporting boundaries; Chapainawabganj is harmonized from the source name Nawabganj. (C) The primary annual analysis, separate radar\u2013optical analysis and four-month dated comparison. Maps use a WGS84 transverse Mercator projection centered on 90\u00b0E; scale bars and north arrows are geodesic. Boundaries: geoBoundaries gbOpen BGD ADM2, BGD-ADM2-16705992; underlying sources Bangladesh Bureau of Statistics and OCHA ROAP, CC BY 3.0 IGO. Boundaries are shown for analysis and imply no position on legal status.",
     "png": "Figure_01_study_area_and_design.png",
     "source": "code/figure_sources/refine_figure1.py",
     "source_sha256": "0d480274898bd24f548c22ccfa66eae7adcef99cf25b35d02a5bba43dc313908",
@@ -32,7 +32,7 @@
   },
   {
     "number": 2,
-    "caption": "Figure 2. Annual source classes and observation effort on the fixed 1,276.41 km² annual footprint during 2000–2021. (A) Seasonal-class area. (B) Permanent-class area, with its own vertical scale. (C) Area-weighted observed months out of twelve. (D) Observed June–September months out of four. The union overlaps the district series. Annual classes do not certify complete observation of the year. Source: EC JRC/Google; derived from the frozen annual class and observation-quality tables.",
+    "caption": "Figure 2. Annual source classes and observation effort on the fixed 1,276.41 km\u00b2 annual footprint during 2000\u20132021. (A) Seasonal-class area. (B) Permanent-class area, with its own vertical scale. (C) Area-weighted observed months out of twelve. (D) Observed June\u2013September months out of four. The union overlaps the district series. Annual classes do not certify complete observation of the year. Source: EC JRC/Google; derived from the frozen annual class and observation-quality tables.",
     "png": "Figure_02_annual_classes_and_observations.png",
     "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Figures\\Figure_2_annual_classes_and_observations.png",
     "source_sha256": "bb3f4eb90d5d8a02e156b7ed30ccee5db1956220f2d079f1cc5f04d649d00d16",
@@ -46,7 +46,7 @@
   },
   {
     "number": 3,
-    "caption": "Figure 3. Gross source-class transitions and static landscape context on the original annual footprint. (A) Area in km² between strict five-year majority classes in 2000–2004 and 2017–2021; 11.04 km² without a majority in either window are excluded from the matrix. (B) Change between first and final five-year mean seasonal areas. Blue dots use a 500 m HydroRIVERS buffer; grey extents cover 200–1,000 m buffer settings and are sensitivity ranges, not uncertainty intervals. Away from the river buffer, groups use static WorldCover 2020 cropland or other cover. Context and class transitions do not establish historical land conversion or causal drivers.",
+    "caption": "Figure 3. Gross source-class transitions and static landscape context on the original annual footprint. (A) Area in km\u00b2 between strict five-year majority classes in 2000\u20132004 and 2017\u20132021; 11.04 km\u00b2 without a majority in either window are excluded from the matrix. (B) Change between first and final five-year mean seasonal areas. Blue dots use a 500 m HydroRIVERS buffer; grey extents cover 200\u20131,000 m buffer settings and are sensitivity ranges, not uncertainty intervals. Away from the river buffer, groups use static WorldCover 2020 cropland or other cover. Context and class transitions do not establish historical land conversion or causal drivers.",
     "png": "Figure_03_annual_08_annual_transition_primary_pre2022.png",
     "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Supplementary_Figures\\Figure_S4.png",
     "source_sha256": "cdd54bf9be605cbcd3dc1d95f722e60f1c4c784f5b74d221b82fb5075f74bc0b",
@@ -74,7 +74,7 @@
   },
   {
     "number": 4,
-    "caption": "Figure 4. Annual time-coefficient sensitivity to simpler climate and observation controls on the original footprint, 2000–2021. (A) Seasonal class. (B) Permanent class. Models use June–September rainfall alone with time; rainfall plus annual/wet-season observation counts and a 2016 indicator; or the original annual rainfall, temperature, evaporation, observation and processing specification. Solid bars are pointwise 95% calendar-distance HAC lag-two intervals; dotted bars are approximate 95% fixed-design circular residual block bootstrap intervals of length three. Each fit uses 22 annual observations. The union overlaps districts; district multiplicity is reported separately in the text and tables.",
+    "caption": "Figure 4. Annual time-coefficient sensitivity to simpler climate and observation controls on the original footprint, 2000\u20132021. (A) Seasonal class. (B) Permanent class. Models use June\u2013September rainfall alone with time; rainfall plus annual/wet-season observation counts and a 2016 indicator; or the original annual rainfall, temperature, evaporation, observation and processing specification. Solid bars are pointwise 95% calendar-distance HAC lag-two intervals; dotted bars are approximate 95% fixed-design circular residual block bootstrap intervals of length three. Each fit uses 22 annual observations. The union overlaps districts; district multiplicity is reported separately in the text and tables.",
     "png": "Figure_04_climate_observation_sensitivity.png",
     "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Figures\\Figure_3_climate_observation_sensitivity.png",
     "source_sha256": "b6bc455486df2a7edf1f9ccdd99dc5cc3a89910b769cd9930acacfbfe19c972a",
@@ -100,7 +100,7 @@
   },
   {
     "number": 5,
-    "caption": "Figure 5. Sensitivity to comparison windows, footprint definition and temporal validation. (A) Union seasonal changes for one-, three- and five-year windows, 2000–2021. C1–C7 are defined in Section 2.8; a missing symbol indicates an unavailable comparison. (B) Baseline-water footprint retained by identical calendar-month observations across all 22 years; crosses show zero support and the dashed line is the 20% fitting gate. (C) Seasonal coefficients and pointwise 95% HAC lag-two intervals for the monsoon/observation/processing model across cohorts. (D) Pooled chronological test RMSE divided by the training-only mean benchmark on exactly the same accepted folds; test-year counts are in parentheses. A ratio below one indicates lower error than that benchmark, not water-classification accuracy.",
+    "caption": "Figure 5. Sensitivity to comparison windows, footprint definition and temporal validation. (A) Union seasonal changes for one-, three- and five-year windows, 2000\u20132021. C1\u2013C7 are defined in Section 2.8; a missing symbol indicates an unavailable comparison. (B) Baseline-water footprint retained by identical calendar-month observations across all 22 years; crosses show zero support and the dashed line is the 20% fitting gate. (C) Seasonal coefficients and pointwise 95% HAC lag-two intervals for the monsoon/observation/processing model across cohorts. (D) Pooled chronological test RMSE divided by the training-only mean benchmark on exactly the same accepted folds; test-year counts are in parentheses. A ratio below one indicates lower error than that benchmark, not water-classification accuracy.",
     "png": "Figure_05_annual_02_annual_fixed_climate_expectations.png",
     "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Supplementary_Figures\\Figure_S1.png",
     "source_sha256": "4b161da5a39ab0910cab7e657afa94583a25510d4feb46f4a78101e58d70028d",
@@ -136,7 +136,7 @@
   },
   {
     "number": 6,
-    "caption": "Figure 6. Dynamic World confidence sensitivity on the separate 2015–2024 union historical ever-water cohort. (A) Mean classified and SAR–Dynamic World paired footprint fractions, including months with zero support. (B) Agreement pooled by paired area-time. Threshold 0.8 has no comparison support and no agreement estimate. The changing paired population prevents interpreting the highest agreement as independently validated accuracy. All four thresholds were retained without selecting a best threshold.",
+    "caption": "Figure 6. Dynamic World confidence sensitivity on the separate 2015\u20132024 union historical ever-water cohort. (A) Mean classified and SAR\u2013Dynamic World paired footprint fractions, including months with zero support. (B) Agreement pooled by paired area-time. Threshold 0.8 has no comparison support and no agreement estimate. The changing paired population prevents interpreting the highest agreement as independently validated accuracy. All four thresholds were retained without selecting a best threshold.",
     "png": "Figure_06_agreement_and_retained_support.png",
     "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Figures\\Figure_4_agreement_and_retained_support.png",
     "source_sha256": "cf9455635a9ba5c9a1cc28a08c16124641e109c21ee24765957fc6818177e8d8",
@@ -150,7 +150,7 @@
   },
   {
     "number": 7,
-    "caption": "Figure 7. Dynamic World threshold-specific support and method envelopes, 2015–2024, for the union historical ever-water cohort. Unclassified support enters the upper endpoint; envelopes do not include all physical classification errors.",
+    "caption": "Figure 7. Dynamic World threshold-specific support and method envelopes, 2015\u20132024, for the union historical ever-water cohort. Unclassified support enters the upper endpoint; envelopes do not include all physical classification errors.",
     "png": "Figure_07_radar_01_dw_support_and_envelopes.png",
     "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Supplementary_Figures\\Figure_S5.png",
     "source_sha256": "d381f7ee39e6f1c8b0dbef8967d88adf796ddd1ab8ca9c2db4872a2f110fc558",
@@ -165,7 +165,7 @@
   },
   {
     "number": 8,
-    "caption": "Figure 8. Seasonal and class-specific limits to satellite agreement. (A) Mean SAR–Dynamic World paired support in June–September and other months during 2015–2024, retaining zero-support months. (B) Agreement pooled by paired area-time in those seasons. (C) November 2024 maximum raw and monthly-median probabilities in one small land-context probe and three stable-source-water interiors; probes are selected diagnostics, not independently labeled validation sites. The dashed line is threshold 0.8. (D) Symmetric positive (water) and negative (nonwater) product agreement in the completed 2018/2024 union historical ever-water pilot, pooled across all 24 intended months. Product pairs have different support. Threshold 0.8 has no pairs; its class agreement is unavailable. Panels A–B cover ten years, whereas D covers the two pilot years. No panel estimates independent accuracy.",
+    "caption": "Figure 8. Seasonal and class-specific limits to satellite agreement. (A) Mean SAR\u2013Dynamic World paired support in June\u2013September and other months during 2015\u20132024, retaining zero-support months. (B) Agreement pooled by paired area-time in those seasons. (C) November 2024 maximum raw and monthly-median probabilities in one small land-context probe and three stable-source-water interiors; probes are selected diagnostics, not independently labeled validation sites. The dashed line is threshold 0.8. (D) Symmetric positive (water) and negative (nonwater) product agreement in the completed 2018/2024 union historical ever-water pilot, pooled across all 24 intended months. Product pairs have different support. Threshold 0.8 has no pairs; its class agreement is unavailable. Panels A\u2013B cover ten years, whereas D covers the two pilot years. No panel estimates independent accuracy.",
     "png": "Figure_08_radar_03_climate_envelope_models.png",
     "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Supplementary_Figures\\Figure_S6.png",
     "source_sha256": "037490005aedefb0b94475ba1f05a8cdbc216d14dd7c3c26547d6f40c5307158",
@@ -206,61 +206,5 @@
       1385
     ],
     "placed_width_cm": 17.2
-  },
-  {
-    "number": 10,
-    "caption": "Figure 10. SPI-3 history from CHIRPS version 3 with fixed 1981–2020 calibration. A meteorological drought event is distinct from an observed surface-water deficit.",
-    "png": "Figure_10_annual_04_spi3_drought_history.png",
-    "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Supplementary_Figures\\Figure_S2.png",
-    "source_sha256": "405edf4a175284e57e87128b18eaba79ff4011391734d78796ab74202782d65d",
-    "rendering": "Original SVG paths rendered locally at 2268 pixels wide; no scientific recomputation.",
-    "final_png_sha256": "680c837c3f0494e2d58a46c726f1051b6d9ef79d0f856f873ddb00ca61d7c68d",
-    "final_tiff_sha256": "9de0db6b27d1f242e62a638d9e3af18adbb7e5d92ed08280d7ad8999c931f1b9",
-    "pixels": [
-      2268,
-      1706
-    ],
-    "placed_width_cm": 17.2
-  },
-  {
-    "number": 11,
-    "caption": "Figure 11. Original monthly JRC water-observation and recovery-gap diagnostics. Observation exclusions remain gaps, and this domain/reference differs from the radar recovery analysis.",
-    "png": "Figure_11_annual_05_monthly_recovery_observation_gaps.png",
-    "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Supplementary_Figures\\Figure_S3.png",
-    "source_sha256": "7482de7188668c77c57a4590dd2708173d3898c13ff690cf75c24a9b214480cc",
-    "rendering": "Original SVG paths rendered locally at 2268 pixels wide; no scientific recomputation.",
-    "final_png_sha256": "07b31a8041405b0ac241aad6ea1af9992e575b32cb3e4aa242e4b7accb848003",
-    "final_tiff_sha256": "d50b3e4c82fc24263e1238ec869b7a1e0f4fd960c15f2fbe24c506df810627e9",
-    "pixels": [
-      2268,
-      1514
-    ],
-    "placed_width_cm": 17.2
-  },
-  {
-    "number": 12,
-    "caption": "Figure 12. Actual recovery-identifiability failures and separate synthetic detectability diagnostics. (A) Failure status for 108 overlapping event–cohort records at each of nine coverage/reference settings; these are not independent drought counts. (B) Union historical-water pulse positions with complete observations from three months before onset through two confirmation months, out of all 120 possible starts. (C) Confirmed synthetic deficits as a percentage of all starts for three pulse durations; no tested deficit was confirmed. Simulations impose a zero-baseline rectangular deficit with abrupt return, while retaining actual gaps and anomaly-envelope widths. They do not estimate observed recovery duration or validate physical detection power.",
-    "png": "Figure_12_recovery_support_gaps.png",
-    "source": "C:\\Users\\Admin\\Desktop\\New folder\\Frontiers_Earth_Science_20261016\\Figures\\Figure_6_recovery_support_gaps.png",
-    "source_sha256": "643a097f0d4cc399bf1042ac3ba9e98d66bf3b359f3abba25c48ba2a2f03365d",
-    "final_png_sha256": "b59a99c2cf95e62686cc63cdae3b4ac74bf37be7c722852225e37be63e197c2b",
-    "final_tiff_sha256": "d2f4f69cc5a17d855bd537fc1ba700546eed57804fbb069211fb65412f360609",
-    "pixels": [
-      2272,
-      1888
-    ],
-    "placed_width_cm": 17.2,
-    "pre_revision_png_sha256": "643a097f0d4cc399bf1042ac3ba9e98d66bf3b359f3abba25c48ba2a2f03365d",
-    "revision_inputs": [
-      {
-        "path": "C:\\Users\\Admin\\Desktop\\New folder\\research_outputs\\review_revision_20261019\\research_pack\\outputs\\tables\\simulated_detectability_summary.csv",
-        "sha256": "7aaa4de2f795d4d376cd4cf9011ac6287d93b3634dcaac0d3fbde8cf4e1ed2dc"
-      },
-      {
-        "path": "C:\\Users\\Admin\\Desktop\\New folder\\github_repository\\northwestern-bangladesh-surface-water\\data\\tables\\exploratory_recovery_support_sensitivity.csv",
-        "sha256": "9af338777745136868a916d2db1e742ed708f0998e8f4fb6e6fe143ed1893eda"
-      }
-    ],
-    "rendering": "Recomputed exploratory revision; original inputs retained. 320 dpi RGB, original vector export."
   }
 ]

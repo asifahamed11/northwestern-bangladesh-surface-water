@@ -2,9 +2,9 @@ cff-version: 1.2.0
 message: "Please cite the accompanying manuscript when using these research materials."
 title: "Mapped seasonal surface water decline under changing observation support in northwestern Bangladesh"
 type: dataset
-version: "0.3.2-author-review"
+version: "0.3.3-author-review"
 url: "https://github.com/asifahamed11/northwestern-bangladesh-surface-water"
-date-released: "2026-10-21"
+date-released: "2026-10-30"
 authors:
   - family-names: Ahamed
     given-names: Asif
@@ -14,13 +14,9 @@ authors:
     given-names: "Most. Alisa"
   - family-names: Hossain
     given-names: Ahammad
-  - family-names: Kamruzzaman
-    given-names: "Md."
-  - family-names: Das
-    given-names: Jayanta
   - family-names: Imon
     given-names: "A.H.M. Rahmatullah"
-abstract: "Code and derived results accompanying an unpublished manuscript. Access to the repository is restricted."
+abstract: "Code, analysis pipelines, and derived results accompanying the study on surface water dynamics in northwestern Bangladesh."
 
 preferred-citation:
   type: unpublished
@@ -35,10 +31,6 @@ preferred-citation:
       given-names: "Most. Alisa"
     - family-names: Hossain
       given-names: Ahammad
-    - family-names: Kamruzzaman
-      given-names: "Md."
-    - family-names: Das
-      given-names: Jayanta
     - family-names: Imon
       given-names: "A.H.M. Rahmatullah"
-  notes: "Unpublished author-review manuscript; not an accepted journal article."
+  notes: "Submitted manuscript for peer review; not yet published."

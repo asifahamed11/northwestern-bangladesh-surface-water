@@ -8,7 +8,7 @@
     "author": [
       {
         "family": "Pekel",
-        "given": "Jean-François"
+        "given": "Jean-Fran\u00e7ois"
       },
       {
         "family": "Cottam",
@@ -41,7 +41,7 @@
   {
     "id": "Brown2022",
     "type": "article-journal",
-    "title": "Dynamic World, Near real-time global 10 m land use land cover mapping",
+    "title": "Dynamic World, Near real-time global 10\u2009m land use land cover mapping",
     "DOI": "10.1038/s41597-022-01307-4",
     "URL": "https://doi.org/10.1038/s41597-022-01307-4",
     "author": [
@@ -238,20 +238,20 @@
     "URL": "https://doi.org/10.5194/essd-13-4349-2021",
     "author": [
       {
-        "family": "Muñoz-Sabater",
-        "given": "Joaquín"
+        "family": "Mu\u00f1oz-Sabater",
+        "given": "Joaqu\u00edn"
       },
       {
         "family": "Dutra",
         "given": "Emanuel"
       },
       {
-        "family": "Agustí-Panareda",
+        "family": "Agust\u00ed-Panareda",
         "given": "Anna"
       },
       {
         "family": "Albergel",
-        "given": "Clément"
+        "given": "Cl\u00e9ment"
       },
       {
         "family": "Arduini",
@@ -287,10 +287,10 @@
       },
       {
         "family": "Piles",
-        "given": "María"
+        "given": "Mar\u00eda"
       },
       {
-        "family": "Rodríguez-Fernández",
+        "family": "Rodr\u00edguez-Fern\u00e1ndez",
         "given": "Nemesio J."
       },
       {
@@ -302,8 +302,8 @@
         "given": "Carlo"
       },
       {
-        "family": "Thépaut",
-        "given": "Jean-Noël"
+        "family": "Th\u00e9paut",
+        "given": "Jean-No\u00ebl"
       }
     ],
     "issued": {
@@ -399,7 +399,7 @@
   {
     "id": "Saunders2025",
     "type": "article-journal",
-    "title": "Sensitivity to Data Choice for Index‐Based Flood Insurance",
+    "title": "Sensitivity to Data Choice for Index\u2010Based Flood Insurance",
     "DOI": "10.1029/2025ef005966",
     "URL": "https://doi.org/10.1029/2025ef005966",
     "author": [
@@ -692,7 +692,7 @@
   {
     "id": "Vanderhoof2023",
     "type": "article-journal",
-    "title": "High-frequency time series comparison of Sentinel-1 and Sentinel-2 satellites for mapping open and vegetated water across the United States (2017–2021)",
+    "title": "High-frequency time series comparison of Sentinel-1 and Sentinel-2 satellites for mapping open and vegetated water across the United States (2017\u20132021)",
     "DOI": "10.1016/j.rse.2023.113498",
     "URL": "https://doi.org/10.1016/j.rse.2023.113498",
     "author": [
@@ -903,46 +903,6 @@
     "container-title-short": "Remote Sensing of Environment"
   },
   {
-    "id": "ScientificSkills",
-    "type": "article",
-    "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
-    "author": [
-      {
-        "family": "Kassis",
-        "given": "Timothy"
-      },
-      {
-        "family": "Agarwal",
-        "given": "Vinayak"
-      },
-      {
-        "family": "He",
-        "given": "Yuhuan"
-      },
-      {
-        "family": "Patel",
-        "given": "Darshil"
-      },
-      {
-        "family": "Brueckner",
-        "given": "Aubrey M."
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2026,
-          9,
-          2
-        ]
-      ]
-    },
-    "container-title": "arXiv [Preprint]",
-    "page": "arXiv:2609.00065",
-    "DOI": "10.48550/arXiv.2609.00065",
-    "URL": "https://arxiv.org/abs/2609.00065"
-  },
-  {
     "id": "Lehner2013",
     "type": "article-journal",
     "title": "Global river hydrography and network routing: baseline data and new approaches to study the world's large river systems",
@@ -964,7 +924,7 @@
         ]
       },
       {
-        "given": "Günther",
+        "given": "G\u00fcnther",
         "family": "Grill",
         "sequence": "additional",
         "affiliation": [

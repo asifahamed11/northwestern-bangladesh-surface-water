@@ -195,7 +195,7 @@ for y in [.263,.190,.117,.044]:
  fig.add_artist(Line2D([.05,.953],[y,y],transform=fig.transFigure,lw=.6,color=LINE))
 rows=[
  (.242,'Annual source classes','2000–2021','JRC seasonal and permanent classes\nFixed footprint: 1,276.41 km²; climate and observation controls'),
- (.169,'Radar–optical comparison','2015–2024','Sentinel-1 and Dynamic World; separate retrospective cohorts\nThreshold and recovery-gap sensitivity'),
+ (.169,'Radar–optical comparison','2015–2024','Sentinel-1 and Dynamic World; separate retrospective cohorts\nThreshold and paired-support sensitivity'),
  (.096,'Dated image comparison','Four selected\nmonths','720 stratified pixel-months; dated Sentinel-2 imagery\nAssisted interpretation; proxy agreement; unknowns retained')]
 for y,component,period,basis in rows:
  for x,value in [(.050,component),(.303,period),(.467,basis)]:
